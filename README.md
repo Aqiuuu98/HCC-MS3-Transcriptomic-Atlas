@@ -1,6 +1,6 @@
 # HCC-MS3 Transcriptomic Atlas: code and frozen-source release candidate
 
-**Unpublished candidate for v1.0.0.** This repository preserves the analysis sources and selected frozen evidence for the HCC-MS3 study. It is prepared for a private repository review. Author metadata, repository ownership, code/data licensing and public-release approval remain pending. No repository URL or DOI has been assigned.
+**Private repository; v1.0.0 candidate, not a public release.** This repository preserves the analysis sources and selected frozen evidence for the HCC-MS3 study. The [PRIVATE GitHub repository](https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas) has been created on `main`. Its initial commit (`d91af36c257de082757229c3262e9836387f9b0f`) uploaded 354 files; the remote file set and all 354 SHA256 values were verified. The repository is not publicly accessible. Author metadata, code/data licensing and public-release approval remain pending. No GitHub public release or Zenodo DOI exists.
 
 ## Study overview
 
@@ -26,7 +26,7 @@ The local working directory also contains `Reports/`, `local_audit/`, nonselecte
 
 ## Analysis route and source order
 
-The complete step-to-notebook map is [step1_35_route.csv](docs/step1_35_route.csv), also available as [READ_ORDER.csv](notebooks/READ_ORDER.csv). The [notebook catalog](docs/notebook_catalog.csv) identifies retained and excluded records and records the original kernel metadata. These are dependency guides, not an executable Run-All driver.
+The complete step-to-notebook map is [step1_35_route.csv](docs/step1_35_route.csv), also available as [READ_ORDER.csv](notebooks/READ_ORDER.csv). The [notebook catalog](docs/notebook_catalog.csv) records 41 audited notebook records, of which 39 selected notebook files are tracked in Git. The excluded records are `notebooks/bulk/LIHC_Step15B_Stability_Validation.ipynb`, a source-cell duplicate of the retained `notebooks/bulk/Step15B_Stability_Validation.ipynb`, and the zero-cell `notebooks/trajectory/Untitled.ipynb`. These exclusions explain the 41-versus-39 counts. The catalog also records the original kernel metadata. These are dependency guides, not an executable Run-All driver.
 
 | Steps | Scope and order |
 |---|---|
@@ -108,12 +108,12 @@ Original Final Top10, MS1–MS8, Core50/Core100, patient-aware programs, five fo
 
 [figure_table_provenance.csv](manifests/figure_table_provenance.csv) maps all 46 global identifiers (Figures1–8/S1–S11, Tables1–2/S1–S25) and 78 panel/table records. Plot sources, code locators, claim boundaries and explicitly withheld dependencies are recorded. All 27 final Table DATA copies retain their frozen bytes. Archived Step-local table/figure filenames are not substitutes for manuscript numbering.
 
-Figure S7A has a confirmed artwork–caption mismatch: the final plot displays 39 candidates, comprising 28 primary robust (≥5% relative state-skew margin) and 11 secondary moderate (3–5%) candidates. The frozen legend describes only 28 and network edge widths. Saved tables and main/supplementary results support both tiers. No figure, frozen data or manuscript was changed here. This mismatch requires authorized manuscript/figure synchronization before a public manuscript-matched release; see [figure_scope_conflicts.md](docs/figure_scope_conflicts.md).
+Figure S7A has a confirmed artwork–caption mismatch: the final plot displays 39 candidates, comprising 28 primary robust (≥5% relative state-skew margin) and 11 secondary moderate (3–5%) candidates. The frozen legend describes only 28 and network edge widths. Saved tables and main/supplementary results support both tiers. No figure, frozen data or manuscript was changed here. An English replacement for panel A is proposed in [figure_scope_conflicts.md](docs/figure_scope_conflicts.md). The frozen Word legend has not been changed; author approval and manuscript synchronization remain necessary before a public manuscript-matched release.
 
 Known reproducibility limits include missing Step21/25 producers, incomplete environment locks, external-object access, mixed historical notebook branches, and Step34 excerpt setup dependencies. Syntax/structure checks passed after non-scientific repairs, but no notebook was certified by independent Run All. Pseudotime does not establish lineage; inferred regulatory/communication networks do not establish causality; counterfactual displacement does not establish cell conversion; transcriptomic reversal does not establish therapeutic efficacy.
 
 ## Citation, licensing and availability
 
-`CITATION.cff` is an explicitly incomplete draft awaiting confirmed authors/order/ORCIDs. `LICENSE` is a pending-rights notice, not a selected code license. Code, derived objects and third-party resources require separate rights decisions. [Draft Code Availability](docs/manuscript_code_availability.md) must be replaced with real URLs/identifiers after an approved release.
+`CITATION.cff` is an explicitly incomplete draft awaiting confirmed authors/order/ORCIDs. `LICENSE` is a pending-rights notice, not a selected code license. Code, derived objects and third-party resources require separate rights decisions. [Draft Code Availability](docs/manuscript_code_availability.md) identifies the current PRIVATE repository. Manuscript wording and any archival identifiers require review after separate public-release approval.
 
-The candidate has not been committed, pushed, made public or deposited in Zenodo. Private-submission preparation and scientific reproduction are separate states. See [known limitations](docs/known_limitations.md) before reuse.
+The initial private commit and push are complete. This repository remains PRIVATE; no public GitHub release or Zenodo deposit/DOI has been created. Public release requires separate approval. Documentation synchronization does not certify independent scientific reproduction. See [known limitations](docs/known_limitations.md) before reuse.
