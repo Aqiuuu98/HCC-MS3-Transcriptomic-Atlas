@@ -1,0 +1,9 @@
+{
+  "status": "FROZEN_AXIS_GEOMETRY_AUDITED",
+  "distance_MS3_MS5": 17.857320640306614,
+  "distance_MS3_MS6": 21.330890565295025,
+  "distance_MS5_MS6": 12.571959192585636,
+  "cosine_MS3toMS5_vs_MS3toMS6": 0.8083700983220614,
+  "interpretation": "MS5- and MS6-directed displacement are strongly aligned and should primarily be interpreted as movement along a shared MS3-to-differentiated-state axis.",
+  "claim_boundary": "Geometric alignment within the frozen Harmony space; not lineage topology."
+}

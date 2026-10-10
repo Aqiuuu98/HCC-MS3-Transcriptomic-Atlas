@@ -1,0 +1,7 @@
+TF,endpoint,expected_direction,primary_patients_n,concordant_patients,direction_consistency
+TFDP1,Core50_NetworkCovered,negative,3,3,3/3
+TFDP1,G2M_Independent,negative,3,3,3/3
+TFDP1,Mitotic_Entry_Independent,negative,3,3,3/3
+TFDP1,Spindle_Chromosome_Independent,negative,3,3,3/3
+TFDP1,Hepatic_Differentiation,positive,3,0,0/3
+TFDP1,Bile_Acid_Metabolism,positive,3,0,0/3

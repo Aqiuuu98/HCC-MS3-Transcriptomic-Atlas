@@ -1,0 +1,86 @@
+{
+  "Table_number": "TableS13",
+  "Table_title": "CellRank directional and macrostate sensitivity analyses",
+  "Source_step": [
+    "Step28"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28H_Final_Evidence_Synthesis.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28C_Kernel_Robustness_Summary.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28G_Final_Patient_Operator_Summary.csv"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28H_Final_Evidence_Synthesis.csv": [
+      "Analysis",
+      "Result",
+      "Supports_MS3_terminal_fate"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28C_Kernel_Robustness_Summary.csv": [
+      "Criterion",
+      "N_support",
+      "N_total",
+      "Support_fraction"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28G_Final_Patient_Operator_Summary.csv": [
+      "Patient",
+      "Original_N",
+      "Final_N",
+      "Retention_fraction",
+      "Operator_type"
+    ]
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "GPCCA, Generalized Perron Cluster Cluster Analysis. No RNA velocity was used. Global terminal MS3 fate was not stable; HCC09 GPCCA did not establish a clear terminal MS3 state; the HCC10 solution was degenerate. Saved directional compatibility is not terminal-fate confirmation.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS13_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28H_Final_Evidence_Synthesis.csv",
+      "SHA256": "a77e51bed7e2c3b0d67399e732a18abc8f835f3dec72d9e6ab9e438dc7bf6f6f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step28__Step28H_Final_Evidence_Synthesis.csv",
+      "size": 467
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28C_Kernel_Robustness_Summary.csv",
+      "SHA256": "2e124e15bfd67d6495fdd8af11dd4b8268feea31bb6b678e015777920d7838be",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step28__Step28C_Kernel_Robustness_Summary.csv",
+      "size": 179
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step28_CellRank\\Tables\\Step28G_Final_Patient_Operator_Summary.csv",
+      "SHA256": "b137b95aa6108a9c6bf7b74b000539b8c49a2c5f97159c89d64b9143da7a18ba",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step28__Step28G_Final_Patient_Operator_Summary.csv",
+      "size": 215
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Frozen evidence synthesis",
+      "columns": [
+        "Analysis",
+        "Result",
+        "Supports_MS3_terminal_fate"
+      ]
+    },
+    {
+      "block": "Kernel sensitivity",
+      "columns": [
+        "Criterion",
+        "N_support",
+        "N_total",
+        "Support_fraction"
+      ]
+    },
+    {
+      "block": "Patient-conditioned operators",
+      "columns": [
+        "Patient",
+        "Original_N",
+        "Final_N",
+        "Retention_fraction",
+        "Operator_type"
+      ]
+    }
+  ]
+}

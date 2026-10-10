@@ -1,0 +1,141 @@
+{
+  "Table_number": "TableS22",
+  "Table_title": "Formal Tier A and Tier B transcriptomic drug-reversal candidates",
+  "Source_step": [
+    "Step35"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Table1_Step35_FormalDrugReversalCandidates.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Step35F_LiverSignature_DirectionalReversal.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Table1_Step35_FormalDrugReversalCandidates.csv": [
+      "Drug",
+      "LINCS_pert_id",
+      "Evidence_tier",
+      "Q1_Core50_best_rank",
+      "Q2_Mitotic_best_rank",
+      "Q3_Bidirectional_best_rank",
+      "Global_primary_consensus",
+      "HEPG2_n",
+      "HEPG2_primary_reversal",
+      "HEPG2_positive_fraction",
+      "HEPG2_Core50_reversal",
+      "HEPG2_Mitotic_reversal",
+      "HEPG2_Differentiation_reversal",
+      "HEPG2_Q3_reversal",
+      "PHH_n",
+      "PHH_primary_reversal",
+      "PHH_positive_fraction"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Step35F_LiverSignature_DirectionalReversal.csv": [
+      "sig_id",
+      "pert_id",
+      "drug_name",
+      "cell_id",
+      "pert_time",
+      "pert_dose",
+      "n_drug_up_genes",
+      "n_drug_down_genes",
+      "MS3_Core50_desired_hits",
+      "MS3_Core50_wrong_hits",
+      "MS3_Core50_net",
+      "MS3_Core50_coverage",
+      "MS3_Core50_desired_genes",
+      "MS3_Core50_wrong_genes",
+      "G2M_Independent_desired_hits",
+      "G2M_Independent_wrong_hits",
+      "G2M_Independent_net",
+      "G2M_Independent_coverage",
+      "G2M_Independent_desired_genes",
+      "G2M_Independent_wrong_genes",
+      "Mitotic_Entry_Independent_desired_hits",
+      "Mitotic_Entry_Independent_wrong_hits",
+      "Mitotic_Entry_Independent_net",
+      "Mitotic_Entry_Independent_coverage",
+      "Mitotic_Entry_Independent_desired_genes",
+      "Mitotic_Entry_Independent_wrong_genes",
+      "Spindle_Chromosome_Independent_desired_hits",
+      "Spindle_Chromosome_Independent_wrong_hits",
+      "Spindle_Chromosome_Independent_net",
+      "Spindle_Chromosome_Independent_coverage",
+      "Spindle_Chromosome_Independent_desired_genes",
+      "Spindle_Chromosome_Independent_wrong_genes",
+      "Hepatic_Differentiation_desired_hits",
+      "Hepatic_Differentiation_wrong_hits",
+      "Hepatic_Differentiation_net",
+      "Hepatic_Differentiation_coverage",
+      "Hepatic_Differentiation_desired_genes",
+      "Hepatic_Differentiation_wrong_genes",
+      "Bile_Acid_Metabolism_desired_hits",
+      "Bile_Acid_Metabolism_wrong_hits",
+      "Bile_Acid_Metabolism_net",
+      "Bile_Acid_Metabolism_coverage",
+      "Bile_Acid_Metabolism_desired_genes",
+      "Bile_Acid_Metabolism_wrong_genes",
+      "Q1_Core50_Reversal",
+      "Q2_Mitotic_Reversal",
+      "Primary_Reversal",
+      "Secondary_Differentiation_Reversal",
+      "Q3_Bidirectional_Reversal",
+      "Primary_Programs_Positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Q1, frozen Core50 query; Q2, independent G2M/mitotic/spindle query; Q3, secondary bidirectional query; HEPG2, liver cancer cell context; PHH, primary human hepatocytes; LINCS, Library of Integrated Network-based Cellular Signatures. Evidence tiers are not efficacy rankings. The primary composite is the saved equal-weight four-program signature reversal and subsequent frozen candidate-context summary. Missing context fields are NA. Reversal evidence does not establish therapeutic efficacy, clinical benefit or complete hepatic restoration. Candidate-level G2M and spindle medians were not separately exported; their existing signature-level exact results are listed without recomputing medians. The candidate-level Q2/Mitotic field is the saved combined independent mitotic-program reversal, not the individual Mitotic Entry value.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS22_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Table1_Step35_FormalDrugReversalCandidates.csv",
+      "SHA256": "3d50fedac1490a69de7e9fde86e549e058fa9aa8f2fe35d8804619c97b50a046",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Table1_Step35_FormalDrugReversalCandidates.csv",
+      "size": 1617
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\Step35F_LiverSignature_DirectionalReversal.csv",
+      "SHA256": "46f141872039d929c6dc55118b6c2a3a3ea5f6e33501993d728ea6135145dee7",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Step35F_LiverSignature_DirectionalReversal.csv",
+      "size": 15331
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json",
+      "SHA256": "d22f13f75ee529f5da4f1fc4fcbf806b9202d89efeab78f132b861141c18f233",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Step35_FINAL_LOCK.json",
+      "size": 1857
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Frozen candidate-level evidence",
+      "columns": [
+        "Drug",
+        "LINCS_pert_id",
+        "Evidence_tier",
+        "Q1_Core50_best_rank",
+        "Q2_Mitotic_best_rank",
+        "Q3_Bidirectional_best_rank",
+        "HEPG2_n",
+        "HEPG2_positive_fraction",
+        "HEPG2_Core50_reversal",
+        "HEPG2_Mitotic_reversal",
+        "HEPG2_primary_reversal"
+      ]
+    },
+    {
+      "block": "Exact saved HEPG2 program reversals by signature",
+      "columns": [
+        "drug_name",
+        "sig_id",
+        "MS3_Core50_net",
+        "G2M_Independent_net",
+        "Mitotic_Entry_Independent_net",
+        "Spindle_Chromosome_Independent_net",
+        "Primary_Reversal"
+      ]
+    }
+  ]
+}

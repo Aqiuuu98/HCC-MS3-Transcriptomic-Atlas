@@ -1,0 +1,102 @@
+{
+  "Table_number": "TableS21",
+  "Table_title": "Secondary MS5/MS6 geometric context and displacement sensitivity",
+  "Source_step": [
+    "Step34"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_MS5_MS6_GeometricContext.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_5TF_PrimaryPatient_StateDisplacement.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34E_Frozen_MS3_MS5_MS6_AxisGeometry.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Logs\\Step34_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_MS5_MS6_GeometricContext.csv": [
+      "TF",
+      "Toward MS5",
+      "Toward MS6",
+      "Closer MS5",
+      "Closer MS6"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_5TF_PrimaryPatient_StateDisplacement.csv": [
+      "TF",
+      "patient",
+      "MS3_distance_change_excess",
+      "MS5_projection_excess",
+      "MS5_distance_change_excess",
+      "MS6_projection_excess",
+      "MS6_distance_change_excess",
+      "away_from_MS3",
+      "toward_MS5",
+      "closer_to_MS5",
+      "toward_MS6_secondary",
+      "closer_to_MS6_secondary"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34E_Frozen_MS3_MS5_MS6_AxisGeometry.csv": [
+      "metric",
+      "value"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Logs\\Step34_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "TF, transcription factor. Toward MS6 achieved 3/3 consistency for 4/5 TFs; closer to MS6 achieved 3/3 for 3/5 TFs. Geometry is from the frozen MS3/MS5/MS6 axes, not the rejected surrogate representation. State displacement is not lineage conversion and does not demonstrate complete MS6 restoration.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS21_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_MS5_MS6_GeometricContext.csv",
+      "SHA256": "e741afd8e84e70fb63f8d2eea72df469902b5867b85e6e2def5bc66b3f00d6a9",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step34__Step34_FINAL_MS5_MS6_GeometricContext.csv",
+      "size": 457
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34_FINAL_5TF_PrimaryPatient_StateDisplacement.csv",
+      "SHA256": "19093d2198306e569a43853bb10d248636190879ce42142e961ceb6c723d228b",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step34__Step34_FINAL_5TF_PrimaryPatient_StateDisplacement.csv",
+      "size": 2215
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Results\\Step34E_Frozen_MS3_MS5_MS6_AxisGeometry.csv",
+      "SHA256": "4e7c39ddb8ec004ea15284ca50eeb38dfc4d25b0a783833821df296ffe0cf4b7",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step34__Step34E_Frozen_MS3_MS5_MS6_AxisGeometry.csv",
+      "size": 263
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step34_Virtual_State_Transition\\Logs\\Step34_FINAL_LOCK.json",
+      "SHA256": "33eb6a0400bf399172cbb1f157446a8e2a719ac23bd810c2fbb2745b626c582b",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step34__Step34_FINAL_LOCK.json",
+      "size": 2339
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Frozen secondary geometric context",
+      "columns": [
+        "TF",
+        "Toward MS5",
+        "Toward MS6",
+        "Closer MS5",
+        "Closer MS6"
+      ]
+    },
+    {
+      "block": "Patient-level secondary signs and exact values",
+      "columns": [
+        "TF",
+        "patient",
+        "MS6_projection_excess",
+        "MS6_distance_change_excess",
+        "toward_MS6_secondary",
+        "closer_to_MS6_secondary"
+      ]
+    },
+    {
+      "block": "Frozen axis geometry",
+      "columns": [
+        "metric",
+        "value"
+      ]
+    }
+  ]
+}

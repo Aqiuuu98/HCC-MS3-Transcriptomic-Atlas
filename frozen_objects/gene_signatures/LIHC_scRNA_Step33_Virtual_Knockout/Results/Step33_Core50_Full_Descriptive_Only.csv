@@ -1,0 +1,2 @@
+endpoint,simulatable_genes,median_delta,Q1_delta,Q3_delta,mean_delta,fraction_negative,fraction_positive,TF,original_endpoint,genes_after_LTO,LTO_applied,direction_consistency,concordant_patients,primary_patients_n
+Core50_NetworkCovered_Full_Descriptive,41.0,-0.0821791912168901,-0.1530501470068523,-0.0402930674213085,-0.1458527111418512,1.0,0.0,FOXM1,Core50_Full,41,False,3/3,3,3

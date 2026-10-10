@@ -1,0 +1,95 @@
+﻿Source_file,Step,Kernel,Python_metadata_version
+LIHC_Step15_Holdout_Validation.ipynb,15,tcga,3.10.20
+LIHC_Step16_External_Model_Freeze.ipynb,16,tcga,3.10.20
+Step 11.4 第二种免疫算法交叉验证.ipynb,11,estimate_env,3.10.20
+Step 11.5 免疫治疗相关探索.ipynb,11,tcga,3.10.20
+Step 2 RNA-seq 单因素Cox筛选top20基因.ipynb,2,python3,3.9.7
+Step 3 LASSO-Cox 建立预后基因模型.ipynb,3,tcga,3.10.20
+Step1 RNA-seq 生存分析.ipynb,1,python3,3.9.7
+Step11.1 免疫浸润.ipynb,11,tcga,3.10.20
+Step11.2 特殊环境.ipynb,11,estimate_env,3.10.20
+Step11.3 免疫浸润 免疫细胞与 OS 生存分析.ipynb,11,tcga,3.10.20
+Step12 WGCNA 共表达网络分析.before_strict_cleanup_20260911_131525.ipynb.bak,12,tcga,3.10.20
+Step12 WGCNA 共表达网络分析.ipynb,12,python3,3.10.20
+Step13 分子分型   Consensus Clustering.ipynb,13,tcga,3.10.20
+Step14  Hallmark GSEA + Hallmark GSVA.ipynb,14,tcga,3.10.20
+Step15 机器学习.ipynb,15,tcga,3.10.20
+Step15A_Feature_Definition_Audit.ipynb,15,tcga,3.10.20
+Step15B_Stability_Validation.ipynb,15,tcga,3.10.20
+Step17_Bulk_Freeze.ipynb,17,tcga,3.10.20
+Step18_scRNA_GSE149614_Data_Audi.ipynb,18,tcga,3.10.20
+Step19_scRNA_QC.ipynb,19,tcga,3.10.20
+Step20_Normalization_Integration.ipynb,20,tcga,3.10.20
+Step22_Malignant_Identificatio.ipynb,22,tcga,3.10.20
+Step23A_Malignant_Only_Data_Audit.ipynb,23,tcga,3.10.20
+Step24A：Frozen bulk gene-anchor projection.ipynb,24,tcga,3.10.20
+Step26_MS3_Deep_Biology.ipynb,26,tcga,3.10.20
+Step27_Trajectory_Pseudotime.ipynb,27,tcga,3.10.20
+Step28_CellRank_Fate.ipynb,28,cellrank28,3.12.10
+Step29_GRN_RegulatoryNetwork.ipynb,29,grn29_wsl,3.10.21
+Step30_CellCell_Communication.ipynb,30,communication30_wsl,3.10.21
+Step31_GSE326201_Independent_Validation.ipynb,31,validation31_wsl,3.10.21
+Step32_Spatial_Validation.ipynb,32,spatial32_wsl,3.10.21
+Step33_Virtual_Gene_Knockout.ipynb,33,ko33_celloracle_wsl,3.10.21
+Step33_Virtual_Gene_Knockout_UPDATED.ipynb,33,ko33_celloracle_wsl,3.10.21
+Step34_Virtual_State_Transition.ipynb,34,ko33_celloracle_wsl,3.10.21
+Step35_Virtual_Drug_Reversal.ipynb,35,ko33_celloracle_wsl,3.10.21
+Step4 Risk Score计算.ipynb,4,tcga,3.10.20
+Step4.2 风险分组 + KM生存分析.ipynb,4,tcga,3.10.20
+Step5.1 Tumor vs Normal 转录组差异分析（DEG）.ipynb,5,tcga,3.10.20
+Step5.2 Tumor vs Normal 转录组差异分析（DEG）.ipynb,5,tcga,3.10.20
+Step6 GO KEGG富集分析.ipynb,6,tcga,3.10.20
+Step7  GSEA（Gene Set Enrichment Analysis，基因集富集分析）.ipynb,7,tcga,3.10.20
+Step8.1  生存分析深化（Prognostic signature construction）.ipynb,8,tcga,3.10.20
+Step8_new..ipynb,8,tcga,3.10.20
+Step9 Independent Prognostic Analysis（独立预后分析）.ipynb,9,tcga,3.10.20
+.ipynb_checkpoints/LIHC_Step15B_Stability_Validation-checkpoint.ipynb,15,tcga,3.10.20
+.ipynb_checkpoints/LIHC_Step15_Holdout_Validation-checkpoint.ipynb,15,tcga,3.10.20
+.ipynb_checkpoints/LIHC_Step16_External_Model_Freeze-checkpoint.ipynb,16,tcga,3.10.20
+.ipynb_checkpoints/Step 11.4 第二种免疫算法交叉验证-checkpoint.ipynb,11,estimate_env,3.10.20
+.ipynb_checkpoints/Step 11.5 免疫治疗相关探索-checkpoint.ipynb,11,tcga,3.10.20
+.ipynb_checkpoints/Step 2 RNA-seq 单因素Cox筛选top20基因-checkpoint.ipynb,2,python3,3.9.7
+.ipynb_checkpoints/Step 3 LASSO-Cox 建立预后基因模型-checkpoint.ipynb,3,tcga,3.10.20
+.ipynb_checkpoints/Step1 RNA-seq 生存分析-checkpoint.ipynb,1,python3,3.9.7
+.ipynb_checkpoints/Step10 Immune Infiltration Analysis ESTIMATE-checkpoint.ipynb,10,tcga,3.10.20
+.ipynb_checkpoints/Step11.1 免疫浸润-checkpoint.ipynb,11,tcga,3.10.20
+.ipynb_checkpoints/Step11.2 特殊环境-checkpoint.ipynb,11,estimate_env,3.10.20
+.ipynb_checkpoints/Step11.3 免疫浸润 免疫细胞与 OS 生存分析-checkpoint.ipynb,11,tcga,3.10.20
+.ipynb_checkpoints/Step12 WGCNA 共表达网络分析-checkpoint.ipynb,12,tcga,3.10.20
+.ipynb_checkpoints/Step13 分子分型   Consensus Clustering-checkpoint.ipynb,13,tcga,3.10.20
+.ipynb_checkpoints/Step14  Hallmark GSEA + Hallmark GSVA-checkpoint.ipynb,14,tcga,3.10.20
+.ipynb_checkpoints/Step15 机器学习-checkpoint.ipynb,15,tcga,3.10.20
+.ipynb_checkpoints/Step15A_Feature_Definition_Audit-checkpoint.ipynb,15,tcga,3.10.20
+.ipynb_checkpoints/Step15B_Stability_Validation-checkpoint.ipynb,15,tcga,3.10.20
+.ipynb_checkpoints/Step17_Bulk_Freeze-checkpoint.ipynb,17,tcga,3.10.20
+.ipynb_checkpoints/Step18_scRNA_GSE149614_Data_Audi-checkpoint.ipynb,18,tcga,3.10.20
+.ipynb_checkpoints/Step19_scRNA_QC-checkpoint.ipynb,19,tcga,3.10.20
+.ipynb_checkpoints/Step20_Normalization_Integration-checkpoint.ipynb,20,tcga,3.10.20
+.ipynb_checkpoints/Step22_Malignant_Identificatio-checkpoint.ipynb,22,tcga,3.10.20
+.ipynb_checkpoints/Step23A_Malignant_Only_Data_Audit-checkpoint.ipynb,23,tcga,3.10.20
+.ipynb_checkpoints/Step24A：Frozen bulk gene-anchor projection-checkpoint.ipynb,24,tcga,3.10.20
+.ipynb_checkpoints/Step26_MS3_Deep_Biology-checkpoint.ipynb,26,tcga,3.10.20
+.ipynb_checkpoints/Step27_Trajectory_Pseudotime-checkpoint.ipynb,27,tcga,3.10.20
+.ipynb_checkpoints/Step28_CellRank_Fate-checkpoint.ipynb,28,cellrank28,3.12.10
+.ipynb_checkpoints/Step29_GRN_RegulatoryNetwork-checkpoint.ipynb,29,grn29_wsl,3.10.21
+.ipynb_checkpoints/Step30_CellCell_Communication-checkpoint.ipynb,30,communication30_wsl,3.10.21
+.ipynb_checkpoints/Step31_GSE326201_Independent_Validation-checkpoint.ipynb,31,validation31_wsl,3.10.21
+.ipynb_checkpoints/Step32_Spatial_Validation-checkpoint.ipynb,32,spatial32_wsl,3.10.21
+.ipynb_checkpoints/Step33_Virtual_Gene_Knockout-checkpoint.ipynb,33,ko33_celloracle_wsl,3.10.21
+.ipynb_checkpoints/Step33_Virtual_Gene_Knockout_UPDATED-checkpoint.ipynb,33,ko33_celloracle_wsl,3.10.21
+.ipynb_checkpoints/Step34_Virtual_State_Transition-checkpoint.ipynb,34,ko33_celloracle_wsl,3.10.21
+.ipynb_checkpoints/Step35_Virtual_Drug_Reversal-checkpoint.ipynb,35,ko33_celloracle_wsl,3.10.21
+.ipynb_checkpoints/Step4 Risk Score计算-checkpoint.ipynb,4,tcga,3.10.20
+.ipynb_checkpoints/Step4.2 风险分组 + KM生存分析-checkpoint.ipynb,4,tcga,3.10.20
+.ipynb_checkpoints/Step5.1 Tumor vs Normal 转录组差异分析（DEG）-checkpoint.ipynb,5,tcga,3.10.20
+.ipynb_checkpoints/Step5.2 Tumor vs Normal 转录组差异分析（DEG）-checkpoint.ipynb,5,tcga,3.10.20
+.ipynb_checkpoints/Step6 GO KEGG富集分析-checkpoint.ipynb,6,tcga,3.10.20
+.ipynb_checkpoints/Step7  GSEA（Gene Set Enrichment Analysis，基因集富集分析）-checkpoint.ipynb,7,tcga,3.10.20
+.ipynb_checkpoints/Step8.1  生存分析深化（Prognostic signature construction）-checkpoint.ipynb,8,tcga,3.10.20
+.ipynb_checkpoints/Step8_new.-checkpoint.ipynb,8,tcga,3.10.20
+.ipynb_checkpoints/Step9 Independent Prognostic Analysis（独立预后分析）-checkpoint.ipynb,9,tcga,3.10.20
+LIHC_RNA_Step15_Machine_Learning_Stability_Validation/Notebook/LIHC_Step15B_Stability_Validation.ipynb,15,tcga,3.10.20
+LIHC_scRNA_Step28_CellRank/Step28D_GPCCA_WSL.ipynb,28,cellrank28_wsl,3.12.14
+LIHC_scRNA_Step28_CellRank/Untitled.ipynb,28,UNVERIFIED,UNVERIFIED
+LIHC_scRNA_Step28_CellRank/.ipynb_checkpoints/Step28D_GPCCA_WSL-checkpoint.ipynb,28,cellrank28_wsl,3.12.14
+LIHC_scRNA_Step28_CellRank/.ipynb_checkpoints/Untitled-checkpoint.ipynb,28,UNVERIFIED,UNVERIFIED

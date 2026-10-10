@@ -1,0 +1,56 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step25_CrossPatient_Robustness_and_Portability",
+    "Status": "FROZEN",
+    "Primary_state": {
+        "ID": "MS3",
+        "Name": "Cycling-G2M",
+        "Step24_role": "Primary bulk-risk-concordant",
+        "Step25_conclusion": "Cross-patient transcriptionally conserved and internally portable malignant state."
+    },
+    "Primary_reference_state": {
+        "ID": "MS6",
+        "Name": "Hepatic-Differentiated",
+        "Step24_role": "Primary bulk-risk-opposing",
+        "Step25_conclusion": "Differentiated/metabolic comparator preserved across the two patients with adequate MS6 support."
+    },
+    "MS3_supported_patients": [
+        "HCC08",
+        "HCC09",
+        "HCC10"
+    ],
+    "MS3_conserved_positive_gene_count": 2609,
+    "Frozen_primary_signature": "MS3_Conserved_Core50",
+    "Frozen_sensitivity_signature": "MS3_Conserved_Core100",
+    "Core50_gene_count": 50,
+    "Core100_gene_count": 100,
+    "LOO_portability": {
+        "All_tests_MS3_top_scoring": true,
+        "Minimum_ROC_AUC": 0.9661325613491769,
+        "Maximum_ROC_AUC": 0.9868759143687845,
+        "Minimum_average_precision": 0.6596264820727026,
+        "All_median_differences_positive": true
+    },
+    "Pseudobulk_similarity": {
+        "Mean_MS3_cross_patient": 0.38166367243362503,
+        "Mean_different_patient_different_state": 0.03882134100875583,
+        "MS3_above_background": true
+    },
+    "Biological_conservation": {
+        "Proliferation_G2M_positive_fraction": 1.0,
+        "Hepatic_differentiation_direction": "Negative_in_all_MS3_supported_patients",
+        "Bile_acid_metabolism_direction": "Negative_in_all_MS3_supported_patients"
+    },
+    "MS3_MS6_axis": {
+        "Common_patients": [
+            "HCC09",
+            "HCC10"
+        ],
+        "BulkRiskConvergence_MS3_gt_MS6_all": true,
+        "Core50_MS3_gt_MS6_all": true
+    },
+    "Interpretation": "MS3 is retained as a cross-patient conserved and internally portable proliferative malignant-cell state. Its conserved Core50 signature reproducibly identifies MS3 in held-out patients and distinguishes it from other malignant states. MS6 remains the principal differentiated and metabolic reference. Independent external validation has not yet been performed.",
+    "State_labels_modified": false,
+    "Step24_bulk_risk_roles_modified": false,
+    "Next_step": "Step26 will perform deep biological characterization of the frozen MS3 state and its contrast with MS6."
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "Step32C2",
+  "status": "PASS",
+  "canonical_tar": "/mnt/e/TCGA/LIHC/_Spatial/_Step32/_Transcriptomics/Data/Primary/GSE281759/GSE281759_RAW.tar",
+  "canonical_tar_sha256": "75df5e7e81d0ceb9e1259e614d32caf7966c30107b3b92796d326aee7e59789b",
+  "n_archive_files": 153,
+  "n_sections": 17,
+  "n_expression_readable": 17,
+  "n_nonnegative": 17,
+  "n_integer_like": 17,
+  "n_spatial_readable": 17,
+  "n_barcode_alignment_ok": 17,
+  "n_canonical_patients": 4,
+  "anomalies": []
+}

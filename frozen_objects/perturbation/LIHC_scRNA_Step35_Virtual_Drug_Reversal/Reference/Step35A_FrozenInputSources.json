@@ -1,0 +1,27 @@
+[
+  {
+    "role": "Frozen fitted CellOracle",
+    "step": "Step33",
+    "path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Data/Step33_CellOracle_FORMAL_FITTED.celloracle.oracle"
+  },
+  {
+    "role": "Virtual knockout final lock",
+    "step": "Step33",
+    "path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Logs/Step33_FINAL_LOCK.json"
+  },
+  {
+    "role": "Virtual state transition final lock",
+    "step": "Step34",
+    "path": "/mnt/e/TCGA/LIHC_scRNA_Step34_Virtual_State_Transition/Logs/Step34_FINAL_LOCK.json"
+  },
+  {
+    "role": "MS3 Core50 freeze",
+    "step": "Step25",
+    "path": "/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Logs/Step25_FINAL_Decision.json"
+  },
+  {
+    "role": "MS3 biology freeze",
+    "step": "Step26",
+    "path": "/mnt/e/TCGA/LIHC_scRNA_Step26_MS3_Biology/Logs/Step26_FINAL_Decision.json"
+  }
+]

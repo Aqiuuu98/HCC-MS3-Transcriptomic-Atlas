@@ -1,0 +1,20 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step19_scRNA_QC",
+    "Status": "COMPLETE",
+    "Initial_cells": 71915,
+    "Initial_genes": 25712,
+    "Secondary_hard_QC": false,
+    "Reason_secondary_QC_not_applied": "Sample-wise mitochondrial filtering caused substantial cell-type-dependent depletion, especially among hepatocytes.",
+    "QC_outlier_policy": "5-MAD retained as audit flags only",
+    "Doublet_method": "Sample-wise Scrublet",
+    "Scrublet_batches": 21,
+    "Predicted_doublets_removed": 133,
+    "Predicted_doublet_rate_pct": 0.18494055482166447,
+    "Final_cells": 71782,
+    "Final_genes": 25712,
+    "Raw_counts_preserved": true,
+    "Normalization_performed": false,
+    "Integration_performed": false,
+    "Final_clean_file": "E:\\TCGA\\LIHC_scRNA_Step19_QC\\Results\\GSE149614_CLEAN_COUNTS.h5ad"
+}

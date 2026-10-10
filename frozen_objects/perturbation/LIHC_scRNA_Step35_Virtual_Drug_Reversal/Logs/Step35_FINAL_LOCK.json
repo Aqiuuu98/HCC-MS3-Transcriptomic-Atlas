@@ -1,0 +1,45 @@
+{
+  "step": "Step35",
+  "title": "Virtual Drug Reversal",
+  "status": "FROZEN",
+  "primary_question": "Which small-molecule perturbations are predicted to reverse the conserved MS3 high-risk transcriptional architecture?",
+  "frozen_queries": {
+    "Q1": "MS3 Conserved Core50",
+    "Q2": "Independent G2M + Mitotic Entry + Spindle/Chromosome programs",
+    "Q3": "Secondary Core50 + differentiated/metabolic axis"
+  },
+  "global_discovery": {
+    "resource": "L1000FWD",
+    "primary_convergent_perturbations": 24,
+    "primary_plus_Q3_support": 22
+  },
+  "liver_context": {
+    "primary": "HEPG2",
+    "secondary": "PHH",
+    "HEPG2_candidates": 17,
+    "HEPG2_positive_primary_reversal": 10,
+    "PHH_candidates": 5,
+    "PHH_positive_primary_reversal": 3
+  },
+  "formal_evidence_tiers": {
+    "D_NO_POSITIVE_HEPG2_REVERSAL": 7,
+    "D_NO_HEPG2_VALIDATION": 7,
+    "A_ROBUST_HEPG2_REVERSAL": 4,
+    "B_SINGLE_SIGNATURE_HEPG2": 4,
+    "C_PARTIAL_HEPG2_SUPPORT": 2
+  },
+  "formal_Tier_A_B_candidates": [
+    "teniposide",
+    "amsacrine",
+    "aminopurvalanol-a",
+    "SIB-1893",
+    "idarubicin",
+    "ZK-164015",
+    "BRD-K29506255",
+    "palbociclib"
+  ],
+  "primary_interpretation": "A subset of globally convergent drug perturbations retained directional reversal of the frozen MS3 Core50 and independent mitotic programs in HEPG2.",
+  "secondary_interpretation": "Differentiated/metabolic restoration was weaker and heterogeneous and does not establish complete MS6-like restoration.",
+  "integrated_Step33_35_claim": "The MS3 proliferative/mitotic architecture shows convergent predicted vulnerability to both virtual regulator suppression and transcriptomic drug perturbation.",
+  "claim_boundary": "In silico transcriptomic reversal only; not therapeutic efficacy, clinical benefit, experimental drug sensitivity, or causal state reprogramming."
+}

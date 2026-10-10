@@ -1,0 +1,106 @@
+{
+  "Table_number": "TableS16",
+  "Table_title": "Independent single-cell validation of frozen MS3 programs in GSE326201",
+  "Source_step": [
+    "Step31"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31E_FINAL_EXTERNAL_VALIDATION_AUDIT.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31F_FINAL_ReciprocalAxisSummary.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31E_FINAL_EXTERNAL_VALIDATION_AUDIT.csv": [
+      "program",
+      "expected_direction",
+      "spearman_rho",
+      "p_value",
+      "direction_supported",
+      "n_direction_supported",
+      "n_lopo",
+      "median_rho",
+      "min_rho",
+      "max_rho",
+      "direction_fraction",
+      "adequate_n_patients",
+      "adequate_spearman_rho",
+      "adequate_p_value",
+      "adequate_direction_supported",
+      "singlecell_n_patients",
+      "singlecell_n_direction_supported",
+      "singlecell_median_rho",
+      "singlecell_direction_fraction",
+      "partial_n_patients",
+      "partial_n_direction_supported",
+      "median_partial_rho",
+      "partial_direction_fraction",
+      "claim_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31F_FINAL_ReciprocalAxisSummary.csv": [
+      "analysis",
+      "result",
+      "effect"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "LOPO, leave-one-patient-out; ρ, Spearman correlation. Primary validation used 4,688 independently identified malignant cells from 10 patients. All three primary proliferative/mitotic programs had positive direction in 10/10 LOPO analyses. Hepatic and bile-acid results are secondary. Independent scRNA biological validation is not external survival validation.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS16_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31E_FINAL_EXTERNAL_VALIDATION_AUDIT.csv",
+      "SHA256": "ff46c3220e4bc8bb100c6de36de09ef69abc60024319b89f448a31f94386976a",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step31__Step31E_FINAL_EXTERNAL_VALIDATION_AUDIT.csv",
+      "size": 1843
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31F_FINAL_ReciprocalAxisSummary.csv",
+      "SHA256": "841f4962bdf80bb460dadddc05fe589cb131d21a191be6c600dac034b28afbb3",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step31__Step31F_FINAL_ReciprocalAxisSummary.csv",
+      "size": 237
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json",
+      "SHA256": "1749988d89fb09f7a4878149d12d3a284588631cad1ddb273574c7ea8e7dd5d8",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step31__Step31_FINAL_LOCK.json",
+      "size": 2069
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Patient-pseudobulk and LOPO",
+      "columns": [
+        "program",
+        "spearman_rho",
+        "p_value",
+        "n_direction_supported",
+        "n_lopo",
+        "median_rho",
+        "min_rho",
+        "max_rho"
+      ]
+    },
+    {
+      "block": "Single-cell and partial-adjusted support",
+      "columns": [
+        "program",
+        "singlecell_n_patients",
+        "singlecell_n_direction_supported",
+        "singlecell_median_rho",
+        "partial_n_patients",
+        "partial_n_direction_supported",
+        "median_partial_rho"
+      ]
+    },
+    {
+      "block": "Secondary reciprocal-axis sensitivity",
+      "columns": [
+        "analysis",
+        "result",
+        "effect"
+      ]
+    }
+  ]
+}

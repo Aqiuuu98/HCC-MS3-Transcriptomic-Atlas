@@ -1,0 +1,9 @@
+﻿State,State_Name,Observed_N,Expected_N,Match
+MS1,Hypoxia-TGFb-Inflammatory,1658,1658,True
+MS2,S100P-SPINK1-Epithelial,1277,1277,True
+MS3,Cycling-G2M,720,720,True
+MS4,HCC08-Replication-Fetal-Progenitor,2916,2916,True
+MS5,Stress-Inflammatory-Progenitor,2392,2392,True
+MS6,Hepatic-Differentiated,557,557,True
+MS7,HCC04-Glycolytic-Hepatic,881,881,True
+MS8,HCC04-Hepatic-BileAcid-Metabolic,1656,1656,True

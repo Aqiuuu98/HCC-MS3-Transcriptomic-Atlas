@@ -1,0 +1,12 @@
+# Known reproducibility and publication limitations
+
+1. Step21 and Step25: the original generation code was not recovered from the indexed sources, archived historical notebooks or independent scripts. Frozen annotation and conserved-signature outputs exist, but complete raw-to-final regeneration of these steps remains blocked. Downstream frozen-object reuse is a separate, supported archive route after object access.
+2. 35-step and 46-identifier coverage is documentation/provenance coverage. It is not evidence of independent end-to-end execution. Static syntax, structure and checksum checks do not validate algorithms by rerunning them.
+3. Historical Step3/4 exploration is not the formal M01 route. Original discovery, conditional internal holdout and the external-validation refit remain distinct; the holdout did not isolate all historical feature discovery.
+4. Historical environments are only partially recorded. Step33 conda/pip exports do not cover bulk, CellRank, GRN, communication and spatial work universally. Dependency installation and full analytical execution were not performed.
+5. Path adapters and prose-cell repairs improve release-copy portability, while embedded generated code, mixed branches and Step34 excerpt setup remain unverified. Do not use Run All indiscriminately.
+6. External expression/CellOracle and other derived objects are not in Git. The 109-object inventory includes intermediates; only a reviewed subset is proposed for a later derived-data deposit. Rights/access routes are pending.
+7. Serialized model objects were not deserialized and are excluded from Git because fitted objects may retain patient-level data. Portable CSV/JSON model specifications are retained.
+8. Figure S7A displays all39 candidates (28 robust+11 moderate), whereas its frozen caption describes all28 and edge widths. This is a confirmed figure–caption version mismatch. Data/count thresholds themselves are consistent across saved tables and results. No manuscript/figure was changed.
+9. Public release requires authorized Figure S7 synchronization, confirmed author/ownership metadata, separate code/derived-data rights decisions, approved repository scope, and real access URLs. No license, DOI, publication date or repository URL has been invented.
+10. Trajectory, state-associated networks, inferred communication, virtual suppression and transcriptional reversal retain their computational claim boundaries. No lineage conversion, causal signaling or clinical drug efficacy is established by this archive.

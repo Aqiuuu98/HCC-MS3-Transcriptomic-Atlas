@@ -1,0 +1,8 @@
+endpoint,expected_direction,primary_patients_n,concordant_patients,direction_consistency
+Core50_LTO_FOXM1,negative,3,3,3/3
+G2M_Independent,negative,3,3,3/3
+Mitotic_Entry_Independent,negative,3,3,3/3
+Spindle_Chromosome_Independent,negative,3,3,3/3
+Hepatic_Differentiation,positive,3,0,0/3
+Bile_Acid_Metabolism,positive,3,0,0/3
+Core50_Full,negative,3,3,3/3

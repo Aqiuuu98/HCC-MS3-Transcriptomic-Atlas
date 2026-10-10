@@ -1,0 +1,149 @@
+{
+  "Table_number": "TableS14",
+  "Table_title": "State-associated regulons and frozen sentinel regulators",
+  "Source_step": [
+    "Step29"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29F_Regulon_Summary.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_Regulon_Correlations.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_StateEffects.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_Sentinel_Regulator_FinalAudit.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Audit\\Step29_FINAL_RegulatoryArchitecture.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29F_Regulon_Summary.csv": [
+      "Regulon",
+      "TF",
+      "N_targets"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_Regulon_Correlations.csv": [
+      "Regulon",
+      "Patient",
+      "N_cells",
+      "rho_PT",
+      "rho_Core50",
+      "rho_G2M",
+      "rho_Mitotic",
+      "rho_Spindle",
+      "rho_Hepatic",
+      "rho_BileAcid"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_StateEffects.csv": [
+      "Regulon",
+      "Patient",
+      "MS6_median_z",
+      "MS5_median_z",
+      "MS3_median_z",
+      "Delta_MS3_MS6",
+      "MS5_peak_margin"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_Sentinel_Regulator_FinalAudit.csv": [
+      "TF",
+      "Regulon",
+      "MS3_consistency_score",
+      "MS6_consistency_score",
+      "Mean_Delta_MS3_MS6",
+      "Mean_MS5_peak_margin",
+      "Mean_rho_PT",
+      "Mean_rho_Core50",
+      "Mean_rho_G2M",
+      "Mean_rho_Mitotic",
+      "Mean_rho_Spindle",
+      "Mean_rho_Hepatic",
+      "Mean_rho_BileAcid",
+      "MS3_shortlist",
+      "MS6_shortlist",
+      "MS5_transition_shortlist"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Audit\\Step29_FINAL_RegulatoryArchitecture.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "TF, transcription factor; ρ, Spearman correlation; z, standardized regulon activity; Δ, saved state contrast. N_targets is from the frozen regulon summary. Architecture membership and the sentinel-audit subset are distinct saved objects. BRCA1 is a mechanistic node and not a formal Step33 perturbation TF. Regulon associations are descriptive and do not demonstrate causality.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS14_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29F_Regulon_Summary.csv",
+      "SHA256": "2f4eeb09dac25f59bcde6fdeb8656c15990dfd8d94fec3f57c860b3036108498",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step29__Step29F_Regulon_Summary.csv",
+      "size": 4929
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_Regulon_Correlations.csv",
+      "SHA256": "d8344967a8757f413c5b2c830b2b3a0883b91e7e164968a02eb0f9de9d365086",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step29__Step29H_PatientSpecific_Regulon_Correlations.csv",
+      "size": 89571
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_PatientSpecific_StateEffects.csv",
+      "SHA256": "28ce65d86776a45852910f289c663c2debf8a415bd103b2d1a610998df85225d",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step29__Step29H_PatientSpecific_StateEffects.csv",
+      "size": 51720
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Tables\\Step29H_Sentinel_Regulator_FinalAudit.csv",
+      "SHA256": "12e2a4082b5f18af0f7a5b8c98a77ab5cdac8680919a869578d03f543ce021b3",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step29__Step29H_Sentinel_Regulator_FinalAudit.csv",
+      "size": 3704
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step29_GRN\\Audit\\Step29_FINAL_RegulatoryArchitecture.json",
+      "SHA256": "fb2e3dc2b0a6b54b39d61f22e9bb6e79af2a4139acddc67be5ea8247126d8797",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step29__Step29_FINAL_RegulatoryArchitecture.json",
+      "size": 306
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Frozen regulator architecture",
+      "columns": [
+        "State",
+        "TF",
+        "Regulon",
+        "N_targets",
+        "Formal role"
+      ]
+    },
+    {
+      "block": "Patient-specific program correlations",
+      "columns": [
+        "State",
+        "TF",
+        "Patient",
+        "rho_Core50",
+        "rho_G2M",
+        "rho_Mitotic",
+        "rho_Spindle",
+        "rho_Hepatic",
+        "rho_BileAcid"
+      ]
+    },
+    {
+      "block": "Patient-specific state effects",
+      "columns": [
+        "State",
+        "TF",
+        "Patient",
+        "MS6_median_z",
+        "MS5_median_z",
+        "MS3_median_z",
+        "Delta_MS3_MS6",
+        "MS5_peak_margin"
+      ]
+    },
+    {
+      "block": "Saved sentinel final audit",
+      "columns": [
+        "TF",
+        "Regulon",
+        "Mean_Delta_MS3_MS6",
+        "Mean_rho_Core50",
+        "Mean_rho_G2M",
+        "Mean_rho_Mitotic",
+        "Mean_rho_Spindle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "STEP33_STRUCTURE_FROZEN",
+  "analysis_status": "STEP33_FROZEN",
+  "reference_folder_convention": "Step24-style",
+  "top_level_directories": [
+    "Data",
+    "Figures",
+    "Logs",
+    "Reference",
+    "Results"
+  ],
+  "top_level_files": [],
+  "flat_figures_directory": true,
+  "tables_stored_in": "Results",
+  "audit_csv_stored_in": "Results",
+  "method_and_environment_logs_stored_in": "Logs",
+  "reproducibility_scripts_stored_in": "Reference",
+  "large_analysis_objects_stored_in": "Data",
+  "scientific_results_recomputed": false,
+  "file_counts": {
+    "Data": 1,
+    "Figures": 8,
+    "Logs": 47,
+    "Reference": 10,
+    "Results": 73
+  },
+  "output_manifest": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Results/Step33_FINAL_Output_Manifest.csv"
+}

@@ -1,0 +1,25 @@
+﻿Table_Number,Block,Metric,Value,Unit,_source,_row
+Table2,,Strict OS cohort N,340,patients,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.N + Holdout.N
+Table2,,Strict OS cohort events,117,events,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.Events + Holdout.Events
+Table2,,Development N,238,patients,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.N
+Table2,,Development Events,82,events,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.Events
+Table2,,Holdout N,102,patients,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Holdout.N
+Table2,,Holdout Events,35,events,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Holdout.Events
+Table2,,Development repeated-CV C-index,0.7444,C-index,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.RepeatedCV_Cindex
+Table2,,Development optimism-corrected C-index,0.7378,C-index,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Development.OptimismCorrected_Cindex
+Table2,,Holdout C-index,0.7997962302598064,C-index,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.Point_C_Index
+Table2,,Holdout C-index CI lower,0.6968927273010398,C-index,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.CI_2.5
+Table2,,Holdout C-index CI upper,0.8777837535108681,C-index,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.CI_97.5
+Table2,,Time-dependent AUC at 365 days,0.8410517003979712,AUC,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.AUC_365d
+Table2,,Time-dependent AUC at 730 days,0.8764726254666988,AUC,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.AUC_730d
+Table2,,Time-dependent AUC at 1095 days,0.8540275735627444,AUC,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\18_FINAL_Holdout_Model_Performance.csv,M01.AUC_1095d
+Table2,,Frozen development-derived cutoff,0.001977125611007005,linear predictor,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,Cutoff
+Table2,,Holdout high-risk N,43,patients,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,High_N
+Table2,,Holdout high-risk events,24,events,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,High_Events
+Table2,,Holdout low-risk N,59,patients,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,Low_N
+Table2,,Holdout low-risk events,11,events,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,Low_Events
+Table2,,High vs low risk HR,4.5062704602437345,HR,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,High_vs_Low_HR
+Table2,,HR CI lower,2.192537818439105,HR,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,HR_CI_Lower
+Table2,,HR CI upper,9.261629737963524,HR,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,HR_CI_Upper
+Table2,,Cox P,4.2068594218499314e-05,P,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,Cox_P
+Table2,,Log-rank P,7.918600019630191e-06,P,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,LogRank_P

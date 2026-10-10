@@ -1,0 +1,52 @@
+{
+  "status": "STEP34_FROZEN",
+  "analysis": "Virtual State Transition",
+  "formal_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "source_state": "MS3",
+  "primary_replication_patients": [
+    "HCC08",
+    "HCC09",
+    "HCC10"
+  ],
+  "formal_method": "Native CellOracle correlation-derived transition and MS3-only row-wise embedding-shift analysis within the frozen 30-dimensional patient-only Harmony state space.",
+  "failed_method_audit": {
+    "expression_to_Harmony_surrogate": "REJECTED",
+    "grouped_CV_mean_R2": -159.6503,
+    "formal_inference_from_surrogate": false
+  },
+  "frozen_geometry": {
+    "distance_MS3_MS5": 17.857320640306614,
+    "distance_MS3_MS6": 21.330890565295025,
+    "distance_MS5_MS6": 12.571959192585636,
+    "cosine_MS3toMS5_vs_MS3toMS6": 0.8083700983220614,
+    "interpretation": "MS5- and MS6-directed displacement are strongly aligned within the frozen state space."
+  },
+  "primary_endpoints": [
+    "Away from MS3",
+    "Projection toward MS5",
+    "Reduced distance to MS5"
+  ],
+  "secondary_endpoints": [
+    "Projection toward MS6",
+    "Reduced distance to MS6",
+    "First-hop transition probability"
+  ],
+  "primary_convergence": {
+    "TFs_away_from_MS3_3of3": 5,
+    "TFs_toward_MS5_3of3": 5,
+    "TFs_closer_to_MS5_3of3": 5
+  },
+  "secondary_convergence": {
+    "TFs_toward_MS6_3of3": 4,
+    "TFs_closer_to_MS6_3of3": 3
+  },
+  "interpretation_lock": "Virtual suppression of all five frozen MS3-associated regulators reproducibly predicted counterfactual displacement away from the MS3 state and toward the frozen MS5 intermediate-state region across HCC08, HCC09, and HCC10. MS6-directed displacement was less uniform and is retained as secondary geometric context. Together with Step33, these results indicate that attenuation of the MS3 proliferative/mitotic architecture is accompanied by state-space movement toward an intermediate differentiated-state region, without establishing complete restoration of an MS6-like transcriptional identity.",
+  "claim_boundary": "Counterfactual state-space displacement within the frozen CellOracle/Harmony geometry only. These results do not establish lineage conversion, causal cell-state transition, therapeutic efficacy, or experimentally validated reprogramming.",
+  "next_step": "Step35 — Virtual Drug Reversal"
+}

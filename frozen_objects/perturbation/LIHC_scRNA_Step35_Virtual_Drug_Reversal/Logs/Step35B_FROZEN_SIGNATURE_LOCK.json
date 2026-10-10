@@ -1,0 +1,39 @@
+{
+  "status": "STEP35B_FROZEN",
+  "core50_source": "/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Reference/Step25_FROZEN_MS3_Core50_Genes.txt",
+  "endpoint_source": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Reference/Step33_FROZEN_ENDPOINT_GENESETS.csv",
+  "source_sha256": {
+    "Core50": "96d750d9b4aa2c9123c518ef4fc0a4a12ecb01283f82167e239b8c451f86677d",
+    "FrozenEndpoints": "105724d45e27c4d3c8abea526ac3acc155f0c1dc354988afe82bebcbb87d5cde"
+  },
+  "signature_sizes": {
+    "MS3_Core50": 50,
+    "G2M_Independent": 22,
+    "Mitotic_Entry_Independent": 16,
+    "Spindle_Chromosome_Independent": 29,
+    "Hepatic_Differentiation": 19,
+    "Bile_Acid_Metabolism": 18
+  },
+  "queries": {
+    "Q1": {
+      "role": "PRIMARY",
+      "definition": "MS3 Conserved Core50 reversal",
+      "n_up": 50,
+      "n_down": 0
+    },
+    "Q2": {
+      "role": "PRIMARY",
+      "definition": "Independent G2M + Mitotic Entry + Spindle/Chromosome reversal",
+      "n_up": 58,
+      "n_down": 0
+    },
+    "Q3": {
+      "role": "SECONDARY",
+      "definition": "Core50 suppression plus hepatic/bile-acid restoration",
+      "n_up": 50,
+      "n_down": 36
+    }
+  },
+  "reselection": false,
+  "claim_boundary": "Frozen transcriptomic disease-state signatures only; no drug-response-derived gene selection."
+}

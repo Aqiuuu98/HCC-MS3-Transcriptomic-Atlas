@@ -1,0 +1,90 @@
+{
+  "Table_number": "TableS6",
+  "Table_title": "Molecular subtype characteristics and survival associations",
+  "Source_step": [
+    "Step13",
+    "Step17"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_RiskScore_Comparison.csv",
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_OS_Comparison.csv",
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Final_Subtype_Multivariable_Cox.csv",
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_RiskScore_Comparison.csv": [
+      "Strategy",
+      "Cluster1_n",
+      "Cluster2_n",
+      "Cluster1_median_RiskScore",
+      "Cluster2_median_RiskScore",
+      "Median_difference_C1_minus_C2",
+      "P_value"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_OS_Comparison.csv": [
+      "Strategy",
+      "Cluster1_n",
+      "Cluster2_n",
+      "Cluster1_events",
+      "Cluster2_events",
+      "LogRank_P"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Final_Subtype_Multivariable_Cox.csv": [
+      "covariate",
+      "Coef",
+      "HR",
+      "HR_lower95",
+      "HR_upper95",
+      "P_value"
+    ]
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "The frozen solution is D_Top30_each, K=2. OS, overall survival; HR, hazard ratio; CI, 95% confidence interval. Metabolic and Proliferative counts refer to the bulk biology cohort. Adjusted HR is from the saved multivariable Cox table, with Metabolic as reference.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS6_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_RiskScore_Comparison.csv",
+      "SHA256": "3b9716170f57b7aa190ed5159bb3e8ccfaceb387230b5c108410108fda7cdee4",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step13__Candidate_Subtypes_RiskScore_Comparison.csv",
+      "size": 424
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Candidate_Subtypes_OS_Comparison.csv",
+      "SHA256": "bdc8e0b057c7fa5882dccd60e04073b45e13071bc608ab07a7b1d4d30217b22f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step13__Candidate_Subtypes_OS_Comparison.csv",
+      "size": 219
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step13_Molecular_Subtyping\\Results\\Final_Subtype_Multivariable_Cox.csv",
+      "SHA256": "ff0b8d02c641a69c756d1f18761c4b0e02fa4070399a9714759044aec8a62d4b",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step13__Final_Subtype_Multivariable_Cox.csv",
+      "size": 599
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Metric",
+        "Value",
+        "Unit"
+      ]
+    }
+  ]
+}

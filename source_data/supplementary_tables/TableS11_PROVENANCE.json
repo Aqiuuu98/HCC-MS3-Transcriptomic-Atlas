@@ -1,0 +1,110 @@
+{
+  "Table_number": "TableS11",
+  "Table_title": "Biological-program characteristics of the frozen MS3 state",
+  "Source_step": [
+    "Step24",
+    "Step25",
+    "Step26"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_Core50_PatientState_Scores.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Results\\Step26A_MS3_PatientAware_DeepProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Logs\\Step26_FINAL_Decision.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_Core50_PatientState_Scores.csv": [
+      "patient",
+      "Final_state_id",
+      "N_cells",
+      "Median_Core50_score",
+      "Mean_Core50_score"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_ProgramDelta.csv": [
+      "patient",
+      "Final_state_id",
+      "N_cells",
+      "Proliferation_G2M",
+      "Stress_UPR",
+      "Wnt_BetaCatenin_Target",
+      "Fatty_Acid_Metabolism",
+      "Bile_Acid_Metabolism",
+      "DNA_Replication_S",
+      "Hepatic_Differentiation",
+      "Hypoxia",
+      "Glycolysis",
+      "Progenitor_Epithelial",
+      "Fetal_HCC_Program",
+      "EMT_ECM",
+      "TGFb_Response",
+      "Inflammatory_NFkB"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Results\\Step26A_MS3_PatientAware_DeepProgramDelta.csv": [
+      "Patient",
+      "MS3_cells",
+      "N_comparator_states",
+      "Mitotic_Entry",
+      "Spindle_Chromosome_Segregation",
+      "Cytokinesis",
+      "DNA_Replication_Origin",
+      "Replication_Stress",
+      "Homologous_Recombination",
+      "Mismatch_Repair",
+      "Fanconi_DNA_Repair",
+      "Chromosomal_Instability",
+      "Nucleotide_Synthesis",
+      "OneCarbon_Metabolism",
+      "Glycolysis_Core",
+      "Oxidative_Phosphorylation_Nuclear",
+      "UPR_Proteostasis",
+      "Oxidative_Stress",
+      "Apoptosis_Resistance",
+      "Hepatic_Differentiation",
+      "Bile_Acid_Metabolism",
+      "Fatty_Acid_Oxidation"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Logs\\Step26_FINAL_Decision.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "G2M, G2/M cell-cycle program; Δ, saved patient-aware program contrast. Core50 entries are median MS3 state scores, whereas the other entries are the saved within-patient MS3 contrasts; these statistics are labeled separately and are not interchangeable. Primary proliferative/mitotic and opposing hepatic/bile-acid programs are all retained.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS11_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_Core50_PatientState_Scores.csv",
+      "SHA256": "30de4e7256ef3c31ecd8dc216173b8974f6b7bcb711e08c42e25589d83ef79bf",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step25__Step25_MS3_Core50_PatientState_Scores.csv",
+      "size": 1648
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_ProgramDelta.csv",
+      "SHA256": "442845e0d9d9dfe0cc4b44dd4724ca03ee724214e840d37d97db82a88af52515",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step24__Step24B_PatientState_ProgramDelta.csv",
+      "size": 8988
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Results\\Step26A_MS3_PatientAware_DeepProgramDelta.csv",
+      "SHA256": "15e14d68881ddd9ce58ae3211869ea0bd33e0c6667386b531b19d44f1f584f5d",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step26__Step26A_MS3_PatientAware_DeepProgramDelta.csv",
+      "size": 1630
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Logs\\Step26_FINAL_Decision.json",
+      "SHA256": "02c840756b18f5546c2fd6ab818bb27ef469a3fa16ff52602ac282d75df7f33d",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step26__Step26_FINAL_Decision.json",
+      "size": 3242
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Patient",
+        "Program",
+        "Statistic",
+        "Value"
+      ]
+    }
+  ]
+}

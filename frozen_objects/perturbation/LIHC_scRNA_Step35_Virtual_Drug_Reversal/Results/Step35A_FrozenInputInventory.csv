@@ -1,0 +1,6 @@
+role,step,path
+Frozen fitted CellOracle,Step33,/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Data/Step33_CellOracle_FORMAL_FITTED.celloracle.oracle
+Virtual knockout final lock,Step33,/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Logs/Step33_FINAL_LOCK.json
+Virtual state transition final lock,Step34,/mnt/e/TCGA/LIHC_scRNA_Step34_Virtual_State_Transition/Logs/Step34_FINAL_LOCK.json
+MS3 Core50 freeze,Step25,/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Logs/Step25_FINAL_Decision.json
+MS3 biology freeze,Step26,/mnt/e/TCGA/LIHC_scRNA_Step26_MS3_Biology/Logs/Step26_FINAL_Decision.json

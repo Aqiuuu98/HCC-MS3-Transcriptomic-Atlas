@@ -1,0 +1,8 @@
+{
+  "purpose": "HCC_PROJECT_ROOT is consumed by hcc_release_paths; the JSON itself is an example record",
+  "HCC_PROJECT_ROOT": "SET_TO_EXISTING_ISOLATED_RESTORED_WORKSPACE",
+  "PYTHONPATH": "SET_TO_CLONED_RELEASE_ROOT",
+  "input_layout": "original scientific relative paths; manifests/files_manifest.csv plus source_aliases.csv",
+  "original_frozen_inputs": "read-only",
+  "scientific_execution_authorized_in_preparation": false
+}

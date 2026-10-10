@@ -1,0 +1,128 @@
+{
+  "step": "Step30",
+  "analysis": "Cell-cell communication",
+  "master_dataset": {
+    "file": "/mnt/e/TCGA/LIHC_scRNA_Step30_Communication/Data/GSE149614_STEP30_FULL_TME_MASTER.h5ad",
+    "shape": [
+      71782,
+      25712
+    ],
+    "sha256": "6cbeff9108a391a43b6b0d1179e52686494ad3eb8b0941c8098836c070bcf8a1"
+  },
+  "primary_design": {
+    "samples": [
+      "HCC09T",
+      "HCC10T"
+    ],
+    "senders": [
+      "T/NK",
+      "Myeloid",
+      "B",
+      "Fibroblast"
+    ],
+    "receivers": [
+      "Malignant_MS6",
+      "Malignant_MS5",
+      "Malignant_MS3"
+    ],
+    "expr_prop": 0.1,
+    "min_cells": 20,
+    "n_perms": 1000,
+    "seed": 42,
+    "resource": "consensus",
+    "method": "LIANA Rank_Aggregate"
+  },
+  "candidate_lock": {
+    "n_candidates_ge3pct": 39,
+    "primary_robust_ge5pct": 28,
+    "secondary_moderate_3to5pct": 11,
+    "by_state": {
+      "MS6": 34,
+      "MS5": 4,
+      "MS3": 1
+    }
+  },
+  "primary_routes": [
+    {
+      "state": "MS3",
+      "communication_level": "Primary robust; exploratory LR provenance",
+      "entry_node": "IFNAR1",
+      "intermediate_nodes": "PIK3CA_PIK3R1 | AKT1",
+      "regulator_output": "BRCA1",
+      "route": "IFNAR1 -> PIK3CA_PIK3R1 -> AKT1 -> BRCA1",
+      "n_edges": 3,
+      "claim_boundary": "Intracellular prior compatibility; upstream MMP9-IFNAR1 remains exploratory."
+    },
+    {
+      "state": "MS5",
+      "communication_level": "Secondary moderate",
+      "entry_node": "ITGB1",
+      "intermediate_nodes": "SRC",
+      "regulator_output": "FOS",
+      "route": "ITGB1 -> SRC -> FOS",
+      "n_edges": 2,
+      "claim_boundary": "Moderate state-skew communication support; not a primary robust LR axis."
+    },
+    {
+      "state": "MS6",
+      "communication_level": "Primary robust communication landscape",
+      "entry_node": "RXRA",
+      "intermediate_nodes": "",
+      "regulator_output": "NR1H4",
+      "route": "RXRA -> NR1H4",
+      "n_edges": 1,
+      "claim_boundary": "Receiver-side interaction/signaling entry node; not evidence of biochemical activation."
+    }
+  ],
+  "route_robustness": [
+    {
+      "state": "MS3",
+      "corridor_success_runs": 3,
+      "corridor_full_route_runs": 3,
+      "corridor_full_route_fraction": 1.0,
+      "solver_success_runs": 5,
+      "solver_full_route_runs": 5,
+      "solver_full_route_fraction": 1.0
+    },
+    {
+      "state": "MS5",
+      "corridor_success_runs": 2,
+      "corridor_full_route_runs": 2,
+      "corridor_full_route_fraction": 1.0,
+      "solver_success_runs": 5,
+      "solver_full_route_runs": 5,
+      "solver_full_route_fraction": 1.0
+    },
+    {
+      "state": "MS6",
+      "corridor_success_runs": 3,
+      "corridor_full_route_runs": 3,
+      "corridor_full_route_fraction": 1.0,
+      "solver_success_runs": 5,
+      "solver_full_route_runs": 5,
+      "solver_full_route_fraction": 1.0
+    }
+  ],
+  "hcc10l_sensitivity": {
+    "same_patient_metastatic_site": true,
+    "not_independent_replication": true,
+    "frozen_candidates_tested": 39,
+    "supported_fdr05_and_same_preferred_target": 25
+  },
+  "environment": {
+    "python": "3.10.21",
+    "liana": "1.7.3",
+    "corneto": "0.9.1a6",
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "scipy": "1.15.3"
+  },
+  "claim_boundaries": [
+    "Cell-cell communication inference does not establish physical signaling.",
+    "Receiver-side expression consistency is not independent validation.",
+    "Causal-network reconstruction is prior-constrained mechanistic compatibility, not experimental causality.",
+    "MS5 communication evidence is moderate rather than robust under the predefined 5% state-skew threshold.",
+    "MMP9-IFNAR1 remains exploratory because LR provenance is comparatively narrow.",
+    "HCC10L is a same-patient metastatic-site sensitivity analysis, not an independent biological replicate."
+  ]
+}

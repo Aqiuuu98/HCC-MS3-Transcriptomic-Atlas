@@ -1,0 +1,2 @@
+﻿Primary_Model,Cutoff,Cutoff_Source,High_N,Low_N,High_Events,Low_Events,LogRank_P,High_vs_Low_HR,HR_CI_Lower,HR_CI_Upper,Cox_P
+M01_OriginalTop10_UnpenalizedCox,0.001977125611007005,Development median,43,59,24,11,7.918600019630191e-06,4.5062704602437345,2.192537818439105,9.261629737963524,4.2068594218499314e-05

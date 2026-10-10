@@ -1,0 +1,6 @@
+program,expected_direction,spearman_rho,p_value,direction_supported
+G2M_Independent,positive,0.8424242424242423,0.0022200312259168407,True
+Spindle_Chromosome_Independent,positive,0.7212121212121211,0.018573155089460208,True
+Mitotic_Entry_Independent,positive,0.9757575757575757,1.4675461874042197e-06,True
+Hepatic_Differentiation,negative,-0.49090909090909085,0.14965567342083677,True
+Bile_Acid_Metabolism,negative,-0.4787878787878787,0.1615229280174558,True

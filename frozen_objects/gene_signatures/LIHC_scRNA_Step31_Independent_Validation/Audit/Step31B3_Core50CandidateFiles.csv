@@ -1,0 +1,5 @@
+name,size_kb,path
+Step25_FROZEN_MS3_Conserved_Core50.csv,9.8798828125,/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Reference/Step25_FROZEN_MS3_Conserved_Core50.csv
+Step25_FROZEN_MS3_Core50_Genes.txt,0.3359375,/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Reference/Step25_FROZEN_MS3_Core50_Genes.txt
+Step25_MS3_Core50_PatientState_Scores.csv,1.609375,/mnt/e/TCGA/LIHC_scRNA_Step25_CrossPatient_Robustness/Results/Step25_MS3_Core50_PatientState_Scores.csv
+Step26A_MS3_Core50_FunctionalArchitecture.csv,2.1337890625,/mnt/e/TCGA/LIHC_scRNA_Step26_MS3_Biology/Results/Step26A_MS3_Core50_FunctionalArchitecture.csv

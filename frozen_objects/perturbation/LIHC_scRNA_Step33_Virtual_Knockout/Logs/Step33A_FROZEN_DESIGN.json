@@ -1,0 +1,111 @@
+{
+  "step": "Step33A",
+  "status": "COMPLETE_METHOD_DECISION_REQUIRED",
+  "discovery_dataset": "GSE149614",
+  "primary_targets": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1",
+    "BRCA1"
+  ],
+  "secondary_vulnerability_pool": [
+    "PLK1",
+    "AURKA",
+    "AURKB",
+    "TTK",
+    "BUB1",
+    "BUB1B",
+    "CENPE",
+    "KIF2C",
+    "BIRC5",
+    "RRM2",
+    "FANCD2",
+    "UBE2T",
+    "CHEK1"
+  ],
+  "primary_endpoints": [
+    "Core50",
+    "G2M_Independent",
+    "Mitotic_Entry_Independent",
+    "Spindle_Chromosome_Independent"
+  ],
+  "secondary_directional_endpoints": [
+    "Hepatic_Differentiation",
+    "Bile_Acid_Metabolism"
+  ],
+  "expected_future_direction": {
+    "Core50": "down",
+    "G2M_Independent": "down",
+    "Mitotic_Entry_Independent": "down",
+    "Spindle_Chromosome_Independent": "down",
+    "Hepatic_Differentiation": "up_supportive_not_required",
+    "Bile_Acid_Metabolism": "up_supportive_not_required"
+  },
+  "original_RiskScore_reconstructed": false,
+  "target_reselection_allowed": false,
+  "network_rediscovery_allowed": false,
+  "formal_knockout_performed": false,
+  "Step34_started": false,
+  "Step35_started": false,
+  "discovery_universe": {
+    "cells": 12057,
+    "genes_in_Step29_GRN_input": 12916,
+    "patients": [
+      "HCC04",
+      "HCC07",
+      "HCC08",
+      "HCC09",
+      "HCC10"
+    ],
+    "n_patients": 5,
+    "frozen_states": {
+      "MS1": 1658,
+      "MS2": 1277,
+      "MS3": 720,
+      "MS4": 2916,
+      "MS5": 2392,
+      "MS6": 557,
+      "MS7": 881,
+      "MS8": 1656
+    },
+    "MS3_cells": 720,
+    "MS6_cells": 557,
+    "metadata_path": "/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv",
+    "expression_path": "/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Data/Step29D_GRN_INPUT_FILTERED_RAW_COUNTS.h5ad"
+  },
+  "network": {
+    "GRN_edges": 1217528,
+    "TFs_with_edges": 1329,
+    "genes": 12916,
+    "motif_filtered_regulons": 280,
+    "AUCell_cells": 12057,
+    "AUCell_regulons": 280,
+    "importance_weights_available": true,
+    "weights_are_signed_perturbation_coefficients": false
+  },
+  "method_decision_required": true,
+  "method_installation_scope": "spatial32_wsl interpreter",
+  "compatible_method_locked": false,
+  "velocity_input_audit": {
+    "Step29_raw_h5ad_layers": [],
+    "Step27_final_h5ad_layers": [],
+    "spliced_unspliced_velocity_available": false
+  },
+  "BRCA1_caveat": "Computational regulon and edges do not establish suitability for direct TF-specific knockout simulation.",
+  "external_validation_firewall": "Step31 and Step32 are provenance only; no training or network inference from GSE326201 or GSE281759.",
+  "primary_method_sources": {
+    "frozen Step29 directed GRN/regulon based perturbation": "",
+    "CellOracle": "https://morris-lab.github.io/CellOracle.documentation/modules/celloracle.html",
+    "scTenifoldKnk": "https://github.com/cailab-tamu/scTenifoldKnk",
+    "GEARS": "https://github.com/snap-stanford/GEARS",
+    "scGen": "https://scgen.readthedocs.io/en/stable/",
+    "dynamo": "https://github.com/aristoteleo/dynamo-release"
+  },
+  "input_inventory_path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Audit/Step33A_FrozenInputInventory.csv",
+  "target_eligibility_path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Audit/Step33A_FrozenTargetEligibility.csv",
+  "method_feasibility_path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Audit/Step33A_MethodFeasibility.csv",
+  "environment_audit_path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Audit/Step33A_EnvironmentAudit.txt",
+  "script_path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Audit/Scripts/Step33A_feasibility_audit.py"
+}

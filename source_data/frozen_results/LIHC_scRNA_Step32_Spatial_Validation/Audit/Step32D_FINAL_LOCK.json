@@ -1,0 +1,148 @@
+{
+  "stage": "Step32D",
+  "status": "PASS",
+  "filter_rule": "in_tissue == 1 only",
+  "additional_qc_thresholds": null,
+  "n_sections": 17,
+  "n_canonical_patients": 4,
+  "n_spots_retained": 27224,
+  "fraction_retained_of_expression": 1.0,
+  "h5ad_files": [
+    {
+      "gsm": "GSM8627601",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627601_raw_qc.h5ad",
+      "n_spots": 1714,
+      "size_bytes": 11924502,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627602",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627602_raw_qc.h5ad",
+      "n_spots": 1762,
+      "size_bytes": 30193155,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627603",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627603_raw_qc.h5ad",
+      "n_spots": 1565,
+      "size_bytes": 23716772,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627604",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627604_raw_qc.h5ad",
+      "n_spots": 1329,
+      "size_bytes": 20913593,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627605",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627605_raw_qc.h5ad",
+      "n_spots": 2356,
+      "size_bytes": 54791160,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627606",
+      "canonical_patient_id": "A009",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627606_raw_qc.h5ad",
+      "n_spots": 1936,
+      "size_bytes": 42261864,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627607",
+      "canonical_patient_id": "B013",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627607_raw_qc.h5ad",
+      "n_spots": 1187,
+      "size_bytes": 14914439,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627608",
+      "canonical_patient_id": "B013",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627608_raw_qc.h5ad",
+      "n_spots": 1265,
+      "size_bytes": 18223537,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627609",
+      "canonical_patient_id": "B013",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627609_raw_qc.h5ad",
+      "n_spots": 1485,
+      "size_bytes": 17983245,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627610",
+      "canonical_patient_id": "B013",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627610_raw_qc.h5ad",
+      "n_spots": 1898,
+      "size_bytes": 24118271,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627611",
+      "canonical_patient_id": "B013",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627611_raw_qc.h5ad",
+      "n_spots": 1490,
+      "size_bytes": 27792496,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627612",
+      "canonical_patient_id": "C004",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627612_raw_qc.h5ad",
+      "n_spots": 1489,
+      "size_bytes": 16079150,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627613",
+      "canonical_patient_id": "C004",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627613_raw_qc.h5ad",
+      "n_spots": 937,
+      "size_bytes": 10944962,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627614",
+      "canonical_patient_id": "C008",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627614_raw_qc.h5ad",
+      "n_spots": 2276,
+      "size_bytes": 36297904,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627615",
+      "canonical_patient_id": "C008",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627615_raw_qc.h5ad",
+      "n_spots": 1310,
+      "size_bytes": 15596327,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627616",
+      "canonical_patient_id": "C008",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627616_raw_qc.h5ad",
+      "n_spots": 1494,
+      "size_bytes": 16215929,
+      "action": "created"
+    },
+    {
+      "gsm": "GSM8627617",
+      "canonical_patient_id": "C008",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step32_Spatial_Validation/Data/QC/GSE281759/GSM8627617_raw_qc.h5ad",
+      "n_spots": 1731,
+      "size_bytes": 24547226,
+      "action": "created"
+    }
+  ]
+}

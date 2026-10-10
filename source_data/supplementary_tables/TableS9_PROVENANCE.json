@@ -1,0 +1,102 @@
+{
+  "Table_number": "TableS9",
+  "Table_title": "Frozen MS3 Core50 and Core100 gene sets",
+  "Source_step": [
+    "Step25"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_Manuscript_Interim_Summary\\Reference\\Step25_FROZEN_MS3_Conserved_Core50.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Reference\\Step25_FROZEN_MS3_Conserved_Core100.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_Manuscript_Interim_Summary\\Reference\\Step25_FROZEN_MS3_Conserved_Core50.csv": [
+      "Gene",
+      "Rank",
+      "Delta_HCC08",
+      "Detection_HCC08",
+      "Delta_HCC09",
+      "Detection_HCC09",
+      "Delta_HCC10",
+      "Detection_HCC10",
+      "Mean_delta",
+      "Median_delta",
+      "Min_delta",
+      "Delta_SD",
+      "Positive_fraction",
+      "Min_detection_fraction",
+      "Is_MT",
+      "Is_Ribosomal",
+      "Conserved_positive",
+      "Signature"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Reference\\Step25_FROZEN_MS3_Conserved_Core100.csv": [
+      "Gene",
+      "Rank",
+      "Delta_HCC08",
+      "Detection_HCC08",
+      "Delta_HCC09",
+      "Detection_HCC09",
+      "Delta_HCC10",
+      "Detection_HCC10",
+      "Mean_delta",
+      "Median_delta",
+      "Min_delta",
+      "Delta_SD",
+      "Positive_fraction",
+      "Min_detection_fraction",
+      "Is_MT",
+      "Is_Ribosomal",
+      "Conserved_positive",
+      "Signature"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "MS3, Cycling–G2M malignant state; Δ, saved patient-specific MS3 expression contrast. Frozen gene-set membership and order are reproduced without reselection. All original detection and conservation fields are retained at source precision in the accompanying DATA CSV.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS9_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_Manuscript_Interim_Summary\\Reference\\Step25_FROZEN_MS3_Conserved_Core50.csv",
+      "SHA256": "94536d83828b63dea5c60ceb5b1153cdb0933e85474e41b01809c51590c11415",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\Step25_FROZEN_MS3_Conserved_Core50.csv",
+      "size": 10117
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Reference\\Step25_FROZEN_MS3_Conserved_Core100.csv",
+      "SHA256": "3a1021d9cf6b1d716d2088cfec64dbc7a508dc4dc60ba5976269b946fe20fd93",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step25__Step25_FROZEN_MS3_Conserved_Core100.csv",
+      "size": 20211
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json",
+      "SHA256": "f641dae62b366fbd5c69cb23335a0ae89b78170d305d5a35740172f3a4168a57",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step25__Step25_FINAL_Decision.json",
+      "size": 2548
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Core50",
+      "columns": [
+        "Rank",
+        "Gene",
+        "Delta_HCC08",
+        "Delta_HCC09",
+        "Delta_HCC10"
+      ]
+    },
+    {
+      "block": "Core100",
+      "columns": [
+        "Rank",
+        "Gene",
+        "Delta_HCC08",
+        "Delta_HCC09",
+        "Delta_HCC10"
+      ]
+    }
+  ]
+}

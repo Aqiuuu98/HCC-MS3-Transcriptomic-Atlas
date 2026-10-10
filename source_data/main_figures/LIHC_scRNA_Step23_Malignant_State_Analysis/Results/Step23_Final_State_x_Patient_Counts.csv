@@ -1,0 +1,9 @@
+﻿final_malignant_state,HCC04,HCC07,HCC08,HCC09,HCC10
+MS1 Hypoxia-TGFβ-Inflammatory,0,21,1596,1,40
+MS2 S100P-SPINK1 Epithelial,1,21,398,273,584
+MS3 Cycling-G2M,4,4,352,116,244
+MS4 HCC08 Replication-Fetal/Progenitor,0,0,2898,6,12
+MS5 Stress-Inflammatory-Progenitor,1,11,17,638,1725
+MS6 Hepatic-Differentiated,0,0,0,487,70
+MS7 HCC04 Glycolytic-Hepatic,879,0,0,1,1
+MS8 HCC04 Hepatic-Bile-Acid Metabolic,1653,0,0,0,3

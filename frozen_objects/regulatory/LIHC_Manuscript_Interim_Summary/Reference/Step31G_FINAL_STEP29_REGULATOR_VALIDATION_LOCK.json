@@ -1,0 +1,25 @@
+{
+  "step": "Step31G",
+  "status": "FROZEN",
+  "primary_article_claim": "The frozen Step29 MS3 regulator architecture (FOXM1, MYBL2, E2F8, TFDP1, E2F1 and BRCA1) was independently associated with the MS3-like proliferative/mitotic pole at the patient-pseudobulk level, with preserved positive direction in all leave-one-patient-out analyses.",
+  "secondary_article_observation": "The frozen MS6 regulator set (HNF4A, NR1H4, NR1I3, CEBPA and FOXA3) showed cell-level concordance with the hepatic/metabolic pole, but was not reproduced at the patient-pseudobulk level.",
+  "ms3_pseudobulk": {
+    "rho": 0.7575757575757575,
+    "p_value": 0.011143446799694208,
+    "lopo_positive": "10/10",
+    "lopo_median_rho": 0.75
+  },
+  "ms6_pseudobulk": {
+    "rho": 0.006060606060606061,
+    "p_value": 0.9867429111949892,
+    "lopo_positive": "6/10",
+    "lopo_median_rho": 0.016666666666666666
+  },
+  "claim_boundary": [
+    "No new regulators were selected.",
+    "No external GRN discovery was performed.",
+    "TF expression is not equivalent to regulon activity.",
+    "MS3 regulatory architecture is the primary externally supported result.",
+    "MS6 regulatory architecture is retained as secondary cell-level evidence only."
+  ]
+}

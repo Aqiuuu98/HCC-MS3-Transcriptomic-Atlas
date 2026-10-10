@@ -1,0 +1,6 @@
+endpoint,TFs_with_3of3_consistency,formal_TFs_n,role
+Away from MS3,5,5,Primary
+Toward MS5,5,5,Primary
+Closer to MS5,5,5,Primary
+Toward MS6,4,5,Secondary geometric context
+Closer to MS6,3,5,Secondary geometric context

@@ -1,0 +1,129 @@
+{
+  "Table_number": "TableS12",
+  "Table_title": "Pseudotime roots, state-level distributions, and program–pseudotime associations",
+  "Source_step": [
+    "Step27"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Manifest\\Step27_FINAL_Lock.json",
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_State_Pseudotime_Summary.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_PatientAxis_Robustness.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_RootSensitivity.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_Program_Robustness.csv"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Manifest\\Step27_FINAL_Lock.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_State_Pseudotime_Summary.csv": [
+      "final_malignant_state_id",
+      "N",
+      "Median_PT",
+      "Q25_PT",
+      "Q75_PT"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_PatientAxis_Robustness.csv": [
+      "Patient",
+      "MS6_median_PT",
+      "MS5_median_PT",
+      "MS3_median_PT",
+      "MS5_minus_MS6",
+      "MS3_minus_MS5",
+      "MS3_minus_MS6",
+      "Monotonic_MS6_MS5_MS3"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_RootSensitivity.csv": [
+      "Comparison",
+      "Spearman_rho"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_Program_Robustness.csv": [
+      "HCC09",
+      "HCC10",
+      "Same_direction",
+      "Mean_rho",
+      "Program",
+      "Program_Class"
+    ]
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "PT, pseudotime; Q1/Q3, first/third quartile; ρ, Spearman correlation. Pseudotime is transcriptional ordering and does not establish lineage conversion or RNA-velocity direction. Program P values were not saved and are not recomputed.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS12_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Manifest\\Step27_FINAL_Lock.json",
+      "SHA256": "11e1c18b97f8aa0af17584df51697b72b1a93fcf5b66ab6d5cd51dab13b2b4eb",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_FINAL_Lock.json",
+      "size": 2422
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_State_Pseudotime_Summary.csv",
+      "SHA256": "60c47015a6b6dd453162d3dbbe63374456b7cc78252fccd037a7f31ad86776f7",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_Final_State_Pseudotime_Summary.csv",
+      "size": 532
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_PatientAxis_Robustness.csv",
+      "SHA256": "787ed087f246daf3539321715294e9f00aa78f664d980aa34d5ffa7820abc6e0",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_Final_PatientAxis_Robustness.csv",
+      "size": 385
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_RootSensitivity.csv",
+      "SHA256": "fbbb1d345ff9380e54fc0ee1fce575df27d65540affffa25c02f3cd96129be32",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_Final_RootSensitivity.csv",
+      "size": 135
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Tables\\Step27_Final_Program_Robustness.csv",
+      "SHA256": "4e995eec3c02f555bb5dfd7599e3cd1abd3f4a25197a5bc6b977dd7f1ae0a94a",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_Final_Program_Robustness.csv",
+      "size": 1235
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Frozen primary root",
+      "columns": [
+        "Root cell",
+        "Root state",
+        "Pseudotime"
+      ]
+    },
+    {
+      "block": "Global state-level distributions",
+      "columns": [
+        "final_malignant_state_id",
+        "N",
+        "Median_PT",
+        "Q25_PT",
+        "Q75_PT"
+      ]
+    },
+    {
+      "block": "Patient-conditioned state medians",
+      "columns": [
+        "Patient",
+        "MS6_median_PT",
+        "MS5_median_PT",
+        "MS3_median_PT"
+      ]
+    },
+    {
+      "block": "Root sensitivity",
+      "columns": [
+        "Comparison",
+        "Spearman_rho"
+      ]
+    },
+    {
+      "block": "Saved program–pseudotime correlations",
+      "columns": [
+        "Program",
+        "Program_Class",
+        "HCC09",
+        "HCC10",
+        "Mean_rho"
+      ]
+    }
+  ]
+}

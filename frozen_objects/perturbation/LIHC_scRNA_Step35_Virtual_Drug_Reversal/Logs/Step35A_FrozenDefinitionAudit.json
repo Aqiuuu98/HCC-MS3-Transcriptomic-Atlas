@@ -1,0 +1,32 @@
+{
+  "step35_question": "Which small-molecule perturbations transcriptionally mimic the convergent five-regulator suppression response and oppose the frozen MS3 high-risk program?",
+  "formal_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "TF_selection_frozen": true,
+  "GRN_refitting_allowed": false,
+  "state_redefinition_allowed": false,
+  "primary_source_state": "MS3",
+  "primary_replication_patients": [
+    "HCC08",
+    "HCC09",
+    "HCC10"
+  ],
+  "Step33_formal_primary_programs": [
+    "Core50",
+    "G2M",
+    "Mitotic Entry",
+    "Spindle / Chromosome"
+  ],
+  "Step34_primary_direction": [
+    "away from MS3",
+    "toward MS5",
+    "closer to MS5"
+  ],
+  "Step34_MS6_role": "secondary geometric context",
+  "claim_boundary": "Transcriptomic virtual drug-reversal prioritization only; not evidence of therapeutic efficacy, clinical benefit, target engagement, or experimental response."
+}

@@ -1,0 +1,24 @@
+{
+  "MS6_Hepatic_Identity": [
+    "HNF4A",
+    "NR1H4",
+    "NR1I3",
+    "CEBPA",
+    "FOXA3"
+  ],
+  "MS5_Transitional_Plasticity": [
+    "KLF4",
+    "FOS",
+    "FOSB",
+    "ELF3",
+    "SOX4"
+  ],
+  "MS3_Proliferative_CIN": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1",
+    "BRCA1"
+  ]
+}

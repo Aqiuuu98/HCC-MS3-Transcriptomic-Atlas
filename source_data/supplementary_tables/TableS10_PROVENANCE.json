@@ -1,0 +1,65 @@
+{
+  "Table_number": "TableS10",
+  "Table_title": "Patient-aware portability of the frozen MS3 program",
+  "Source_step": [
+    "Step25"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_LOO_Portability.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_LOO_Portability.csv": [
+      "Held_out_patient",
+      "Training_patients",
+      "Signature_size",
+      "N_signature_genes",
+      "N_cells",
+      "N_MS3_cells",
+      "ROC_AUC",
+      "Average_precision",
+      "Median_MS3_score",
+      "Median_other_score",
+      "Median_difference",
+      "MannWhitney_P",
+      "Top_scoring_state",
+      "MS3_is_top_scoring_state"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "LOPO, leave-one-patient-out; AUC, area under the receiver-operating-characteristic curve; AP, average precision. Core50/Core100 LOPO results for HCC08, HCC09 and HCC10 are read from the frozen evaluation file. Cell-level discrimination within each held-out patient does not constitute external survival validation.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS10_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Results\\Step25_MS3_LOO_Portability.csv",
+      "SHA256": "a11eb811497b71af3a48172b522f91aa5e8cd482378924dd727d4e70094073f1",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step25__Step25_MS3_LOO_Portability.csv",
+      "size": 1207
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step25_CrossPatient_Robustness\\Logs\\Step25_FINAL_Decision.json",
+      "SHA256": "f641dae62b366fbd5c69cb23335a0ae89b78170d305d5a35740172f3a4168a57",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step25__Step25_FINAL_Decision.json",
+      "size": 2548
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Held_out_patient",
+        "Signature_size",
+        "N_cells",
+        "N_MS3_cells",
+        "ROC_AUC",
+        "Average_precision",
+        "Median_difference",
+        "MannWhitney_P",
+        "Top_scoring_state"
+      ]
+    }
+  ]
+}

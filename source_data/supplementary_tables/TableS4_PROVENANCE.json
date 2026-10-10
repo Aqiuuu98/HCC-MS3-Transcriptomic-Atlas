@@ -1,0 +1,76 @@
+{
+  "Table_number": "TableS4",
+  "Table_title": "Risk-associated WGCNA modules and frozen Hub18 genes",
+  "Source_step": [
+    "Step12",
+    "Step17"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_RiskScore_Correlation.csv",
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_Assignment.csv",
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\Final_WGCNA_Hub_gene_summary.csv",
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_RiskScore_Correlation.csv": [
+      "Module",
+      "Spearman_rho",
+      "P_value",
+      "FDR"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_Assignment.csv": [
+      "Gene",
+      "Module"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\Final_WGCNA_Hub_gene_summary.csv": [
+      "Gene",
+      "Module",
+      "Biological_Function"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "WGCNA, weighted gene co-expression network analysis; FDR, false discovery rate; ρ, Spearman correlation with the Original RiskScore. Module sizes are counts from saved assigned-module rows. Hub18 uses the strict frozen module assignment, not older figure labels.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS4_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_RiskScore_Correlation.csv",
+      "SHA256": "56e4c70244fb43c5985d9eaa8c00795a1a528975eb9784b52d865669087bbdc0",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step12__LIHC_WGCNA_Module_RiskScore_Correlation.csv",
+      "size": 465
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\LIHC_WGCNA_Module_Assignment.csv",
+      "SHA256": "93d15f078c846c825113a3b9ba5674d5697bf4add8b1478ff2d78310095a89e0",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step12__LIHC_WGCNA_Module_Assignment.csv",
+      "size": 70550
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step12_WGCNA\\Results\\Final_WGCNA_Hub_gene_summary.csv",
+      "SHA256": "b133f8c588d887be4932efa26d53f694e06a48ab92f79a9117e8e0d76f68fd1e",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step12__Final_WGCNA_Hub_gene_summary.csv",
+      "size": 491
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Module",
+        "Size",
+        "Spearman_rho",
+        "P_value",
+        "FDR",
+        "Hub genes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+endpoint,role,source_step,frozen_score_column,cells_with_score,available,expected_direction_if_future_KO,source_path
+Core50,PRIMARY,Step25/Step26 frozen program; Step29D cell metadata,MS3_conserved_Core50_score,12057,True,decrease,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv
+G2M_Independent,PRIMARY,Step25/Step26 frozen program; Step29D cell metadata,Program__Proliferation_G2M,12057,True,decrease,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv
+Mitotic_Entry_Independent,PRIMARY,Step25/Step26 frozen program; Step29D cell metadata,DeepProgram__Mitotic_Entry,12057,True,decrease,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv
+Spindle_Chromosome_Independent,PRIMARY,Step25/Step26 frozen program; Step29D cell metadata,DeepProgram__Spindle_Chromosome_Segregation,12057,True,decrease,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv
+Hepatic_Differentiation,SECONDARY_DIRECTIONAL,Step25/Step26 frozen program; Step29D cell metadata,DeepProgram__Hepatic_Differentiation,12057,True,increase_supportive_only,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv
+Bile_Acid_Metabolism,SECONDARY_DIRECTIONAL,Step25/Step26 frozen program; Step29D cell metadata,DeepProgram__Bile_Acid_Metabolism,12057,True,increase_supportive_only,/mnt/e/TCGA/LIHC_scRNA_Step29_GRN/Tables/Step29D_Frozen_Cell_Metadata.csv

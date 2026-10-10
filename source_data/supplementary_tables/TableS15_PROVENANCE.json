@@ -1,0 +1,128 @@
+{
+  "Table_number": "TableS15",
+  "Table_title": "Cross-patient cell–cell communication candidates and focused signaling routes",
+  "Source_step": [
+    "Step30"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30E_MechanisticCandidates_ge3pct.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30_FINAL_PrimaryMechanisticRoutes.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Audit\\Step30_FINAL_Communication.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30E_MechanisticCandidates_ge3pct.csv": [
+      "source",
+      "ligand_complex",
+      "receptor_complex",
+      "Malignant_MS6_HCC09T",
+      "Malignant_MS5_HCC09T",
+      "Malignant_MS3_HCC09T",
+      "MS3_minus_MS6_HCC09T",
+      "MS5_minus_MS6_HCC09T",
+      "MS3_minus_MS5_HCC09T",
+      "preferred_target_HCC09T",
+      "preference_margin_HCC09T",
+      "preference_margin_relative_HCC09T",
+      "Malignant_MS6_HCC10T",
+      "Malignant_MS5_HCC10T",
+      "Malignant_MS3_HCC10T",
+      "MS3_minus_MS6_HCC10T",
+      "MS5_minus_MS6_HCC10T",
+      "MS3_minus_MS5_HCC10T",
+      "preferred_target_HCC10T",
+      "preference_margin_HCC10T",
+      "preference_margin_relative_HCC10T",
+      "concordant_preferred_target",
+      "min_preference_margin_relative",
+      "MS3_minus_MS6_same_direction",
+      "MS5_minus_MS6_same_direction",
+      "MS3_minus_MS5_same_direction",
+      "target",
+      "lr_means_HCC09T",
+      "cellphone_pvals_HCC09T",
+      "cellphone_fdr_HCC09T",
+      "lr_logfc_HCC09T",
+      "specificity_rank_HCC09T",
+      "magnitude_rank_HCC09T",
+      "lr_means_HCC10T",
+      "cellphone_pvals_HCC10T",
+      "cellphone_fdr_HCC10T",
+      "lr_logfc_HCC10T",
+      "specificity_rank_HCC10T",
+      "magnitude_rank_HCC10T",
+      "both_fdr05",
+      "worst_magnitude_rank",
+      "mean_magnitude_rank",
+      "mean_lr_means",
+      "state_skew_tier",
+      "evidence_tier",
+      "receptor_pref_HCC09T",
+      "receptor_pref_HCC10T",
+      "receptor_match_HCC09T",
+      "receptor_match_HCC10T",
+      "receptor_match_both",
+      "simple_lr"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30_FINAL_PrimaryMechanisticRoutes.csv": [
+      "state",
+      "communication_level",
+      "entry_node",
+      "intermediate_nodes",
+      "regulator_output",
+      "route",
+      "n_edges",
+      "claim_boundary"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Audit\\Step30_FINAL_Communication.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "LR, ligand–receptor; FDR, false discovery rate. The saved set contains 39 candidates at ≥3%, including 28 at ≥5% and 11 at 3–5%. MS3, IFNAR1–PIK3CA/PIK3R1–AKT1–BRCA1; MS5, ITGB1–SRC–FOS; MS6, RXRA–NR1H4. MMP9–IFNAR1 remains exploratory. These are expression/prior-compatible candidates, not demonstrated physical communication or causal signaling.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS15_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30E_MechanisticCandidates_ge3pct.csv",
+      "SHA256": "186e72af8c9a3f537ad79fa34cb9be006acba62f305b2bbbf01f12e326f2a8f2",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step30__Step30E_MechanisticCandidates_ge3pct.csv",
+      "size": 24935
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Tables\\Step30_FINAL_PrimaryMechanisticRoutes.csv",
+      "SHA256": "02321aede9f88f6ddf9a9f763a7e8342a2d5fc96922494de4565c7bab08d8da6",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step30__Step30_FINAL_PrimaryMechanisticRoutes.csv",
+      "size": 593
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step30_Communication\\Audit\\Step30_FINAL_Communication.json",
+      "SHA256": "9a7235d27cef22b3246dfc1b013f71c6742572d7f4ec5d75faab8adeea0d6c28",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step30__Step30_FINAL_Communication.json",
+      "size": 3839
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Saved cross-patient candidates",
+      "columns": [
+        "source",
+        "ligand_complex",
+        "receptor_complex",
+        "target",
+        "min_preference_margin_relative",
+        "state_skew_tier",
+        "cellphone_fdr_HCC09T",
+        "cellphone_fdr_HCC10T"
+      ]
+    },
+    {
+      "block": "Frozen focused routes",
+      "columns": [
+        "state",
+        "entry_node",
+        "intermediate_nodes",
+        "regulator_output",
+        "route"
+      ]
+    }
+  ]
+}

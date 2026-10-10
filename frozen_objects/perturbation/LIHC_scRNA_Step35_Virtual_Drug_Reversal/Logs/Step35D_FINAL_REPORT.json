@@ -1,0 +1,19 @@
+{
+  "status": "STEP35D_PRIMARY_CONVERGENCE_COMPLETE",
+  "canonical_identity": "pert_id",
+  "cross_query_metric": "Within-query best-rank strength; raw scores are not averaged across queries.",
+  "unique_perturbations": 54,
+  "primary_Q1_Q2_convergent": 24,
+  "primary_Q1_Q2_with_Q3_support": 22,
+  "Q3_in_primary_score": false,
+  "unresolved_primary_names": 11,
+  "formal_interpretation": "Perturbations appearing among opposite signatures for both frozen primary queries constitute the primary drug-reversal candidate pool.",
+  "not_yet_performed": [
+    "liver-context prioritization",
+    "mechanism-of-action annotation",
+    "target concordance",
+    "final drug shortlist",
+    "therapeutic ranking"
+  ],
+  "claim_boundary": "Cross-query transcriptomic reversal convergence; not therapeutic efficacy."
+}

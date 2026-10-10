@@ -1,0 +1,68 @@
+{
+  "Table_number": "TableS7",
+  "Table_title": "Frozen malignant-state definitions and cell counts in GSE149614",
+  "Source_step": [
+    "Step23",
+    "Step27"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Audit\\Step27_Frozen_State_Counts.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Results\\Step23_Final_MalignantState_Mapping.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Audit\\Step27_Frozen_State_Counts.csv": [
+      "State",
+      "Frozen_Name",
+      "Step23_Expected_Count",
+      "Step27_Final_Count",
+      "Match",
+      "Source_Cluster"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Results\\Step23_Final_MalignantState_Mapping.csv": [
+      "Source_cluster",
+      "Final_state_id",
+      "Final_state_name",
+      "State_scope",
+      "Decision",
+      "Rationale"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "MS, malignant state. Total lineage-clean malignant cells = 12,057. MS4, MS7 and MS8 are patient-specific programs and are not presented as universally recurrent HCC states. Cell counts are not patient counts.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS7_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Audit\\Step27_Frozen_State_Counts.csv",
+      "SHA256": "d418bf935a4f27fe10bb12a9385504a6a762968870630b8ab9de6d411eb11a70",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step27__Step27_Frozen_State_Counts.csv",
+      "size": 465
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Results\\Step23_Final_MalignantState_Mapping.csv",
+      "SHA256": "67ca2f99290493aec9788e12759e0708800f73cfe8bc78ad76261e89bae71c23",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step23__Step23_Final_MalignantState_Mapping.csv",
+      "size": 1720
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json",
+      "SHA256": "67d7e8dcbf68ca1067c59ea4ab9190d370f13f4c85b2171ed7a3ec8b5ea73f5f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step23__Step23_FINAL_StateLock.json",
+      "size": 1857
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "State",
+        "Definition",
+        "Step23_Expected_Count",
+        "Scope"
+      ]
+    }
+  ]
+}

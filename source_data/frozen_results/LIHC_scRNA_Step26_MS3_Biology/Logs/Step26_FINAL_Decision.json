@@ -1,0 +1,79 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step26_MS3_Deep_Biological_Characterization",
+    "Status": "FROZEN",
+    "Primary_state": {
+        "ID": "MS3",
+        "Name": "Cycling-G2M",
+        "Bulk_risk_role": "Primary bulk-risk-concordant",
+        "Cross_patient_status": "Internally portable across HCC08/HCC09/HCC10"
+    },
+    "Primary_reference": {
+        "ID": "MS6",
+        "Name": "Hepatic-Differentiated",
+        "Bulk_risk_role": "Primary bulk-risk-opposing"
+    },
+    "Frozen_primary_biological_model": "MS3 represents a cross-patient proliferative malignant state characterized primarily by mitotic entry, spindle and chromosome-segregation machinery, cytokinesis and chromosomal-instability-associated transcription. The state additionally shows replication-stress, DNA-repair and nucleotide-synthesis requirements, with residual enrichment of RNA processing, ribosome biogenesis, DNA maintenance and chromatin regulation after operational exclusion of dominant cell-cycle genes. MS3 is opposed by loss of hepatic differentiation and bile-acid metabolic identity.",
+    "Primary_state_identity_programs": [
+        "Mitotic_Entry",
+        "Chromosomal_Instability",
+        "Spindle_Chromosome_Segregation",
+        "Cytokinesis"
+    ],
+    "Supporting_dependency_programs": [
+        "Fanconi_DNA_Repair",
+        "Nucleotide_Synthesis",
+        "Replication_Stress",
+        "Homologous_Recombination"
+    ],
+    "Opposing_programs": [
+        "Hepatic_Differentiation",
+        "Bile_Acid_Metabolism"
+    ],
+    "Frozen_candidate_panels": {
+        "Tier1_MitoticCore": [
+            "PLK1",
+            "TOP2A",
+            "NEK2",
+            "BUB1",
+            "AURKB",
+            "CENPE",
+            "TTK",
+            "BIRC5",
+            "KIF2C",
+            "BUB1B",
+            "AURKA",
+            "CDK1",
+            "KIF11"
+        ],
+        "Tier2_ReplicationRepair": [
+            "RRM2",
+            "FANCD2",
+            "UBE2T",
+            "CHEK1"
+        ],
+        "Tier3_Contextual": [
+            "WEE1",
+            "BRCA1"
+        ],
+        "NotPrimaryPriority": [
+            "ATR",
+            "RAD51",
+            "CLSPN",
+            "MCL1",
+            "BCL2L1"
+        ]
+    },
+    "Residual_analysis": {
+        "Status": "Supported",
+        "Interpretation": "Operational removal of frozen Core100 plus Hallmark G2M/E2F and curated mitotic genes did not eliminate DNA-repair, replication-fork, RNA-processing and chromatin-related enrichment.",
+        "Important_limit": "Residual enrichment must not be interpreted as fully independent of proliferative biology."
+    },
+    "Therapeutic_efficacy_claimed": false,
+    "Functional_dependency_proven": false,
+    "Chromosomal_instability_directly_measured": false,
+    "State_labels_modified": false,
+    "Core50_modified": false,
+    "Step26_freeze_pass": true,
+    "Next_step": "Step27 trajectory analysis will examine whether the frozen malignant states occupy reproducible transition relationships, with particular attention to the MS6 differentiated/metabolic to MS3 proliferative axis. Trajectory directionality will not be assumed in advance."
+}

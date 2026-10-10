@@ -1,0 +1,9 @@
+﻿Table_Number,Block,Metric,Value,Unit,_source,_row
+TableS6,,Metabolic subtype N,229,patients,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Subtype.Metabolic_N
+TableS6,,Proliferative subtype N,136,patients,E:\TCGA\LIHC_RNA_Step17_Bulk_Freeze\Results\Bulk_Freeze_Manifest.json,Subtype.Proliferative_N
+TableS6,,RiskScore difference P,3.65648046714921e-14,P,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Candidate_Subtypes_RiskScore_Comparison.csv,D_Top30_each.P_value
+TableS6,,OS log-rank P,0.0008824861089413924,P,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Candidate_Subtypes_OS_Comparison.csv,D_Top30_each.LogRank_P
+TableS6,,Adjusted Proliferative vs Metabolic HR,1.6349922376764758,HR,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Final_Subtype_Multivariable_Cox.csv,Subtype_binary.HR
+TableS6,,HR CI lower,1.1328767555630177,HR,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Final_Subtype_Multivariable_Cox.csv,Subtype_binary.HR_lower95
+TableS6,,HR CI upper,2.3596561621866816,HR,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Final_Subtype_Multivariable_Cox.csv,Subtype_binary.HR_upper95
+TableS6,,Adjusted Cox P,0.008627615163373714,P,E:\TCGA\LIHC_RNA_Step13_Molecular_Subtyping\Results\Final_Subtype_Multivariable_Cox.csv,Subtype_binary.P_value

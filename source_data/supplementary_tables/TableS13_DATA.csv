@@ -1,0 +1,11 @@
+﻿Table_Number,Block,Analysis,Result,Supports_MS3_terminal_fate,_source,_row,Criterion,N_support,N_total,Support_fraction,Patient,Original_N,Final_N,Retention_fraction,Operator_type
+TableS13,Frozen evidence synthesis,Global PseudotimeKernel,Forward-biased globally; MS6->MS5 robust; MS5->MS3 not robust,False,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28H_Final_Evidence_Synthesis.csv,1,,,,,,,,,
+TableS13,Frozen evidence synthesis,Global GPCCA,3 macrostates selected by both eigengap and minChi; patient/branch dominated,False,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28H_Final_Evidence_Synthesis.csv,2,,,,,,,,,
+TableS13,Frozen evidence synthesis,HCC09 patient-conditioned GPCCA,2 mixed MS5/MS6 macrostates; no clear pseudotime-separated MS3 terminal region,False,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28H_Final_Evidence_Synthesis.csv,3,,,,,,,,,
+TableS13,Frozen evidence synthesis,HCC10 patient-conditioned GPCCA,2-state solution with 2654-vs-2 hard assignment; degenerate metastable structure,False,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28H_Final_Evidence_Synthesis.csv,4,,,,,,,,,
+TableS13,Kernel sensitivity,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28C_Kernel_Robustness_Summary.csv,1,Global forward fraction > 0.5,4,4,1.0,,,,,
+TableS13,Kernel sensitivity,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28C_Kernel_Robustness_Summary.csv,2,MS6->MS5 net flow > 0,4,4,1.0,,,,,
+TableS13,Kernel sensitivity,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28C_Kernel_Robustness_Summary.csv,3,MS5->MS3 net flow > 0,1,4,0.25,,,,,
+TableS13,Kernel sensitivity,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28C_Kernel_Robustness_Summary.csv,4,MS6->MS3 net flow > 0,4,4,1.0,,,,,
+TableS13,Patient-conditioned operators,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28G_Final_Patient_Operator_Summary.csv,1,,,,,HCC09,1522,1487,0.9770039421813403,Largest weak component after iterative zero-mass pruning
+TableS13,Patient-conditioned operators,,,,E:\TCGA\LIHC_scRNA_Step28_CellRank\Tables\Step28G_Final_Patient_Operator_Summary.csv,2,,,,,HCC10,2679,2656,0.9914147069802165,Iterative zero-mass pruning

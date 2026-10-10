@@ -1,0 +1,5 @@
+Analysis,Result,Supports_MS3_terminal_fate
+Global PseudotimeKernel,Forward-biased globally; MS6->MS5 robust; MS5->MS3 not robust,False
+Global GPCCA,3 macrostates selected by both eigengap and minChi; patient/branch dominated,False
+HCC09 patient-conditioned GPCCA,2 mixed MS5/MS6 macrostates; no clear pseudotime-separated MS3 terminal region,False
+HCC10 patient-conditioned GPCCA,2-state solution with 2654-vs-2 hard assignment; degenerate metastable structure,False

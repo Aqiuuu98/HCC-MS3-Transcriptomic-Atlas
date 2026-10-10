@@ -1,0 +1,9 @@
+﻿final_malignant_state_id,final_malignant_state,final_state_family,final_state_scope,N_pseudobulks,N_eligible_patients,Total_cells,Support_class,Top10_markers
+MS1,MS1 Hypoxia-TGFβ-Inflammatory,Stress_Plasticity,Cross_patient_supported,4,3,1658,Cross_patient_3plus,OLFM4|RP11-977G19.12|MTRNR2L6|PLCG2|FXYD3|TSPY2|BIRC7|RNU12|MTRNR2L1|GREM2
+MS2,MS2 S100P-SPINK1 Epithelial,Epithelial_Secretory,Cross_patient_supported,5,4,1277,Cross_patient_3plus,SPINK1|PAGE2|PAGE2B|S100P|ALB|AKR1C3|PAGE1|AGR2|TDO2
+MS3,MS3 Cycling-G2M,Proliferative,Cross_patient_supported,5,3,720,Cross_patient_3plus,FAM72C|DLGAP5|DEPDC1|FAM72D|PLK1|KIF23|CENPE|BUB1|CDC20|SGOL2
+MS4,MS4 HCC08 Replication-Fetal/Progenitor,Proliferative_Progenitor,Patient_specific_HCC08,3,1,2916,Patient_specific,ACTA1|ACTC1|NRN1|VCX3A|NKX2-8|VAX2|BEX1|EGR4|HSPA6|COL2A1
+MS5,MS5 Stress-Inflammatory-Progenitor,Stress_Plasticity,Cross_patient_supported,5,2,2392,Cross_patient_2,PSCA|ALB|AGR2|SPINK1|DPP10|FLRT2|SLC6A15|CDH12|C5orf17|LRRIQ1
+MS6,MS6 Hepatic-Differentiated,Hepatic_Metabolic,Cross_patient_supported,2,2,557,Cross_patient_2,U82695.5|LINC00890|NAV3|CST9L|HAO2|CFHR4|ALB|HSD11B1|RNASE2|MYH4
+MS7,MS7 HCC04 Glycolytic-Hepatic,Hepatic_Metabolic,Patient_specific_HCC04,3,1,881,Patient_specific,CYP2E1|HULC|ADH4|AHSG|HP|AKR1C2|APOA2|HPD|ADH1B|CHI3L1
+MS8,MS8 HCC04 Hepatic-Bile-Acid Metabolic,Hepatic_Metabolic,Patient_specific_HCC04,2,1,1656,Patient_specific,RP11-298J20.3|CYP2E1|CYP8B1|SLC1A2|RP4-781K5.6|NTM|CTD-2283N19.1|AHSG|ADH4|BHMT

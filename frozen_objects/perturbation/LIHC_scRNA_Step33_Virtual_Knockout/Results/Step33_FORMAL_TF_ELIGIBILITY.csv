@@ -1,0 +1,6 @@
+TF,frozen_targets,in_all_regulatory_genes,in_active_regulatory_genes,in_high_var_genes
+FOXM1,58,True,True,True
+MYBL2,552,True,True,True
+E2F8,211,True,True,False
+TFDP1,287,True,True,False
+E2F1,209,True,True,False

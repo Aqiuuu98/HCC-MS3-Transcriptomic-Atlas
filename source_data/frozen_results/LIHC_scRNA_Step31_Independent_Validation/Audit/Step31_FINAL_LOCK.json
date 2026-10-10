@@ -1,0 +1,37 @@
+{
+  "step": "Step31",
+  "dataset": "GSE326201",
+  "status": "FROZEN",
+  "independent_validation_universe": {
+    "malignant_cells": 4688,
+    "patients": 10,
+    "genes": 32732
+  },
+  "primary_external_validation": {
+    "target": "Step25 frozen MS3 Conserved Core50",
+    "conclusion": "The frozen MS3 Core50 independently reproduced proliferative/G2M, mitotic-entry and spindle-chromosome-segregation biology."
+  },
+  "secondary_biological_validation": {
+    "target": "MS3-like versus MS6-like reciprocal axis",
+    "conclusion": "Reciprocal proliferative versus hepatic/metabolic organization was supported at patient-pseudobulk resolution and after technical adjustment, but was not uniformly reproduced at unadjusted single-cell resolution."
+  },
+  "regulatory_validation": {
+    "primary": "The frozen Step29 MS3 regulator architecture was supported at patient-pseudobulk level.",
+    "secondary": "The MS6 regulator architecture showed cell-level concordance but lacked robust patient-level replication."
+  },
+  "signaling_validation": {
+    "primary": "The frozen IFNAR1-PI3K-AKT-BRCA1 receiver-side expression architecture showed directional consistency with the independent MS3-like program.",
+    "interpretation": "Supportive mechanistic consistency only; not evidence of physical communication or causal pathway activation."
+  },
+  "firewall": [
+    "No Core50 genes were reselected.",
+    "Original RiskScore was not reconstructed.",
+    "MS1-MS8 states were not redefined.",
+    "Malignancy was defined independently of Core50.",
+    "Step29 regulators were not reselected.",
+    "Step30 communication networks were not rediscovered.",
+    "No new external-data-driven malignant state was created."
+  ],
+  "article_main_message": "Independent single-cell validation supports the conserved MS3 proliferative/mitotic high-risk program as the most reproducible malignant-cell feature, with secondary support for a reciprocal differentiated/metabolic axis and associated regulatory/signaling architectures.",
+  "next_step": "Step32 — spatial validation"
+}

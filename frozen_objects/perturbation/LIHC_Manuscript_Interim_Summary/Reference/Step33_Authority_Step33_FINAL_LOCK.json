@@ -1,0 +1,299 @@
+{
+  "status": "STEP33_FROZEN",
+  "analysis": "Virtual Gene Knockout",
+  "formal_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "BRCA1_status": "Frozen mechanistic candidate; not used as formal TF-specific knockout.",
+  "input": {
+    "cells": 12057,
+    "fitting_genes": 10776,
+    "primary_state": "MS3",
+    "MS3_cells": 720
+  },
+  "network": {
+    "source": "Step29 motif-filtered regulon topology",
+    "original_edges": 32530,
+    "self_loops_removed": 140,
+    "simulation_edges": 32390,
+    "network_reconstruction": false,
+    "TF_reselection": false
+  },
+  "celloracle": {
+    "ridge_alpha": 10,
+    "PCA_dims": 13,
+    "KNN_k": 301,
+    "balanced_KNN": true,
+    "b_sight": 2408,
+    "b_maxl": 1204,
+    "n_propagation": 3,
+    "use_randomized_GRN": false,
+    "clip_delta_X": false
+  },
+  "scoring": {
+    "method": "Baseline-Anchored CellOracle Perturbation Score",
+    "baseline": "imputed_count",
+    "perturbed": "simulated_count",
+    "normalization": "Gene mean and SD estimated once from baseline malignant cells; identical baseline parameters applied to KO.",
+    "delta_definition": "KO ProgramScore - baseline ProgramScore",
+    "primary_endpoints": [
+      "Core50_NetworkCovered",
+      "G2M_Independent",
+      "Mitotic_Entry_Independent",
+      "Spindle_Chromosome_Independent"
+    ],
+    "secondary_directional_endpoints": [
+      "Hepatic_Differentiation",
+      "Bile_Acid_Metabolism"
+    ],
+    "FOXM1_Core50_LTO": true
+  },
+  "biological_replication": {
+    "primary_patients": [
+      "HCC08",
+      "HCC09",
+      "HCC10"
+    ],
+    "sparse_sensitivity_patients": [
+      "HCC04",
+      "HCC07"
+    ],
+    "primary_unit": "patient",
+    "cell_level_statistics": "descriptive only"
+  },
+  "convergence": {
+    "formal_TFs_with_negative_primary_programs": "5/5",
+    "formal_TFs_with_3of3_patient_direction_consistency": "5/5",
+    "hepatic_differentiation_restoration": "not predicted",
+    "bile_acid_metabolism_restoration": "not predicted"
+  },
+  "primary_results": [
+    {
+      "TF": "FOXM1",
+      "endpoint": "Core50_NetworkCovered",
+      "genes_after_LTO": 40,
+      "LTO_applied": true,
+      "median_delta": -0.0642171093583512,
+      "Q1_delta": -0.1197450179427939,
+      "Q3_delta": -0.0313132198887002,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "FOXM1",
+      "endpoint": "G2M_Independent",
+      "genes_after_LTO": 20,
+      "LTO_applied": false,
+      "median_delta": -0.0378034435380347,
+      "Q1_delta": -0.0710050298203578,
+      "Q3_delta": -0.017515594739317,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "FOXM1",
+      "endpoint": "Mitotic_Entry_Independent",
+      "genes_after_LTO": 16,
+      "LTO_applied": false,
+      "median_delta": -0.0219771211519194,
+      "Q1_delta": -0.041054020757193,
+      "Q3_delta": -0.0112704238451327,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "FOXM1",
+      "endpoint": "Spindle_Chromosome_Independent",
+      "genes_after_LTO": 25,
+      "LTO_applied": false,
+      "median_delta": -0.0237904805547601,
+      "Q1_delta": -0.0446952038486404,
+      "Q3_delta": -0.0108697810767603,
+      "fraction_negative": 0.9805555555555556,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "MYBL2",
+      "endpoint": "Core50_NetworkCovered",
+      "genes_after_LTO": 41,
+      "LTO_applied": false,
+      "median_delta": -0.4071904351650479,
+      "Q1_delta": -0.9713013237608792,
+      "Q3_delta": -0.1328987128947026,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "MYBL2",
+      "endpoint": "G2M_Independent",
+      "genes_after_LTO": 20,
+      "LTO_applied": false,
+      "median_delta": -0.3582073205869637,
+      "Q1_delta": -0.8408069405343142,
+      "Q3_delta": -0.1149512007936976,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "MYBL2",
+      "endpoint": "Mitotic_Entry_Independent",
+      "genes_after_LTO": 16,
+      "LTO_applied": false,
+      "median_delta": -0.3894148670273744,
+      "Q1_delta": -0.9309887496198306,
+      "Q3_delta": -0.1329886793446354,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "MYBL2",
+      "endpoint": "Spindle_Chromosome_Independent",
+      "genes_after_LTO": 25,
+      "LTO_applied": false,
+      "median_delta": -0.486129307684338,
+      "Q1_delta": -1.1943368655993811,
+      "Q3_delta": -0.1491165338015783,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F8",
+      "endpoint": "Core50_NetworkCovered",
+      "genes_after_LTO": 41,
+      "LTO_applied": false,
+      "median_delta": -0.0328926341534565,
+      "Q1_delta": -0.0800485864332399,
+      "Q3_delta": -0.0174329510096785,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F8",
+      "endpoint": "G2M_Independent",
+      "genes_after_LTO": 20,
+      "LTO_applied": false,
+      "median_delta": -0.0159490337186301,
+      "Q1_delta": -0.0388140869872357,
+      "Q3_delta": -0.0084529272475909,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F8",
+      "endpoint": "Mitotic_Entry_Independent",
+      "genes_after_LTO": 16,
+      "LTO_applied": false,
+      "median_delta": -0.0264878451327013,
+      "Q1_delta": -0.064461655976504,
+      "Q3_delta": -0.0140384424678473,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F8",
+      "endpoint": "Spindle_Chromosome_Independent",
+      "genes_after_LTO": 25,
+      "LTO_applied": false,
+      "median_delta": -0.0307099443136815,
+      "Q1_delta": -0.0747367323071015,
+      "Q3_delta": -0.0162761397555441,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "TFDP1",
+      "endpoint": "Core50_NetworkCovered",
+      "genes_after_LTO": 41,
+      "LTO_applied": false,
+      "median_delta": -0.0828352709707645,
+      "Q1_delta": -0.1302392098957252,
+      "Q3_delta": -0.0416985473529891,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "TFDP1",
+      "endpoint": "G2M_Independent",
+      "genes_after_LTO": 20,
+      "LTO_applied": false,
+      "median_delta": -0.064977747946168,
+      "Q1_delta": -0.1022100745276208,
+      "Q3_delta": -0.0327092318495749,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "TFDP1",
+      "endpoint": "Mitotic_Entry_Independent",
+      "genes_after_LTO": 16,
+      "LTO_applied": false,
+      "median_delta": -0.2117474711453851,
+      "Q1_delta": -0.3379709699164568,
+      "Q3_delta": -0.1034990723919298,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "TFDP1",
+      "endpoint": "Spindle_Chromosome_Independent",
+      "genes_after_LTO": 25,
+      "LTO_applied": false,
+      "median_delta": -0.0495854109263025,
+      "Q1_delta": -0.0788841628879221,
+      "Q3_delta": -0.024896658999293,
+      "fraction_negative": 1.0,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F1",
+      "endpoint": "Core50_NetworkCovered",
+      "genes_after_LTO": 41,
+      "LTO_applied": false,
+      "median_delta": -0.1596184567484163,
+      "Q1_delta": -0.3038842417359949,
+      "Q3_delta": -0.0675732485690026,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F1",
+      "endpoint": "G2M_Independent",
+      "genes_after_LTO": 20,
+      "LTO_applied": false,
+      "median_delta": -0.1463245591767656,
+      "Q1_delta": -0.2785751187377253,
+      "Q3_delta": -0.0619012632321508,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F1",
+      "endpoint": "Mitotic_Entry_Independent",
+      "genes_after_LTO": 16,
+      "LTO_applied": false,
+      "median_delta": -0.1529200773983945,
+      "Q1_delta": -0.2911317884175097,
+      "Q3_delta": -0.0651869541232105,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    },
+    {
+      "TF": "E2F1",
+      "endpoint": "Spindle_Chromosome_Independent",
+      "genes_after_LTO": 25,
+      "LTO_applied": false,
+      "median_delta": -0.2231984964227403,
+      "Q1_delta": -0.4249289453423386,
+      "Q3_delta": -0.0926120811099543,
+      "fraction_negative": 0.9958333333333332,
+      "direction_consistency": "3/3"
+    }
+  ],
+  "interpretation_lock": "Across five frozen MS3-associated regulators, virtual suppression consistently predicted weakening of network-reachable proliferative/mitotic MS3 programs across HCC08, HCC09, and HCC10. The magnitude and network reach varied among regulators, but the directional convergence was preserved. No virtual perturbation predicted restoration of hepatic differentiation or bile-acid metabolic programs.",
+  "claim_boundary": "These results represent in silico counterfactual compatibility within the frozen CellOracle GRN. They do not establish causal regulation, therapeutic efficacy, lineage conversion, or experimentally validated gene essentiality.",
+  "next_step": "Step34 — Virtual State Transition"
+}

@@ -1,0 +1,27 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step20_Normalization_Integration",
+    "Cells": 71782,
+    "Genes": 25712,
+    "Normalization": "normalize_total(target_sum=10000) + log1p",
+    "HVG_method": "Seurat dispersion-based HVG",
+    "HVG_batch_key": "sample",
+    "HVG_number": 3000,
+    "PCA_components_calculated": 50,
+    "PCs_used_for_neighbors": 30,
+    "Integration_performed": false,
+    "Primary_representation": "Unintegrated PCA",
+    "Primary_neighbor_graph": "neighbors_unintegrated",
+    "Primary_UMAP": "X_umap_unintegrated",
+    "Global_silhouette": {
+        "sample": -0.004337621852755547,
+        "patient": 0.023807773366570473,
+        "site": 0.05737520754337311,
+        "celltype": 0.2467046082019806
+    },
+    "Key_observation": "Global structure is primarily associated with cell type rather than sample. Strong sample-specific separation is mainly observed within hepatocytes.",
+    "Reason_no_global_integration": "Sample, patient and anatomical site are partially confounded. Global correction by sample could remove genuine patient-, tumor-, PVTT- or metastasis-associated biology. Therefore unintegrated representation is retained for primary major-cell annotation.",
+    "Hepatocyte_policy": "Reassess batch/patient/site effects after hepatocyte/malignant-cell extraction. Any later correction will be performed locally and evaluated against biological preservation.",
+    "Optional_sensitivity_analysis": "Integrated representations may be generated later as sensitivity analyses but will not replace the primary unintegrated representation without evidence.",
+    "Next_step": "Step21_Major_Cell_Annotation"
+}

@@ -1,0 +1,150 @@
+{
+  "Table_number": "TableS2",
+  "Table_title": "Differential-expression and functional-enrichment summary in TCGA-LIHC",
+  "Source_step": [
+    "Step5",
+    "Step6",
+    "Step7"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+    "E:\\TCGA\\LIHC_RNA_Step5_DEG\\DEG_Result\\LIHC_Tumor_vs_Normal_DEG_All.csv",
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Up_results.csv",
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Down_results.csv",
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Up_results.csv",
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Down_results.csv",
+    "E:\\TCGA\\LIHC_RNA_Step7_GSEA\\Results\\LIHC_Hallmark_GSEA_results.csv"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_RNA_Step5_DEG\\DEG_Result\\LIHC_Tumor_vs_Normal_DEG_All.csv": [
+      "Gene",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "Significance"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Up_results.csv": [
+      "Gene_set",
+      "Term",
+      "Overlap",
+      "P-value",
+      "Adjusted P-value",
+      "Old P-value",
+      "Old Adjusted P-value",
+      "Odds Ratio",
+      "Combined Score",
+      "Genes"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Down_results.csv": [
+      "Gene_set",
+      "Term",
+      "Overlap",
+      "P-value",
+      "Adjusted P-value",
+      "Old P-value",
+      "Old Adjusted P-value",
+      "Odds Ratio",
+      "Combined Score",
+      "Genes"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Up_results.csv": [
+      "Gene_set",
+      "Term",
+      "Overlap",
+      "P-value",
+      "Adjusted P-value",
+      "Old P-value",
+      "Old Adjusted P-value",
+      "Odds Ratio",
+      "Combined Score",
+      "Genes"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Down_results.csv": [
+      "Gene_set",
+      "Term",
+      "Overlap",
+      "P-value",
+      "Adjusted P-value",
+      "Old P-value",
+      "Old Adjusted P-value",
+      "Odds Ratio",
+      "Combined Score",
+      "Genes"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step7_GSEA\\Results\\LIHC_Hallmark_GSEA_results.csv": [
+      "Name",
+      "Term",
+      "ES",
+      "NES",
+      "NOM p-val",
+      "FDR q-val",
+      "FWER p-val",
+      "Tag %",
+      "Gene %",
+      "Lead_genes"
+    ]
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "DEG, differentially expressed gene; UP/DOWN, upregulated/downregulated under the saved classification; NS, not significant under that classification; GO BP, Gene Ontology biological process; KEGG, Kyoto Encyclopedia of Genes and Genomes; GSEA, gene set enrichment analysis. GO/KEGG counts are all output entries, not counts of significant pathways.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS2_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "SHA256": "9a6b4fbfd4b8a203b8f39cfcc92eb90accac74cdd4e074330bc51ce938cb6c7c",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "size": 1625727
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step5_DEG\\DEG_Result\\LIHC_Tumor_vs_Normal_DEG_All.csv",
+      "SHA256": "1ea73d4a3d8ac0e79c1963948f25bb9c4d5cdffbf71c0e3688926c0de70cac4d",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step5__LIHC_Tumor_vs_Normal_DEG_All.csv",
+      "size": 2688799
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Up_results.csv",
+      "SHA256": "19a6fb9cc70a0114ef6fa8a7becf0613a2e017854c12ffc68318a43c6d1696cf",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step6__GO_BP_Up_results.csv",
+      "size": 820831
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\GO_Result\\GO_BP_Down_results.csv",
+      "SHA256": "cc52cf960679bce61526516fd11e518ea430c7c5a20f3b1c51d47085ec2fe070",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step6__GO_BP_Down_results.csv",
+      "size": 641335
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Up_results.csv",
+      "SHA256": "c1415b5b5834ed2713122d4e54a884d4b3f2244b6154394814386f096d2d134d",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step6__KEGG_Up_results.csv",
+      "size": 64064
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step6_Enrichment\\KEGG_Result\\KEGG_Down_results.csv",
+      "SHA256": "d36a2a4af948f0e108c97f17a71ae6a678a2320242ad855ae04c3d92d4849cc7",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step6__KEGG_Down_results.csv",
+      "size": 52967
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step7_GSEA\\Results\\LIHC_Hallmark_GSEA_results.csv",
+      "SHA256": "22c252f3aeb976afbbfaba36b0bbffbcf083cecec9b1c567e9aa728db5585a2a",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step7__LIHC_Hallmark_GSEA_results.csv",
+      "size": 18690
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Metric",
+        "Value",
+        "Unit"
+      ]
+    }
+  ]
+}

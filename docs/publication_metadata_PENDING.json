@@ -1,0 +1,25 @@
+{
+  "status": "PREPARED_NOT_APPROVED_NOT_UPLOADED",
+  "github_owner": null,
+  "repository_name": null,
+  "visibility": null,
+  "release_version": null,
+  "authors": null,
+  "institutions": null,
+  "code_license": null,
+  "derived_data_license": null,
+  "github_url": null,
+  "zenodo_record_url": null,
+  "zenodo_doi": null,
+  "target_journal": "UNSPECIFIED",
+  "repository_name_suggestion": "HCC-MS3-Transcriptomic-Atlas",
+  "recommended_visibility": "PRIVATE",
+  "proposed_release_version": "v1.0.0",
+  "public_release_blockers": [
+    "FigureS7A artwork/caption synchronization",
+    "Author/ownership metadata",
+    "Code and derived-data rights decisions",
+    "Repository owner/name/scope approval"
+  ],
+  "science_reproduction": "STATIC_AUDIT_ONLY_NOT_END_TO_END"
+}

@@ -1,0 +1,27 @@
+{
+  "Model_ID": "EXT01_OriginalTop10_Cox",
+  "Version": "ExternalValidationModel_v2.0",
+  "Role": "PRIMARY",
+  "Training_Cohort": "TCGA-LIHC N=340",
+  "Features": [
+    "HOXD9",
+    "RFESD",
+    "RPSAP53",
+    "TRGC1",
+    "FAM227B",
+    "AC015871.6",
+    "LINC00324",
+    "ACOXL",
+    "PTMAP4",
+    "ANKRD20A7P"
+  ],
+  "Algorithm": "Unpenalized Cox proportional hazards",
+  "Preprocessing": "Median imputation using TCGA340 parameters; z-score using TCGA340 mean and SD",
+  "Risk_Formula": "LP = sum(beta_i * ((x_i - mean_i) / SD_i))",
+  "Risk_Cutoff": -0.05313822581259996,
+  "Cutoff_Rule": "TCGA340 median linear predictor",
+  "External_Reoptimization": "PROHIBITED",
+  "External_Feature_Reselection": "PROHIBITED",
+  "External_Coefficient_Refitting": "PROHIBITED",
+  "Time_Unit": "days"
+}

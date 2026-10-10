@@ -1,0 +1,3 @@
+# Historical pip subsection of Step33_FINAL_environment.yml ONLY.
+# Install through conda environment.yml; this file alone is incomplete.
+celloracle==0.18.0

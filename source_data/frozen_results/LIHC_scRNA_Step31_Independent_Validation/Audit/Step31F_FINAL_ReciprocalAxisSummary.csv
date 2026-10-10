@@ -1,0 +1,5 @@
+analysis,result,effect
+Unadjusted within-patient,2/10 negative,0.042764855943846
+Adjusted within-patient,7/9 negative,-0.1313102321056918
+Patient pseudobulk,Negative,-0.5636363636363636
+Pseudobulk LOPO,10/10 negative,-0.5666666666666667

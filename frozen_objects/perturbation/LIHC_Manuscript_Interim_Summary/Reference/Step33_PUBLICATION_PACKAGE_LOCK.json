@@ -1,0 +1,36 @@
+{
+  "status": "STEP33_PUBLICATION_PACKAGE_FROZEN",
+  "analysis_status": "STEP33_FROZEN",
+  "formal_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "primary_endpoints": [
+    "Core50_NetworkCovered",
+    "G2M_Independent",
+    "Mitotic_Entry_Independent",
+    "Spindle_Chromosome_Independent"
+  ],
+  "primary_replication_patients": [
+    "HCC08",
+    "HCC09",
+    "HCC10"
+  ],
+  "main_figures": 2,
+  "supplementary_figures": 2,
+  "main_tables": 2,
+  "supplementary_tables": 7,
+  "primary_result_rows": 20,
+  "cross_TF_convergence": {
+    "all_5_TFs_negative_for_all_4_primary_endpoints": true,
+    "all_5_TFs_show_3of3_patient_direction_consistency": true,
+    "hepatic_differentiation_restoration_predicted": false,
+    "bile_acid_metabolism_restoration_predicted": false
+  },
+  "package_root": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Publication_Package",
+  "manifest": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Publication_Package/Reports/Step33_PUBLICATION_MANIFEST.csv",
+  "next_step": "Step34 — Virtual State Transition"
+}

@@ -1,0 +1,20 @@
+{
+    "Dataset": "GSE149614",
+    "Role": "Primary scRNA discovery cohort",
+    "Stage": "Step18_Data_Audit",
+    "Status": "COMPLETE",
+    "Cells": 71915,
+    "Genes": 25712,
+    "NNZ": 146661807,
+    "Sparse_density_pct": 7.931616131295844,
+    "Barcode_column": "Cell",
+    "Barcode_match_rate": 1.0,
+    "OriginalTop10_coverage": 6,
+    "Hub18_coverage": 16,
+    "Raw_counts_preserved": true,
+    "QC_performed": false,
+    "Normalization_performed": false,
+    "Integration_performed": false,
+    "Output_h5ad": "E:\\TCGA\\LIHC_scRNA_Step18_GSE149614\\Results\\GSE149614_RAW_UNFILTERED.h5ad",
+    "Next_step": "Step19_scRNA_QC"
+}

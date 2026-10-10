@@ -1,0 +1,121 @@
+{
+  "Table_number": "TableS1",
+  "Table_title": "TCGA-LIHC cohort construction and transcriptomic preprocessing summary",
+  "Source_step": [
+    "Step1",
+    "Step15"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv",
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+    "E:\\TCGA\\CHATGPT_MASTER_NUMERIC_INDEX.csv",
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv": [
+      "Accession",
+      "Role",
+      "Population",
+      "Count",
+      "Unit",
+      "Step",
+      "Source_file",
+      "Locator",
+      "Filtering_or_context"
+    ],
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md": "Markdown Step1｜TCGA 队列与表达预处理; line 385",
+    "E:\\TCGA\\CHATGPT_MASTER_NUMERIC_INDEX.csv": [
+      "Step",
+      "Category",
+      "Metric",
+      "Dataset",
+      "Population",
+      "N",
+      "N_unit",
+      "N_source_column",
+      "Value",
+      "Unit",
+      "CI_lower",
+      "CI_upper",
+      "P",
+      "FDR",
+      "Comparison",
+      "Method",
+      "Formal_status",
+      "Source_file",
+      "Source_sheet",
+      "Source_column",
+      "Source_row",
+      "Source_key",
+      "Notebook_cell",
+      "Figure_panel",
+      "Notes",
+      "Claim_boundary",
+      "P_source_column",
+      "FDR_source_column",
+      "CI_lower_source_column",
+      "CI_upper_source_column"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv": [
+      "Primary_Model",
+      "Cutoff",
+      "Cutoff_Source",
+      "High_N",
+      "Low_N",
+      "High_Events",
+      "Low_Events",
+      "LogRank_P",
+      "High_vs_Low_HR",
+      "HR_CI_Lower",
+      "HR_CI_Upper",
+      "Cox_P"
+    ]
+  },
+  "Frozen_status": "CONFIRMED",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Cohort and preprocessing metadata from saved sources; mapped STAR file count directly quoted from Step1 project audit. Clinical records, patients, tumor/normal samples and files are distinct units.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS1_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv",
+      "SHA256": "ce00a34973fa823f4a1cde5cba4e2c51ee6b107f6821c29bfd5dff8abc7a9a88",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\CHATGPT_DATASET_INDEX.csv",
+      "size": 96758
+    },
+    {
+      "Source_file": "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "SHA256": "9a6b4fbfd4b8a203b8f39cfcc92eb90accac74cdd4e074330bc51ce938cb6c7c",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "size": 1625727
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv",
+      "SHA256": "507050d61ad8b4178d658287549197325bad0c2f4fa212edba80e5ae92ca599f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step15__15_Primary_Holdout_KM_Statistics.csv",
+      "size": 316
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Metric",
+        "Value",
+        "Unit"
+      ]
+    }
+  ],
+  "Resolved_value_evidence": {
+    "Item": "Mapped STAR RNA-seq files",
+    "Value": "424",
+    "Source": "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+    "Source_section": "Step1｜TCGA 队列与表达预处理",
+    "Evidence_text": "原始424个STAR文件去除3个recurrent tumor，保留371 primary tumor及50 normal。",
+    "Source_role": "Saved project audit / Step1 frozen workflow evidence",
+    "Source_line": 385,
+    "Source_SHA256": "9a6b4fbfd4b8a203b8f39cfcc92eb90accac74cdd4e074330bc51ce938cb6c7c",
+    "Extraction": "Verbatim count from saved project audit; no arithmetic reconstruction or analysis rerun"
+  },
+  "Unresolved_values": 0
+}

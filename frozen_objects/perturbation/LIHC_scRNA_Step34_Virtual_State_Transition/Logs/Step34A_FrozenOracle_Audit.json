@@ -1,0 +1,29 @@
+{
+  "oracle_shape": [
+    12057,
+    10776
+  ],
+  "layers": [
+    "raw_count",
+    "normalized_count",
+    "imputed_count",
+    "simulation_input"
+  ],
+  "obsm": [
+    "X_pca_harmony_lineage_clean"
+  ],
+  "varm": [],
+  "has_imputed_count": true,
+  "has_simulated_count_at_load": false,
+  "has_frozen_harmony_rep": true,
+  "MS3_cells": 720,
+  "MS3_patient_counts": {
+    "HCC04": 4,
+    "HCC07": 4,
+    "HCC08": 352,
+    "HCC09": 116,
+    "HCC10": 244
+  },
+  "all_regulatory_genes_n": 280,
+  "active_regulatory_genes_n": 280
+}

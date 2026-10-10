@@ -1,0 +1,5 @@
+Criterion,N_support,N_total,Support_fraction
+Global forward fraction > 0.5,4,4,1.0
+MS6->MS5 net flow > 0,4,4,1.0
+MS5->MS3 net flow > 0,1,4,0.25
+MS6->MS3 net flow > 0,4,4,1.0

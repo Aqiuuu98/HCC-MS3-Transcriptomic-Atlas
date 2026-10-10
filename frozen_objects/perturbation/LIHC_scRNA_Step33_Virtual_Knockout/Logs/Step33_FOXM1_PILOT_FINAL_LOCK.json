@@ -1,0 +1,76 @@
+{
+  "status": "FOXM1_PILOT_FROZEN",
+  "perturbation": {
+    "TF": "FOXM1",
+    "n_propagation": 3,
+    "use_randomized_GRN": false,
+    "clip_delta_X": false
+  },
+  "primary_population": {
+    "state": "MS3",
+    "cells": 720,
+    "primary_replication_patients": [
+      "HCC08",
+      "HCC09",
+      "HCC10"
+    ],
+    "sparse_sensitivity_patients": [
+      "HCC04",
+      "HCC07"
+    ]
+  },
+  "primary_endpoints": {
+    "Core50_LTO_FOXM1": {
+      "simulatable_genes": 40,
+      "median_delta": -0.0642171093583512,
+      "Q1_delta": -0.11974501794279399,
+      "Q3_delta": -0.031313219888700276,
+      "fraction_negative": 1.0
+    },
+    "G2M_Independent": {
+      "simulatable_genes": 20,
+      "median_delta": -0.037803443538034734,
+      "Q1_delta": -0.07100502982035783,
+      "Q3_delta": -0.017515594739317075,
+      "fraction_negative": 1.0
+    },
+    "Mitotic_Entry_Independent": {
+      "simulatable_genes": 16,
+      "median_delta": -0.02197712115191941,
+      "Q1_delta": -0.041054020757193,
+      "Q3_delta": -0.011270423845132743,
+      "fraction_negative": 0.9958333333333333
+    },
+    "Spindle_Chromosome_Independent": {
+      "simulatable_genes": 25,
+      "median_delta": -0.02379048055476018,
+      "Q1_delta": -0.04469520384864041,
+      "Q3_delta": -0.010869781076760392,
+      "fraction_negative": 0.9805555555555555
+    }
+  },
+  "primary_patient_direction_consistency": {
+    "Core50_LTO_FOXM1": "3/3",
+    "G2M_Independent": "3/3",
+    "Mitotic_Entry_Independent": "3/3",
+    "Spindle_Chromosome_Independent": "3/3"
+  },
+  "secondary_directional": {
+    "Hepatic_Differentiation": {
+      "simulatable_genes": 19,
+      "median_delta": 0.0,
+      "Q1_delta": 0.0,
+      "Q3_delta": 0.0,
+      "fraction_negative": 0.0
+    },
+    "Bile_Acid_Metabolism": {
+      "simulatable_genes": 14,
+      "median_delta": 0.0,
+      "Q1_delta": 0.0,
+      "Q3_delta": 0.0,
+      "fraction_negative": 0.0
+    }
+  },
+  "interpretation_lock": "FOXM1 virtual suppression predicts weakening of the conserved MS3 proliferative/mitotic transcriptional program across the three primary replication patients. No predicted restoration of hepatic differentiation or bile-acid metabolic programs was observed.",
+  "claim_boundary": "In silico counterfactual compatibility only; not causal validation, therapeutic efficacy, or lineage conversion."
+}

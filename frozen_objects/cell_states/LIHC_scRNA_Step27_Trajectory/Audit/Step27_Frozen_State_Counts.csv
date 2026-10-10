@@ -1,0 +1,9 @@
+﻿State,Frozen_Name,Step23_Expected_Count,Step27_Final_Count,Match,Source_Cluster
+MS1,Hypoxia-TGFb-Inflammatory,1658,1658,True,0
+MS2,S100P-SPINK1-Epithelial,1277,1277,True,1
+MS3,Cycling-G2M,720,720,True,2
+MS4,HCC08-Replication-Fetal-Progenitor,2916,2916,True,3|4
+MS5,Stress-Inflammatory-Progenitor,2392,2392,True,5
+MS6,Hepatic-Differentiated,557,557,True,6
+MS7,HCC04-Glycolytic-Hepatic,881,881,True,7
+MS8,HCC04-Hepatic-BileAcid-Metabolic,1656,1656,True,8

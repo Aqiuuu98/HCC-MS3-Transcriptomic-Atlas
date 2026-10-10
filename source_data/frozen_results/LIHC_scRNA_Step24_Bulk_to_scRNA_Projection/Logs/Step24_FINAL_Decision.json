@@ -1,0 +1,39 @@
+{
+    "Step": "Step24_Bulk_to_scRNA_Projection",
+    "Status": "FROZEN",
+    "Cross_cohort_design": true,
+    "Bulk_cohort": "TCGA-LIHC",
+    "Single_cell_cohort": "GSE149614",
+    "Original_RiskScore_reconstructed": false,
+    "Malignant_states_redefined": false,
+    "Primary_bulk_risk_concordant_state": {
+        "State": "MS3",
+        "Name": "Cycling-G2M",
+        "Rationale": "Strongest cross-patient convergence of Hub18, high-risk direct biological programs and inverse metabolic programs across HCC08, HCC09 and HCC10."
+    },
+    "Secondary_bulk_risk_concordant_state": {
+        "State": "MS1",
+        "Name": "Hypoxia-TGFb-Inflammatory",
+        "Rationale": "Positive cross-patient convergence with strong hypoxia, TGFb, EMT/ECM and inflammatory biology, but less robust than MS3."
+    },
+    "Supportive_bulk_risk_concordant_state": {
+        "State": "MS5",
+        "Name": "Stress-Inflammatory-Progenitor",
+        "Rationale": "Positive but weaker two-patient convergence with progenitor and inflammatory features."
+    },
+    "Primary_bulk_risk_opposing_state": {
+        "State": "MS6",
+        "Name": "Hepatic-Differentiated",
+        "Rationale": "Strong and consistent negative convergence with marked hepatic differentiation and opposing metabolic biology across HCC09 and HCC10."
+    },
+    "Mixed_cross_patient_opposing_state": "MS2",
+    "Patient_specific_states": [
+        "MS4",
+        "MS7",
+        "MS8"
+    ],
+    "Primary_downstream_axis": "MS3 versus MS6",
+    "Interpretation": "The results support a cross-cohort biological axis linking bulk poor-prognosis biology with a proliferative malignant state and the opposing direction with a differentiated hepatic/metabolic malignant state. These labels represent biological concordance rather than direct clinical-risk assignment to individual scRNA patients.",
+    "Next_step": "Step25 will test the robustness and portability of the MS3 risk-concordant state and the MS3-versus-MS6 axis across patients before mechanistic downstream analyses.",
+    "Step24_annotated_object": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Data\\GSE149614_STEP24_BULKRISK_ANNOTATED_MALIGNANT_STATES.h5ad"
+}

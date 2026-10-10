@@ -1,0 +1,3 @@
+﻿Step,Producer_status,Release_status,From_raw_status,Frozen_object,Impact
+21,NOT_RECOVERED,DOCUMENTED_LIMITATION,BLOCKING,LIHC_scRNA_Step21_Major_Cell_Annotation/Results/GSE149614_STEP21_MAJOR_CELL_ANNOTATED.h5ad,Major-lineage annotation cannot be independently regenerated with original producer. Frozen 71782-cell annotation permits downstream reuse after object access.
+25,NOT_RECOVERED,DOCUMENTED_LIMITATION,BLOCKING,LIHC_scRNA_Step25_CrossPatient_Robustness/Data/GSE149614_STEP25_FINAL_CROSSPATIENT_ROBUST_MS3.h5ad,Original conserved-gene selection and leave-one-patient-out construction cannot be independently regenerated. Frozen Core50/100 and saved LOO outputs permit downstream reuse and result inspection.

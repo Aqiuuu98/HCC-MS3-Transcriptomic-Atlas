@@ -1,0 +1,119 @@
+{
+  "Table_number": "Table1",
+  "Table_title": "Datasets and analytical roles used in the cross-scale HCC study",
+  "Source_step": [
+    "Step17",
+    "Step19",
+    "Step23",
+    "Step31",
+    "Step32",
+    "Step35"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+    "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv",
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+    "E:\\TCGA\\LIHC_scRNA_Step19_QC\\Results\\Step19_Final_Summary.json",
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json",
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json",
+    "E:\\TCGA\\LIHC_scRNA_Step32_Spatial_Validation\\Audit\\Step32_FINAL_LOCK.json",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35D_FINAL_REPORT.json",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv": [
+      "Accession",
+      "Role",
+      "Population",
+      "Count",
+      "Unit",
+      "Step",
+      "Source_file",
+      "Locator",
+      "Filtering_or_context"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step19_QC\\Results\\Step19_Final_Summary.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step32_Spatial_Validation\\Audit\\Step32_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35D_FINAL_REPORT.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "HCC, hepatocellular carcinoma; TCGA-LIHC, The Cancer Genome Atlas liver hepatocellular carcinoma; RNA-seq, RNA sequencing; OS, overall survival; TME, tumor microenvironment; MS, malignant state; LINCS, Library of Integrated Network-based Cellular Signatures; L1000FWD, L1000 Fireworks Display. Records, patients, samples, cells, spots, sections and perturbations are distinct units. Internal holdout assessment is not independent external survival validation.",
+  "Output_DATA": "E:\\TCGA\\Table\\01_Main_Tables\\Table1_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "SHA256": "9a6b4fbfd4b8a203b8f39cfcc92eb90accac74cdd4e074330bc51ce938cb6c7c",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\CHATGPT_PROJECT_DEEP_AUDIT.md",
+      "size": 1625727
+    },
+    {
+      "Source_file": "E:\\TCGA\\CHATGPT_DATASET_INDEX.csv",
+      "SHA256": "ce00a34973fa823f4a1cde5cba4e2c51ee6b107f6821c29bfd5dff8abc7a9a88",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\CHATGPT_DATASET_INDEX.csv",
+      "size": 96758
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step19_QC\\Results\\Step19_Final_Summary.json",
+      "SHA256": "35792320fb380b2a91da7d30c6074399396ba8a19d46ec0edaa05853c5827034",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step19__Step19_Final_Summary.json",
+      "size": 839
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Logs\\Step23_FINAL_StateLock.json",
+      "SHA256": "67d7e8dcbf68ca1067c59ea4ab9190d370f13f4c85b2171ed7a3ec8b5ea73f5f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step23__Step23_FINAL_StateLock.json",
+      "size": 1857
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Audit\\Step31_FINAL_LOCK.json",
+      "SHA256": "1749988d89fb09f7a4878149d12d3a284588631cad1ddb273574c7ea8e7dd5d8",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step31__Step31_FINAL_LOCK.json",
+      "size": 2069
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step32_Spatial_Validation\\Audit\\Step32_FINAL_LOCK.json",
+      "SHA256": "b3ead12594962f46ad2abac15510cc22395269f18b1965b10eca85024d3fcd83",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step32__Step32_FINAL_LOCK.json",
+      "size": 3318
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35D_FINAL_REPORT.json",
+      "SHA256": "576653f8c8e27121932d02c316d389fd584f8dc0ac4f9a2cecd9926d4f632617",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Step35D_FINAL_REPORT.json",
+      "size": 809
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json",
+      "SHA256": "d22f13f75ee529f5da4f1fc4fcbf806b9202d89efeab78f132b861141c18f233",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Step35_FINAL_LOCK.json",
+      "size": 1857
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Dataset",
+        "Data modality",
+        "Primary analytical role",
+        "Patients / samples",
+        "Cells / spots",
+        "Key analytical population",
+        "Validation role"
+      ]
+    }
+  ]
+}

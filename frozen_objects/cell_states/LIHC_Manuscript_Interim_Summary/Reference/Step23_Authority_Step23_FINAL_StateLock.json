@@ -1,0 +1,31 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step23_Final_Malignant_State_Lock",
+    "Status": "FROZEN",
+    "Lineage_clean_cells": 12057,
+    "Source_partition": "state_clean_leiden_r0_4",
+    "Source_clusters": 9,
+    "Final_consensus_states": 8,
+    "Consensus_mapping": {
+        "0": "MS1_Hypoxia_TGFb_Inflammatory",
+        "1": "MS2_S100P_SPINK1_Epithelial",
+        "2": "MS3_Cycling_G2M",
+        "3|4": "MS4_HCC08_Replication_Fetal_Progenitor",
+        "5": "MS5_Stress_Inflammatory_Progenitor",
+        "6": "MS6_Hepatic_Differentiated",
+        "7": "MS7_HCC04_Glycolytic_Hepatic",
+        "8": "MS8_HCC04_Hepatic_BileAcid_Metabolic"
+    },
+    "Merge_decision": {
+        "Clusters_3_and_4": "Merged because both were HCC08-specific and collapsed to the same corresponding clusters under no-PC4 and patient-capped sensitivity analyses, with moderate patient-adjusted transcriptomic similarity.",
+        "Clusters_7_and_8": "Retained separately despite high transcriptomic similarity because both remained structurally distinct and reproducible across sensitivity analyses."
+    },
+    "Mixed_lineage_populations": {
+        "Historical_candidate_5": "Excluded before final reconstruction",
+        "Historical_candidate_6": "Excluded before final reconstruction"
+    },
+    "Important_interpretation": "MS4, MS7 and MS8 are patient-specific programs and must not be presented as universally recurrent HCC states without external validation.",
+    "Bulk_risk_features_used_for_state_definition": false,
+    "Next_step": "Step24 bulk-to-single-cell projection using frozen malignant states. Original Final Top10, Original RiskScore, StableBio7 and Hub18 remain independent bulk anchors.",
+    "Final_object": "E:\\TCGA\\LIHC_scRNA_Step23_Malignant_State_Analysis\\Data\\GSE149614_STEP23_FINAL_MALIGNANT_STATES.h5ad"
+}

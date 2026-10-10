@@ -1,0 +1,100 @@
+{
+  "Table_number": "TableS23",
+  "Table_title": "All primary-convergent L1000FWD perturbations",
+  "Source_step": [
+    "Step35"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\TableS1_Step35_All24_PrimaryConvergentPerturbations.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\TableS1_Step35_All24_PrimaryConvergentPerturbations.csv": [
+      "pert_id",
+      "best_rank_Q1",
+      "best_rank_Q2",
+      "best_rank_Q3",
+      "median_rank_Q1",
+      "median_rank_Q2",
+      "median_rank_Q3",
+      "best_score_Q1",
+      "best_score_Q2",
+      "best_score_Q3",
+      "median_score_Q1",
+      "median_score_Q2",
+      "median_score_Q3",
+      "rank_strength_Q1",
+      "rank_strength_Q2",
+      "rank_strength_Q3",
+      "n_signatures_Q1",
+      "n_signatures_Q2",
+      "n_signatures_Q3",
+      "n_cell_lines_Q1",
+      "n_cell_lines_Q2",
+      "n_cell_lines_Q3",
+      "drug_name",
+      "drug_label",
+      "present_Q1",
+      "present_Q2",
+      "present_Q3",
+      "primary_convergent",
+      "secondary_Q3_support",
+      "primary_consensus_strength",
+      "primary_rank_sum",
+      "evidence_tier",
+      "drug_name_final",
+      "official_drug_name",
+      "HEPG2_n_signatures",
+      "HEPG2_primary_reversal",
+      "HEPG2_fraction_positive",
+      "HEPG2_Core50",
+      "HEPG2_Mitotic",
+      "HEPG2_Differentiation",
+      "HEPG2_Q3",
+      "HEPG2_n_primary_programs_positive",
+      "PHH_n_signatures",
+      "PHH_primary_reversal",
+      "PHH_fraction_positive",
+      "PHH_Core50",
+      "PHH_Mitotic",
+      "PHH_Differentiation",
+      "PHH_Q3",
+      "Step35_evidence_tier"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Q1, frozen Core50 query; Q2, independent G2M/mitotic/spindle query; Q3, secondary bidirectional query; HEPG2, liver cancer cell context; PHH, primary human hepatocytes; LINCS, Library of Integrated Network-based Cellular Signatures. Evidence tiers are not efficacy rankings. The primary composite is the saved equal-weight four-program signature reversal and subsequent frozen candidate-context summary. Missing context fields are NA. Reversal evidence does not establish therapeutic efficacy, clinical benefit or complete hepatic restoration. All 24 Q1+Q2 primary-convergent perturbations are retained in the original frozen order; 22/24 additionally have Q3 support. No reordering or selection by HEPG2 response was performed.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS23_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Results\\TableS1_Step35_All24_PrimaryConvergentPerturbations.csv",
+      "SHA256": "b98353fd163b50aa884080decc0bc1f7f7978a016d25e16ca7648521a54114bc",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__TableS1_Step35_All24_PrimaryConvergentPerturbations.csv",
+      "size": 10484
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step35_Virtual_Drug_Reversal\\Logs\\Step35_FINAL_LOCK.json",
+      "SHA256": "d22f13f75ee529f5da4f1fc4fcbf806b9202d89efeab78f132b861141c18f233",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step35__Step35_FINAL_LOCK.json",
+      "size": 1857
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "pert_id",
+        "drug_name_final",
+        "best_rank_Q1",
+        "best_rank_Q2",
+        "best_rank_Q3",
+        "secondary_Q3_support",
+        "primary_consensus_strength",
+        "Step35_evidence_tier"
+      ]
+    }
+  ]
+}

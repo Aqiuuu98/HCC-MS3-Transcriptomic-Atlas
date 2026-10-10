@@ -1,0 +1,34 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step22_Malignant_Cell_Identification",
+    "Status": "COMPLETE",
+    "Input_epithelial_cells": 22014,
+    "CNV_method": "infercnvpy",
+    "CNV_primary_reference": [
+        "Normal-site Hepatocyte",
+        "Normal-site Ductal_Epithelial"
+    ],
+    "Primary_CNV_clustering": "Leiden resolution 0.4",
+    "Primary_reference_sensitivity": {
+        "Primary_vs_patient_balanced_burden_rho": 0.99782,
+        "Primary_vs_patient_balanced_cluster_ARI": 0.9942,
+        "Primary_vs_hepatocyte_only_burden_rho": 0.91393,
+        "Primary_vs_hepatocyte_only_cluster_ARI": 0.985
+    },
+    "Final_labels": [
+        "Malignant",
+        "Non_malignant",
+        "Ambiguous"
+    ],
+    "Final_counts": {
+        "Non_malignant": 2159,
+        "Ambiguous": 7449,
+        "Malignant": 12406
+    },
+    "High_confidence_malignant_logic": "Atypical epithelial-dominant, tumor-associated, normal-reference-depleted patient-specific CNV clone.",
+    "Tumor_hepatocyte_logic": "Tumor-site mature-hepatocyte CNV clusters were compared with patient-matched normal hepatocytes when >=20 normal cells were available; otherwise pooled normal hepatocytes were used.",
+    "Conservative_policy": "Cells with conflicting CNV/tissue/phenotype evidence were retained as Ambiguous rather than forced into a binary malignant/non-malignant classification.",
+    "Important_interpretation": "Malignancy is inferred from scRNA-seq expression-derived CNV and transcriptional/contextual evidence, not directly measured by DNA sequencing.",
+    "Final_h5ad": "E:\\TCGA\\LIHC_scRNA_Step22_Malignant_Identification\\Data\\GSE149614_STEP22_FINAL_MALIGNANCY_ANNOTATED.h5ad",
+    "Next_step": "Step23_Malignant_Cell_State_Analysis"
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "PASS",
+  "master_ppt": "E:\\TCGA\\Figure\\Figure6.pptx",
+  "master_ppt_sha256": "2f3741ed4a1bd495c39eaffeb83ff8367960a06baecbde874d1ebb48666a9629",
+  "source_native_pdf": "E:\\TCGA\\Figure\\MAIN_FIGURE_QA\\Figure6__NativeRender.pdf",
+  "source_native_pdf_sha256": "4cd030a9233bb68cc8397afc2af1732feb25d61b217f29ab31d44fe390c14e4c",
+  "backup_previous_composite": "E:\\TCGA\\Figure\\MAIN_FIGURE_QA\\_work\\Figure6_COMPOSITE_BEFORE_SYNC_20261007_190604",
+  "export_pdf": "E:\\TCGA\\LIHC_scRNA_Step31_Independent_Validation\\Figures\\Figure6_MainComposite.pdf",
+  "manuscript_pdf": "E:\\TCGA\\LIHC_Manuscript_Interim_Summary\\Figures\\Figure6_MainComposite.pdf",
+  "physical_size_mm": [
+    180,
+    210.66079489747608
+  ],
+  "uniform_scale": 0.8919590239688658,
+  "pixel_comparison_width": 2400,
+  "pixel_mean_absolute_error": 0.006815543293382382,
+  "pixel_max_channel_error": 129,
+  "fraction_channel_errors_at_most_3": 0.9996984395395752,
+  "matching_text_traces": 159,
+  "maximum_text_bbox_error_pt": 0.0007021478380551116,
+  "matching_vector_paths": 2617,
+  "maximum_path_bbox_error_pt": 0.0006779810166034628,
+  "min_pdf_glyph_pt": 5.672865867614746,
+  "raster_images": 0,
+  "PNG_dpi": 600,
+  "PNG_size_px": [
+    4252,
+    4977
+  ],
+  "PPT_unchanged": true,
+  "frozen_inputs_unchanged": true,
+  "collision_summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  }
+}

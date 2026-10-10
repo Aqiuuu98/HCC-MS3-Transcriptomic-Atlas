@@ -1,0 +1,26 @@
+{
+  "status": "FORMAL_CELLORACLE_FITTING_COMPLETE",
+  "cells": 12057,
+  "genes": 10776,
+  "original_edges": 32530,
+  "removed_self_loops": 140,
+  "simulation_edges": 32390,
+  "TFdict_orientation": "target_gene -> regulatory_TFs",
+  "n_pca_dims": 13,
+  "knn_k": 301,
+  "balanced_knn": true,
+  "b_sight": 2408,
+  "b_maxl": 1204,
+  "ridge_alpha": 10,
+  "formal_KO_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "network_reconstruction": false,
+  "TF_reselection": false,
+  "old_reversed_TFdict_attempt_used": false,
+  "old_k10_attempt_used": false
+}

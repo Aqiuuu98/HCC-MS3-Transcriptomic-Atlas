@@ -1,0 +1,7 @@
+scope,TF,regulons,total_TFs,source_edge_rows,unique_TF_target_edges,duplicate_edge_rows,self_edges,frozen_targets,retained_exact_expression_mapping,retained_percentage,TF_present_in_expression,no_new_edges
+ALL,ALL,280,280,32530,32530,0,140,10765,32530,100.0,ALL,True
+FORMAL_TF,FOXM1,1,,58,58,0,0,58,58,100.0,True,True
+FORMAL_TF,MYBL2,1,,553,553,0,1,553,553,100.0,True,True
+FORMAL_TF,E2F8,1,,212,212,0,1,212,212,100.0,True,True
+FORMAL_TF,TFDP1,1,,288,288,0,1,288,288,100.0,True,True
+FORMAL_TF,E2F1,1,,210,210,0,1,210,210,100.0,True,True

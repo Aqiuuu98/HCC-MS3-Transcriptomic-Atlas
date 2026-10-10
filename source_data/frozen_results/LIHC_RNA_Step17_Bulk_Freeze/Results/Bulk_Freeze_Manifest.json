@@ -1,0 +1,103 @@
+{
+    "Freeze_Date": "2026-09-23",
+    "Project": "TCGA-LIHC Bulk RNA-seq",
+    "Status": "FROZEN",
+    "Primary_Model": "Original Top10 + Unpenalized CoxPH",
+    "OriginalTop10": [
+        "HOXD9",
+        "RFESD",
+        "RPSAP53",
+        "TRGC1",
+        "FAM227B",
+        "AC015871.6",
+        "LINC00324",
+        "ACOXL",
+        "PTMAP4",
+        "ANKRD20A7P"
+    ],
+    "Dynamic9": [
+        "HOXD9",
+        "RFESD",
+        "RPSAP53",
+        "TRGC1",
+        "FAM227B",
+        "LINC00324",
+        "PTMAP4",
+        "ANKRD20A7P",
+        "BOP1"
+    ],
+    "StableGenes10": [
+        "HOXD9",
+        "RPSAP53",
+        "RFESD",
+        "LINC00324",
+        "TRGC1",
+        "ANKRD20A7P",
+        "FAM227B",
+        "BOP1",
+        "GLYATL1",
+        "PRR11"
+    ],
+    "StableBio7": [
+        "mTORC1 Signaling",
+        "Checkpoint_TNFRSF4",
+        "Cell_B_cells",
+        "Function_HLA_activity",
+        "Checkpoint_CD276",
+        "Pancreas Beta Cells",
+        "Spermatogenesis"
+    ],
+    "Hub18": {
+        "Blue": [
+            "CENPA",
+            "KIF2C",
+            "CCNB1",
+            "CDC20",
+            "PRR11",
+            "CDCA8"
+        ],
+        "Red": [
+            "SLC52A2",
+            "RPL8",
+            "BOP1",
+            "ZFAS1",
+            "SNHG6",
+            "RPL7P9"
+        ],
+        "Brown": [
+            "CYP8B1",
+            "GLYATL1",
+            "PLG",
+            "ACSM2A",
+            "ABAT",
+            "MAT1A"
+        ]
+    },
+    "Frozen_Cutoff": 0.001977125611007005,
+    "Development": {
+        "N": 238,
+        "Events": 82,
+        "RepeatedCV_Cindex": 0.7444,
+        "OptimismCorrected_Cindex": 0.7378
+    },
+    "Holdout": {
+        "N": 102,
+        "Events": 35,
+        "Cindex": 0.7998,
+        "CI95": [
+            0.6969,
+            0.8778
+        ]
+    },
+    "Subtype": {
+        "Metabolic_N": 229,
+        "Proliferative_N": 136
+    },
+    "External_Validation_Status": {
+        "Strict_external_validation": "ONGOING",
+        "Current_candidate": "GSE141198",
+        "Pilot_status": "Reference download / requantification pending"
+    },
+    "Downstream_Main_Stage": "Single-cell RNA-seq",
+    "Bulk_Results_Modification_After_Freeze": "Not allowed without explicit versioned amendment"
+}

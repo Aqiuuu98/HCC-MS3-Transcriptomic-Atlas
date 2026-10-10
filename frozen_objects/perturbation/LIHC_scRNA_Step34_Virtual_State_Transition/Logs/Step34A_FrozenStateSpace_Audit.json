@@ -1,0 +1,14 @@
+{
+  "oracle_vs_step26_same_cell_set": true,
+  "oracle_vs_step26_same_order": true,
+  "oracle_vs_step27_same_cell_set": true,
+  "oracle_vs_step27_same_order": true,
+  "state_labels_step26_identical": true,
+  "state_labels_step27_identical": true,
+  "Step26_has_X_pca_harmony_lineage_clean": true,
+  "Step27_has_X_pca_harmony_lineage_clean": true,
+  "Step26_has_PCs_loadings": false,
+  "Step27_has_PCs_loadings": false,
+  "Step26_has_pca_uns": false,
+  "Step27_has_pca_uns": false
+}

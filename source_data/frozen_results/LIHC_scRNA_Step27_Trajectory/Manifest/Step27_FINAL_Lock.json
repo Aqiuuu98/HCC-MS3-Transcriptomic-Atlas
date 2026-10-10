@@ -1,0 +1,69 @@
+{
+  "Step": "Step27",
+  "Status": "FROZEN",
+  "Input": "E:\\TCGA\\LIHC_scRNA_Step26_MS3_Biology\\Data\\GSE149614_STEP26_FINAL_FROZEN_MS3_BIOLOGY.h5ad",
+  "Final_H5AD": "E:\\TCGA\\LIHC_scRNA_Step27_Trajectory\\Data\\GSE149614_STEP27_FINAL_TRAJECTORY.h5ad",
+  "N_cells": 12057,
+  "N_genes": 25712,
+  "Frozen_state_column": "final_malignant_state_id",
+  "Patient_column": "patient",
+  "Harmony_representation": "X_pca_harmony_lineage_clean",
+  "Neighbor_graph": "neighbors_lineage_clean",
+  "Primary_root": {
+    "Cell": "HCC09T_TCTCTAAGTATATCCG",
+    "Index": 9121,
+    "State": "MS6"
+  },
+  "Primary_pseudotime": "MS6_anchored_pseudotime",
+  "Root_sensitivity": [
+    {
+      "Comparison": "Global vs HCC09 root",
+      "Spearman_rho": 1.0
+    },
+    {
+      "Comparison": "Global vs HCC10 root",
+      "Spearman_rho": 0.9991637632991229
+    },
+    {
+      "Comparison": "HCC09 vs HCC10 root",
+      "Spearman_rho": 0.9991637632991229
+    }
+  ],
+  "Primary_axis": "MS6-MS5-MS3",
+  "Primary_interpretation": "MS6 Hepatic-Differentiated to MS5 Stress-Inflammatory-Progenitor to MS3 Cycling-G2M forms a reproducible pseudotemporal-compatible malignant-state axis.",
+  "Biological_dynamics": {
+    "Increasing": [
+      "MS3 Core50",
+      "Proliferation/G2M",
+      "Mitotic entry",
+      "Spindle/chromosome segregation"
+    ],
+    "Decreasing": [
+      "Hepatic differentiation",
+      "Bile-acid metabolism"
+    ],
+    "Supporting_increase": [
+      "Replication stress",
+      "Homologous recombination",
+      "Fanconi DNA repair",
+      "Nucleotide synthesis"
+    ],
+    "Non_concordant": [
+      "DNA replication S-phase"
+    ]
+  },
+  "MS5_interpretation": "Intermediate-like / transitional-like positioning along the MS6-MS3 axis.",
+  "MS1_interpretation": "Branch-associated hypoxia/TGFb/inflammatory state rather than a linear extension of MS3.",
+  "Patient_specific_branches": [
+    "MS4: HCC08-dominant",
+    "MS7/MS8: HCC04-dominant"
+  ],
+  "Claim_boundary": "Step27 demonstrates graph continuity, diffusion structure and MS6-anchored pseudotemporal compatibility. It does not demonstrate actual temporal evolution or lineage conversion.",
+  "RNA_velocity_input": "NOT_PRESENT",
+  "Frozen_constraints": [
+    "No reclustering",
+    "No malignant-state redefinition",
+    "No Core50 modification",
+    "No Original RiskScore reconstruction"
+  ]
+}

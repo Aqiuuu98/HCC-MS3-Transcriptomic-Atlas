@@ -1,0 +1,51 @@
+{
+  "Table_number": "TableS5",
+  "Table_title": "Immune and stromal transcriptional features associated with the Original RiskScore",
+  "Source_step": [
+    "Step11",
+    "Step17"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_RNA_Step11_Immune\\Results\\LIHC_Integrated_Immunotherapy_RiskScore_Correlation.csv",
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_RNA_Step11_Immune\\Results\\LIHC_Integrated_Immunotherapy_RiskScore_Correlation.csv": [
+      "Feature",
+      "Spearman_rho",
+      "P_value",
+      "FDR"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "FDR, false discovery rate; ρ, Spearman correlation. The 12-feature frozen integrated panel is reproduced in source order. Associations describe transcriptional context and do not demonstrate immunotherapy response prediction.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS5_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step11_Immune\\Results\\LIHC_Integrated_Immunotherapy_RiskScore_Correlation.csv",
+      "SHA256": "a34b1c441acfec45e8844c424c34ca4a7c33680244b7fd9f26fbe6f56ceb77db",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step11__LIHC_Integrated_Immunotherapy_RiskScore_Correlation.csv",
+      "size": 962
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Feature",
+        "Spearman_rho",
+        "P_value",
+        "FDR"
+      ]
+    }
+  ]
+}

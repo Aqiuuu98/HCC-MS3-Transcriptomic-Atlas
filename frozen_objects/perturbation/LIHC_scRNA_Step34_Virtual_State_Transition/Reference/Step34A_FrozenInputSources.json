@@ -1,0 +1,37 @@
+{
+  "Step34_question": "Counterfactual transcriptional-state displacement after virtual regulator suppression",
+  "formal_TFs": [
+    "FOXM1",
+    "MYBL2",
+    "E2F8",
+    "TFDP1",
+    "E2F1"
+  ],
+  "frozen_sources": [
+    {
+      "role": "Frozen fitted CellOracle",
+      "step": "Step33",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Data/Step33_CellOracle_FORMAL_FITTED.celloracle.oracle",
+      "size_GB": 3.1398117067292333
+    },
+    {
+      "role": "Step33 final lock",
+      "step": "Step33",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step33_Virtual_Knockout/Logs/Step33_FINAL_LOCK.json",
+      "size_GB": 8.76840204000473e-06
+    },
+    {
+      "role": "Frozen malignant-state biology",
+      "step": "Step26",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step26_MS3_Biology/Data/GSE149614_STEP26_FINAL_FROZEN_MS3_BIOLOGY.h5ad",
+      "size_GB": 0.13733444642275572
+    },
+    {
+      "role": "Frozen trajectory/pseudotime",
+      "step": "Step27",
+      "path": "/mnt/e/TCGA/LIHC_scRNA_Step27_Trajectory/Data/GSE149614_STEP27_FINAL_TRAJECTORY.h5ad",
+      "size_GB": 0.3928859755396843
+    }
+  ],
+  "upstream_objects_modified": false
+}

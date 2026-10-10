@@ -1,0 +1,87 @@
+{
+  "Table_number": "Table2",
+  "Table_title": "Performance of the frozen prognostic model in the strict internal holdout cohort",
+  "Source_step": [
+    "Step15",
+    "Step17"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\18_FINAL_Holdout_Model_Performance.csv",
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv",
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json": "JSON keys / saved indexed locator recorded in DATA _row",
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\18_FINAL_Holdout_Model_Performance.csv": [
+      "Model_ID",
+      "Role",
+      "Point_C_Index",
+      "Bootstrap_Mean",
+      "CI_2.5",
+      "CI_97.5",
+      "Bootstrap_N_Valid",
+      "Algorithm",
+      "N_Features",
+      "Features",
+      "AUC_365d",
+      "AUC_730d",
+      "AUC_1095d"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv": [
+      "Primary_Model",
+      "Cutoff",
+      "Cutoff_Source",
+      "High_N",
+      "Low_N",
+      "High_Events",
+      "Low_Events",
+      "LogRank_P",
+      "High_vs_Low_HR",
+      "HR_CI_Lower",
+      "HR_CI_Upper",
+      "Cox_P"
+    ]
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Strict internal holdout only; no completed independent external survival validation",
+  "Output_DATA": "E:\\TCGA\\Table\\01_Main_Tables\\Table2_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\18_FINAL_Holdout_Model_Performance.csv",
+      "SHA256": "a7a1a1964cc78ee79e9065b975d0d4d0a28b0ebb784b2c3ddda39e7cf3c84466",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step15__18_FINAL_Holdout_Model_Performance.csv",
+      "size": 2138
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Results\\Holdout_Validation\\15_Primary_Holdout_KM_Statistics.csv",
+      "SHA256": "507050d61ad8b4178d658287549197325bad0c2f4fa212edba80e5ae92ca599f",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step15__15_Primary_Holdout_KM_Statistics.csv",
+      "size": 316
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step17_Bulk_Freeze\\Results\\Bulk_Freeze_Manifest.json",
+      "SHA256": "616ca2a3e97fdf8d4bf3a09df986affffb780bbca6506d72739ad859466dcbec",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step17__Bulk_Freeze_Manifest.json",
+      "size": 2381
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Metric",
+        "Value",
+        "Unit"
+      ]
+    }
+  ]
+}

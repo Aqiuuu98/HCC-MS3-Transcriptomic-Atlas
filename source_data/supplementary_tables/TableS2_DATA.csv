@@ -1,0 +1,12 @@
+﻿Table_Number,Block,Metric,Value,Unit,_source,_row
+TableS2,,Tumor samples,371,samples,E:\TCGA\CHATGPT_PROJECT_DEEP_AUDIT.md,Step5 cohort
+TableS2,,Normal samples,50,samples,E:\TCGA\CHATGPT_PROJECT_DEEP_AUDIT.md,Step5 cohort
+TableS2,,UP,3919,genes,E:\TCGA\LIHC_RNA_Step5_DEG\DEG_Result\LIHC_Tumor_vs_Normal_DEG_All.csv,count saved Significance=UP
+TableS2,,DOWN,1302,genes,E:\TCGA\LIHC_RNA_Step5_DEG\DEG_Result\LIHC_Tumor_vs_Normal_DEG_All.csv,count saved Significance=DOWN
+TableS2,,NS,15401,genes,E:\TCGA\LIHC_RNA_Step5_DEG\DEG_Result\LIHC_Tumor_vs_Normal_DEG_All.csv,count saved Significance=NS
+TableS2,,Total tested genes,20622,genes,E:\TCGA\LIHC_RNA_Step5_DEG\DEG_Result\LIHC_Tumor_vs_Normal_DEG_All.csv,CSV data rows
+TableS2,,GO BP UP output entries,4142,output entries,E:\TCGA\LIHC_RNA_Step6_Enrichment\GO_Result\GO_BP_Up_results.csv,CSV data rows
+TableS2,,GO BP DOWN output entries,3414,output entries,E:\TCGA\LIHC_RNA_Step6_Enrichment\GO_Result\GO_BP_Down_results.csv,CSV data rows
+TableS2,,KEGG UP output entries,310,output entries,E:\TCGA\LIHC_RNA_Step6_Enrichment\KEGG_Result\KEGG_Up_results.csv,CSV data rows
+TableS2,,KEGG DOWN output entries,299,output entries,E:\TCGA\LIHC_RNA_Step6_Enrichment\KEGG_Result\KEGG_Down_results.csv,CSV data rows
+TableS2,,Hallmark preranked GSEA gene sets,50,gene sets,E:\TCGA\LIHC_RNA_Step7_GSEA\Results\LIHC_Hallmark_GSEA_results.csv,CSV data rows

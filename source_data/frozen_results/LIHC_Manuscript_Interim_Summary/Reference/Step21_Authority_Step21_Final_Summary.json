@@ -1,0 +1,31 @@
+{
+    "Dataset": "GSE149614",
+    "Step": "Step21_Major_Cell_Annotation",
+    "Status": "COMPLETE",
+    "Cells": 71782,
+    "Genes": 25712,
+    "Primary_clustering": "Leiden resolution 0.6",
+    "Reason_for_resolution": "Resolution 0.6 provided stable major-lineage structure without unnecessary global over-fragmentation.",
+    "Local_refinement": {
+        "r0.6_cluster_8": "Locally resolved using r0.8 because pDC and Mast markers were mixed.",
+        "r0.8_cluster_3": "pDC",
+        "r0.8_cluster_4": "Mast"
+    },
+    "Major_celltypes": [
+        "Atypical_Epithelial",
+        "B_Plasma",
+        "Ductal_Epithelial",
+        "Endothelial",
+        "Hepatocyte",
+        "Mast",
+        "Myeloid",
+        "Rare_Immune",
+        "Stromal",
+        "T_NK",
+        "pDC"
+    ],
+    "Atypical_epithelial_policy": "Atypical epithelial clusters are retained as tumor-candidate epithelial cells and are NOT called malignant at Step21.",
+    "Ductal_epithelial_policy": "Cluster 28 is annotated as ductal/cholangiocyte-like epithelium and retained as a potential non-malignant epithelial reference.",
+    "Author_annotation_usage": "Original author labels were used only as a concordance/reference audit and not as the sole basis for final annotation.",
+    "Next_step": "Step22_Malignant_Cell_Identification"
+}

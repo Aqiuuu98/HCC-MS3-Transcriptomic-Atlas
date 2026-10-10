@@ -1,0 +1,9 @@
+﻿Source_cluster,Final_state_id,Final_state_name,State_scope,Decision,Rationale
+0,MS1,Hypoxia-TGFb-Inflammatory,Cross_patient_supported,Retain,"Cross-patient support with reproducible IGFBP3, SLC2A1, PMEPA1, AXL and enrichment of inflammatory, TGFb, stress and hypoxia programs."
+1,MS2,S100P-SPINK1-Epithelial,Cross_patient_supported,Retain,"Four-patient support with reproducible S100P, SPINK1, AGR2 and TDO2 expression."
+2,MS3,Cycling-G2M,Cross_patient_supported,Retain,"Strong cross-patient G2M program with PLK1, CCNB1, TOP2A, CENPA, HMMR and related mitotic genes."
+3|4,MS4,HCC08-Replication-Fetal-Progenitor,Patient_specific_HCC08,Merge,"Both clusters are HCC08-specific, show moderate patient-adjusted transcriptomic similarity, and collapse to the same clusters in no-PC4 and patient-capped sensitivity analyses. They are retained as one patient-specific replication/progenitor continuum."
+5,MS5,Stress-Inflammatory-Progenitor,Cross_patient_supported,Retain,"Two-patient support with reproducible EREG, CXCL1, CXCL3, VCAM1 and MYC together with stress, progenitor and inflammatory programs."
+6,MS6,Hepatic-Differentiated,Cross_patient_supported,Retain,"Two-patient support with strong hepatic differentiation and metabolic genes including KNG1, HP, HRG, APOC3 and ALDOB."
+7,MS7,HCC04-Glycolytic-Hepatic,Patient_specific_HCC04,Retain,HCC04-specific but structurally reproducible branch with glycolytic/hepatic features. Retained separately from MS8 despite transcriptomic similarity.
+8,MS8,HCC04-Hepatic-BileAcid-Metabolic,Patient_specific_HCC04,Retain,"HCC04-specific and structurally reproducible hepatic, fatty-acid and bile-acid metabolic branch. Closely related to MS7 but consistently separable."

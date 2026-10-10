@@ -1,0 +1,4 @@
+state,communication_level,entry_node,intermediate_nodes,regulator_output,route,n_edges,claim_boundary
+MS3,Primary robust; exploratory LR provenance,IFNAR1,PIK3CA_PIK3R1 | AKT1,BRCA1,IFNAR1 -> PIK3CA_PIK3R1 -> AKT1 -> BRCA1,3,Intracellular prior compatibility; upstream MMP9-IFNAR1 remains exploratory.
+MS5,Secondary moderate,ITGB1,SRC,FOS,ITGB1 -> SRC -> FOS,2,Moderate state-skew communication support; not a primary robust LR axis.
+MS6,Primary robust communication landscape,RXRA,,NR1H4,RXRA -> NR1H4,1,Receiver-side interaction/signaling entry node; not evidence of biochemical activation.

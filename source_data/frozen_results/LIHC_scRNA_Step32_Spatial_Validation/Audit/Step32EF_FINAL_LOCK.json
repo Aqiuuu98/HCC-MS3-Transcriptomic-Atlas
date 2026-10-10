@@ -1,0 +1,40 @@
+{
+  "stage": "Step32E/F",
+  "status": "PASS",
+  "n_spots": 27224,
+  "n_sections": 17,
+  "n_patients": 4,
+  "n_core50_genes": 50,
+  "program_gene_counts": {
+    "Core50": 50,
+    "G2M_Independent": 22,
+    "Mitotic_Entry_Independent": 16,
+    "Spindle_Chromosome_Independent": 29,
+    "Hepatic_Differentiation": 19,
+    "Bile_Acid_Metabolism": 18
+  },
+  "n_finite_section_associations": 51,
+  "n_finite_axis_associations": 17,
+  "patient_level_associations": [
+    {
+      "comparison": "Core50_vs_G2M_Independent",
+      "n_patients": 4,
+      "patient_level_rho": 0.7999999999999999
+    },
+    {
+      "comparison": "Core50_vs_Mitotic_Entry_Independent",
+      "n_patients": 4,
+      "patient_level_rho": 1.0
+    },
+    {
+      "comparison": "Core50_vs_Spindle_Chromosome_Independent",
+      "n_patients": 4,
+      "patient_level_rho": 0.7999999999999999
+    },
+    {
+      "comparison": "MS3_like_vs_MS6_like",
+      "n_patients": 4,
+      "patient_level_rho": 0.7999999999999999
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+    "Original_Final_Top10": [
+        "HOXD9",
+        "RFESD",
+        "RPSAP53",
+        "TRGC1",
+        "FAM227B",
+        "AC015871.6",
+        "LINC00324",
+        "ACOXL",
+        "PTMAP4",
+        "ANKRD20A7P"
+    ],
+    "StableGenes10": [
+        "HOXD9",
+        "RPSAP53",
+        "RFESD",
+        "LINC00324",
+        "TRGC1",
+        "ANKRD20A7P",
+        "FAM227B",
+        "BOP1",
+        "GLYATL1",
+        "PRR11"
+    ],
+    "Hub18_Blue": [
+        "CENPA",
+        "KIF2C",
+        "CCNB1",
+        "CDC20",
+        "PRR11",
+        "CDCA8"
+    ],
+    "Hub18_Red": [
+        "SLC52A2",
+        "RPL8",
+        "BOP1",
+        "ZFAS1",
+        "SNHG6",
+        "RPL7P9"
+    ],
+    "Hub18_Brown": [
+        "CYP8B1",
+        "GLYATL1",
+        "PLG",
+        "ACSM2A",
+        "ABAT",
+        "MAT1A"
+    ],
+    "StableBio7": [
+        "mTORC1 Signaling",
+        "Checkpoint_TNFRSF4",
+        "Cell_B_cells",
+        "Function_HLA_activity",
+        "Checkpoint_CD276",
+        "Pancreas Beta Cells",
+        "Spermatogenesis"
+    ],
+    "Hub18_bulk_high_risk_direction": {
+        "Hub18_Blue": "Higher_in_bulk_high_risk",
+        "Hub18_Red": "Higher_in_bulk_high_risk",
+        "Hub18_Brown": "Lower_in_bulk_high_risk"
+    },
+    "Important": "Original Final Top10 and StableGenes10 are different frozen feature sets and must not be conflated."
+}

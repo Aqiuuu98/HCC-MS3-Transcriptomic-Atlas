@@ -1,0 +1,218 @@
+{
+  "Table_number": "TableS19",
+  "Table_title": "Patient-level consistency of virtual regulator perturbation effects",
+  "Source_step": [
+    "Step33"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_PatientLevel_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_PatientLevel_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_PatientLevel_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_PatientLevel_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_PatientLevel_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_Overall_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_Overall_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_Overall_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_Overall_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_Overall_ProgramDelta.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Logs\\Step33_FINAL_LOCK.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_PatientLevel_ProgramDelta.csv": [
+      "endpoint",
+      "patient",
+      "n_cells",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "patient_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_PatientLevel_ProgramDelta.csv": [
+      "endpoint",
+      "patient",
+      "n_cells",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "patient_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_PatientLevel_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "patient",
+      "n_cells",
+      "median_delta",
+      "patient_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_PatientLevel_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "patient",
+      "n_cells",
+      "median_delta",
+      "patient_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_PatientLevel_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "patient",
+      "n_cells",
+      "median_delta",
+      "patient_role"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_Overall_ProgramDelta.csv": [
+      "endpoint",
+      "simulatable_genes",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "fraction_negative",
+      "fraction_positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_Overall_ProgramDelta.csv": [
+      "endpoint",
+      "simulatable_genes",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "fraction_negative",
+      "fraction_positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_Overall_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "genes_after_LTO",
+      "LTO_applied",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "fraction_negative",
+      "fraction_positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_Overall_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "genes_after_LTO",
+      "LTO_applied",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "fraction_negative",
+      "fraction_positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_Overall_ProgramDelta.csv": [
+      "TF",
+      "endpoint",
+      "genes_after_LTO",
+      "LTO_applied",
+      "median_delta",
+      "Q1_delta",
+      "Q3_delta",
+      "mean_delta",
+      "fraction_negative",
+      "fraction_positive"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Logs\\Step33_FINAL_LOCK.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Δ, saved predicted baseline-anchored change. Primary patients are HCC08, HCC09 and HCC10. Hepatic differentiation and bile-acid metabolism are secondary endpoints; all 10 TF-by-secondary-program medians are 0. These results do not demonstrate hepatic restoration or experimental knockout efficacy.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS19_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_PatientLevel_ProgramDelta.csv",
+      "SHA256": "6a2e992333018396c45a9cd2d93b8e19cf78d6e859160431210ffe957c84c93c",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_FOXM1_MS3_PatientLevel_ProgramDelta.csv",
+      "size": 4133
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_PatientLevel_ProgramDelta.csv",
+      "SHA256": "03bea3100f98dc1e78169a8e85a4f6ce2788d55925860bebb97d8ed9c1387d5b",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_MYBL2_MS3_PatientLevel_ProgramDelta.csv",
+      "size": 2960
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_PatientLevel_ProgramDelta.csv",
+      "SHA256": "5056aa90c0e77200823384eb3d788e45ac8c7ebe65ff18e1281478dce37b0350",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_E2F8_MS3_PatientLevel_ProgramDelta.csv",
+      "size": 2243
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_PatientLevel_ProgramDelta.csv",
+      "SHA256": "4e73a42319b3e6c31d4f2a61f00e983c2848fe305d1be93e30a87c352ee63c12",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_TFDP1_MS3_PatientLevel_ProgramDelta.csv",
+      "size": 2263
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_PatientLevel_ProgramDelta.csv",
+      "SHA256": "5877e491032053eb63ba26b1345436f96a8906978fe30543a2c1b8703719a451",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_E2F1_MS3_PatientLevel_ProgramDelta.csv",
+      "size": 2225
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_FOXM1_MS3_Overall_ProgramDelta.csv",
+      "SHA256": "662762e0de1f4d1cac862cf3f744b7bcf32e82a8c2539903fdf975bd391972fd",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_FOXM1_MS3_Overall_ProgramDelta.csv",
+      "size": 812
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_MYBL2_MS3_Overall_ProgramDelta.csv",
+      "SHA256": "9eac13ad436484a0a22c4ce70e36ca8ffab6a8c3af54c29b4df31b7b192650bb",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_MYBL2_MS3_Overall_ProgramDelta.csv",
+      "size": 664
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F8_MS3_Overall_ProgramDelta.csv",
+      "SHA256": "329535503a00973a2681c81f69859f8ffe1a101e51518a2accf6298d4dba007e",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_E2F8_MS3_Overall_ProgramDelta.csv",
+      "size": 825
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_TFDP1_MS3_Overall_ProgramDelta.csv",
+      "SHA256": "bb800cdbc7457fe0d677ee422495a8ac0e2ed1a86177da454c7dfa0a66e77e65",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_TFDP1_MS3_Overall_ProgramDelta.csv",
+      "size": 761
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Results\\Step33_E2F1_MS3_Overall_ProgramDelta.csv",
+      "SHA256": "2e4ef685c2f45918fbdc849699b75255ec73df2d02996b0f9d74c3ad37ecdbb1",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_E2F1_MS3_Overall_ProgramDelta.csv",
+      "size": 814
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step33_Virtual_Knockout\\Logs\\Step33_FINAL_LOCK.json",
+      "SHA256": "8db2a5d59ae11ce4645ef4155a7f49727658aafbe7b256e10e0e3d5cc9196078",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step33__Step33_FINAL_LOCK.json",
+      "size": 9415
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Primary patients and all six frozen endpoints",
+      "columns": [
+        "TF",
+        "Program",
+        "patient",
+        "n_cells",
+        "median_delta",
+        "patient_role"
+      ]
+    },
+    {
+      "block": "Saved secondary-endpoint medians",
+      "columns": [
+        "TF",
+        "Program",
+        "median_delta",
+        "Q1_delta",
+        "Q3_delta"
+      ]
+    }
+  ]
+}

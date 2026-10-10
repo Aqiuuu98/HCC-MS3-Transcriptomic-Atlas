@@ -1,0 +1,13 @@
+﻿Table_Number,Block,Item,Metric,Value,Unit,_source,_row
+TableS1,,Clinical source records,Clinical source records,439,records,E:\TCGA\CHATGPT_DATASET_INDEX.csv,TCGA-LIHC clinical records
+TableS1,,Unique clinical patients,Unique clinical patients,377,patients,E:\TCGA\CHATGPT_DATASET_INDEX.csv,unique clinical cases
+TableS1,,Primary tumors,Primary tumors,371,tumor samples,E:\TCGA\CHATGPT_PROJECT_DEEP_AUDIT.md,TCGA-LIHC primary tumors
+TableS1,,Normal liver,Normal liver,50,normal samples,E:\TCGA\CHATGPT_PROJECT_DEEP_AUDIT.md,Tumor vs normal
+TableS1,,Bulk biology cohort,Bulk biology cohort,365,patients,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step2 Survival available
+TableS1,,Strict OS cohort,Strict OS cohort,340,patients,E:\TCGA\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\Results\Holdout_Validation\15_Primary_Holdout_KM_Statistics.csv,strict cohort composition
+TableS1,,Mapped STAR RNA-seq files,Mapped STAR RNA-seq files,424,files,E:\TCGA\CHATGPT_PROJECT_DEEP_AUDIT.md,Step1｜TCGA 队列与表达预处理; line 385; verbatim saved audit sentence
+TableS1,,Initial genes,Initial genes,59427,genes,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step1.Original genes
+TableS1,,Retained genes,Retained genes,20622,genes,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step1.Filtered genes
+TableS1,,Raw-count threshold,Raw-count threshold,10,counts,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step1.Counts threshold
+TableS1,,Minimum expressing tumors,Minimum expressing tumors,75,tumors,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step1.Minimum expressing samples
+TableS1,,Filtering rule,Filtering rule,raw counts ≥10 in ≥75/371 tumors,eligibility,E:\TCGA\CHATGPT_MASTER_NUMERIC_INDEX.csv,Step1 saved filter thresholds

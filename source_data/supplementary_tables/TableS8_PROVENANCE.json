@@ -1,0 +1,162 @@
+{
+  "Table_number": "TableS8",
+  "Table_title": "Coverage and directional concordance of frozen bulk-derived anchors in GSE149614",
+  "Source_step": [
+    "Step24"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24A_BulkAnchor_scRNA_Coverage.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24_FINAL_BulkRisk_StateRoles.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_BulkRiskBiology_Convergence.csv",
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Logs\\Step24_FINAL_Decision.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24A_BulkAnchor_scRNA_Coverage.csv": [
+      "Anchor",
+      "N_defined",
+      "N_detected",
+      "Coverage_fraction",
+      "Detected_genes",
+      "Missing_genes"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24_FINAL_BulkRisk_StateRoles.csv": [
+      "Final_state_id",
+      "Step24_role",
+      "Step24_priority",
+      "Step24_interpretation",
+      "Final_state_name",
+      "State_family",
+      "State_scope",
+      "N_patients",
+      "Hub18_mean",
+      "HighRiskProgram_mean",
+      "OpposingMetabolic_mean",
+      "Convergence_mean",
+      "Convergence_median",
+      "Convergence_sd",
+      "Positive_fraction",
+      "N_eligible_patients",
+      "Support_class",
+      "N_patients_context",
+      "DNA_Replication_S",
+      "Hepatic_Differentiation",
+      "Hypoxia",
+      "Glycolysis",
+      "Progenitor_Epithelial",
+      "Fetal_HCC_Program",
+      "EMT_ECM",
+      "TGFb_Response",
+      "Inflammatory_NFkB",
+      "Convergence_direction",
+      "Interpretation_caution"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_BulkRiskBiology_Convergence.csv": [
+      "patient",
+      "Final_state_id",
+      "N_cells",
+      "N_cells_program",
+      "N_cells_hub",
+      "Proliferation_G2M",
+      "Stress_UPR",
+      "Wnt_BetaCatenin_Target",
+      "Fatty_Acid_Metabolism",
+      "Bile_Acid_Metabolism",
+      "DNA_Replication_S",
+      "Hepatic_Differentiation",
+      "Hypoxia",
+      "Glycolysis",
+      "Progenitor_Epithelial",
+      "Fetal_HCC_Program",
+      "EMT_ECM",
+      "TGFb_Response",
+      "Inflammatory_NFkB",
+      "Hub18_Blue",
+      "Hub18_Red",
+      "Hub18_Brown",
+      "Hub18_BulkRisk_Concordance",
+      "Z_Hub18",
+      "Z_Proliferation_G2M",
+      "Z_Stress_UPR",
+      "Z_Wnt_BetaCatenin_Target",
+      "Z_Fatty_Acid_Metabolism",
+      "Z_Bile_Acid_Metabolism",
+      "Z_DNA_Replication_S",
+      "Z_Hepatic_Differentiation",
+      "Z_Hypoxia",
+      "Z_Glycolysis",
+      "Z_Progenitor_Epithelial",
+      "Z_Fetal_HCC_Program",
+      "Z_EMT_ECM",
+      "Z_TGFb_Response",
+      "Z_Inflammatory_NFkB",
+      "HighRisk_DirectProgram_Block",
+      "Opposing_Metabolic_Block",
+      "BulkRisk_Biology_Convergence"
+    ],
+    "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Logs\\Step24_FINAL_Decision.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "Hub18, frozen 18 hub genes; MS, malignant state. Original Top10 coverage is 6/10; StableGenes10 coverage is 8/10; the three Hub18 modules total 16/18 available genes. MS3 is the primary risk-concordant state; MS6 is the opposing differentiated reference. Saved projected biological anchors are not a reconstructed Original RiskScore. Sparse patient-state entries are retained as saved.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS8_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24A_BulkAnchor_scRNA_Coverage.csv",
+      "SHA256": "6ccaeef2fcb4492cbac04b1187102170d328706ded0ad86b1ccb4f340bcd8819",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step24__Step24A_BulkAnchor_scRNA_Coverage.csv",
+      "size": 474
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24_FINAL_BulkRisk_StateRoles.csv",
+      "SHA256": "2471e98111245081a480c690e1eb99d4ae5315cd9c4d4b53b0a7da1b0f1100e1",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step24__Step24_FINAL_BulkRisk_StateRoles.csv",
+      "size": 5606
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Results\\Step24B_PatientState_BulkRiskBiology_Convergence.csv",
+      "SHA256": "b0f57c08088b40b60b0d0e2a8a0b11bf09ce2a412aa2983f1800609eb97cdacd",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step24__Step24B_PatientState_BulkRiskBiology_Convergence.csv",
+      "size": 13323
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_scRNA_Step24_Bulk_to_scRNA_Projection\\Logs\\Step24_FINAL_Decision.json",
+      "SHA256": "8f85d1a849f6acd8ea0bec2274c4f595190f0e2a69da771b88e440f1cb4494cb",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_scRNA_Step24__Step24_FINAL_Decision.json",
+      "size": 2226
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "Anchor coverage",
+      "columns": [
+        "Anchor",
+        "N_defined",
+        "N_detected",
+        "Coverage_fraction"
+      ]
+    },
+    {
+      "block": "Frozen state roles",
+      "columns": [
+        "Final_state_id",
+        "Step24_role",
+        "N_eligible_patients",
+        "Convergence_mean",
+        "Convergence_median"
+      ]
+    },
+    {
+      "block": "Patient-specific saved concordance",
+      "columns": [
+        "patient",
+        "Final_state_id",
+        "N_cells",
+        "Hub18_BulkRisk_Concordance",
+        "HighRisk_DirectProgram_Block",
+        "Opposing_Metabolic_Block",
+        "BulkRisk_Biology_Convergence"
+      ]
+    }
+  ]
+}

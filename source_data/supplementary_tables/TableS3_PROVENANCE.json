@@ -1,0 +1,53 @@
+{
+  "Table_number": "TableS3",
+  "Table_title": "Frozen Original Final Top10 prognostic signature and model coefficients",
+  "Source_step": [
+    "Step15"
+  ],
+  "Source_file": [
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Coefficients.csv",
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Specification.json"
+  ],
+  "Source_columns": {
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Coefficients.csv": [
+      "Feature",
+      "Coefficient",
+      "Imputation_Median",
+      "Scaling_Mean",
+      "Scaling_SD"
+    ],
+    "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Specification.json": "JSON keys / saved indexed locator recorded in DATA _row"
+  },
+  "Frozen_status": "Frozen/final saved sources; Step1/2 values use supplied static audit index; unresolved entries explicitly NA",
+  "Transformation": "Select fixed rows/columns, source-preserving joins, concatenate labeled blocks, translate text only; source metadata row counts are QA only; no statistical estimators or new biological analysis. Signature-level and candidate-level data remain distinct.",
+  "Display_rounding": "Word effects/coefficients generally 3 decimals; P/FDR 3 significant figures (scientific notation for small values); frozen cutoff full precision; DATA CSV original text precision.",
+  "Claim_boundary": "SD, standard deviation; β, Cox coefficient. Coefficients and preprocessing are read from the portable development-frozen M01 file. Expression is imputed with development medians and standardized with development means and SDs. HRs from an earlier coefficient fit are not mixed with these portable coefficients. Original Top10, StableGenes10 and Dynamic9 are distinct feature sets.",
+  "Output_DATA": "E:\\TCGA\\Table\\02_Supplementary_Tables\\TableS3_DATA.csv",
+  "Source_hashes": [
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Coefficients.csv",
+      "SHA256": "e5ab3c1e1a21ede66b56939301f28f796f2abf9d490840c485bfa26e29d9e7d3",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step15__M01_OriginalTop10_Portable_Model_Coefficients.csv",
+      "size": 933
+    },
+    {
+      "Source_file": "E:\\TCGA\\LIHC_RNA_Step15_Machine_Learning_Holdout_Validation\\Models\\M01_OriginalTop10_Portable_Model_Specification.json",
+      "SHA256": "ffc1782bd85d4e46bfab6d9e68d29d5feca46e704298ab83c86c97c2ae56cab0",
+      "Source_copy": "E:\\TCGA\\Table\\03_Source_Data\\LIHC_RNA_Step15__M01_OriginalTop10_Portable_Model_Specification.json",
+      "size": 839
+    }
+  ],
+  "Display_columns": [
+    {
+      "block": "",
+      "columns": [
+        "Feature",
+        "Coefficient",
+        "Direction",
+        "Scaling_Mean",
+        "Scaling_SD",
+        "Imputation_Median"
+      ]
+    }
+  ]
+}

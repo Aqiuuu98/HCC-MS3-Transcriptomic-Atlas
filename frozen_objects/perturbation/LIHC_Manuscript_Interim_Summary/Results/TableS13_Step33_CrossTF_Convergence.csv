@@ -1,0 +1,5 @@
+endpoint,formal_TFs_n,TFs_with_negative_median,TFs_with_3of3_patient_consistency,median_across_TFs,min_delta,max_delta
+Core50_NetworkCovered,5,5,5,-0.0828352709707645,-0.4071904351650479,-0.0328926341534565
+G2M_Independent,5,5,5,-0.064977747946168,-0.3582073205869637,-0.0159490337186301
+Mitotic_Entry_Independent,5,5,5,-0.1529200773983945,-0.3894148670273744,-0.0219771211519194
+Spindle_Chromosome_Independent,5,5,5,-0.0495854109263025,-0.486129307684338,-0.0237904805547601

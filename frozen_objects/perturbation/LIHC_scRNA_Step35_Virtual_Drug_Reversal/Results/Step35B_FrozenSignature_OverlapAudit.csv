@@ -1,0 +1,16 @@
+signature_A,signature_B,n_overlap,overlap_genes
+MS3_Core50,G2M_Independent,0,
+MS3_Core50,Mitotic_Entry_Independent,0,
+MS3_Core50,Spindle_Chromosome_Independent,0,
+MS3_Core50,Hepatic_Differentiation,0,
+MS3_Core50,Bile_Acid_Metabolism,0,
+G2M_Independent,Mitotic_Entry_Independent,5,CDC25C;CDK1;CKS1B;CKS2;G2E3
+G2M_Independent,Spindle_Chromosome_Independent,4,ECT2;KIF11;NCAPD2;SMC4
+G2M_Independent,Hepatic_Differentiation,0,
+G2M_Independent,Bile_Acid_Metabolism,0,
+Mitotic_Entry_Independent,Spindle_Chromosome_Independent,0,
+Mitotic_Entry_Independent,Hepatic_Differentiation,0,
+Mitotic_Entry_Independent,Bile_Acid_Metabolism,0,
+Spindle_Chromosome_Independent,Hepatic_Differentiation,0,
+Spindle_Chromosome_Independent,Bile_Acid_Metabolism,0,
+Hepatic_Differentiation,Bile_Acid_Metabolism,1,SLC27A5

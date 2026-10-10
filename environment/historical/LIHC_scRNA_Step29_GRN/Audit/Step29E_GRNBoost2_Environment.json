@@ -1,0 +1,14 @@
+{
+  "Python": "3.10.21",
+  "Python_executable": "/home/LOCAL_USER/miniforge3/envs/grn29_wsl/bin/python",
+  "NumPy": "2.2.6",
+  "SciPy": "1.13.1",
+  "scikit_learn": "1.7.2",
+  "pySCENIC": "0.12.1",
+  "Cells": 12057,
+  "Genes": 12916,
+  "TFs": 1329,
+  "Expression_transform": "log2(count + 1)",
+  "GRN_method": "GRNBoost2",
+  "Seed": 42
+}

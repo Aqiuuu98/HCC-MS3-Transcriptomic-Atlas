@@ -1,0 +1,29 @@
+{
+  "Model_ID": "M01_OriginalTop10_UnpenalizedCox",
+  "Version": "Development_v1.0",
+  "Model_Type": "Unpenalized Cox proportional hazards",
+  "Features": [
+    "HOXD9",
+    "RFESD",
+    "RPSAP53",
+    "TRGC1",
+    "FAM227B",
+    "AC015871.6",
+    "LINC00324",
+    "ACOXL",
+    "PTMAP4",
+    "ANKRD20A7P"
+  ],
+  "Transformation": "z = (x - DevelopmentMean) / DevelopmentSD",
+  "Risk_Formula": "Linear predictor = sum(beta_i * z_i)",
+  "Missing_Value_Rule": "Use Development median",
+  "Risk_Group_Cutoff": 0.001977125611007005,
+  "Risk_Group_Cutoff_Rule": "Development median; frozen for holdout/external validation",
+  "Time_Unit": "days",
+  "Development_N": 238,
+  "Development_Events": 82,
+  "Holdout_N": 102,
+  "Holdout_Used": false,
+  "Feature_ReSelection_In_Holdout": false,
+  "External_ReTuning": false
+}
