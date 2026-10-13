@@ -1,25 +1,31 @@
 {
-  "status": "PREPARED_NOT_APPROVED_NOT_UPLOADED",
-  "github_owner": null,
-  "repository_name": null,
-  "visibility": null,
+  "status": "PUBLIC_CODE_REPOSITORY_LICENSE_PENDING",
+  "github_owner": "Aqiuuu98",
+  "repository_name": "HCC-MS3-Transcriptomic-Atlas",
+  "visibility": "PUBLIC",
   "release_version": null,
-  "authors": null,
+  "authors": [
+    "Xincheng Su",
+    "Zenghui Meng",
+    "Yumin Jiang",
+    "Yanan Dong"
+  ],
   "institutions": null,
   "code_license": null,
   "derived_data_license": null,
-  "github_url": null,
+  "github_url": "https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas",
   "zenodo_record_url": null,
   "zenodo_doi": null,
   "target_journal": "UNSPECIFIED",
   "repository_name_suggestion": "HCC-MS3-Transcriptomic-Atlas",
-  "recommended_visibility": "PRIVATE",
+  "recommended_visibility": "PUBLIC",
   "proposed_release_version": "v1.0.0",
-  "public_release_blockers": [
-    "FigureS7A artwork/caption synchronization",
-    "Author/ownership metadata",
-    "Code and derived-data rights decisions",
-    "Repository owner/name/scope approval"
-  ],
-  "science_reproduction": "STATIC_AUDIT_ONLY_NOT_END_TO_END"
+  "public_release_blockers": [],
+  "science_reproduction": "STATIC_AUDIT_ONLY_NOT_END_TO_END",
+  "public_visibility_authorized_date": "2026-10-13",
+  "remaining_metadata": [
+    "Code license selection",
+    "Derived-data rights and external-object access",
+    "Optional author ORCIDs and publication identifiers"
+  ]
 }

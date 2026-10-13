@@ -1,9 +1,15 @@
-# DRAFT: incomplete until the authors and final repository metadata are confirmed.
-# This file must not be presented as a validated, published citation.
 cff-version: 1.2.0
-message: "Unpublished HCC-MS3 candidate; confirmed citation metadata are pending."
+message: "Please cite this analysis archive and its associated manuscript when using the code."
 type: software
 title: "HCC-MS3 Transcriptomic Atlas analysis archive"
-version: "1.0.0"
-# Proposed version only; no tag or publication date exists.
-# authors, ORCIDs, repository-code, license and DOI: pending; no invented values.
+authors:
+  - family-names: Su
+    given-names: Xincheng
+  - family-names: Meng
+    given-names: Zenghui
+  - family-names: Jiang
+    given-names: Yumin
+  - family-names: Dong
+    given-names: Yanan
+repository-code: https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas
+# No versioned release, publication DOI, final code license or ORCID is asserted.

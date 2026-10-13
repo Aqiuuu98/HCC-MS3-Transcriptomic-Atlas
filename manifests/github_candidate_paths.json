@@ -1,7 +1,8 @@
 {
-  "Purpose": "Exact354-file tracked allowlist; initial PRIVATE upload remotely verified; public release not authorized",
+  "Purpose": "Exact public repository allowlist; scientific sources and frozen results preserved; only publication documentation and byte-preservation configuration updated",
   "Proposed_version": "v1.0.0",
   "Files": [
+    ".gitattributes",
     ".gitignore",
     "CITATION.cff",
     "LICENSE",
@@ -15,6 +16,7 @@
     "docs/manuscript_code_availability.md",
     "docs/notebook_catalog.csv",
     "docs/portability.md",
+    "docs/public_access_audit.md",
     "docs/publication_metadata_PENDING.json",
     "docs/reproducibility_guide.md",
     "docs/step1_35_route.csv",

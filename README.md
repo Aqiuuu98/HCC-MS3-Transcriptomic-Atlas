@@ -1,6 +1,6 @@
-# HCC-MS3 Transcriptomic Atlas: code and frozen-source release candidate
+# HCC-MS3 Transcriptomic Atlas analysis code and frozen evidence
 
-**Private repository; v1.0.0 candidate, not a public release.** This repository preserves the analysis sources and selected frozen evidence for the HCC-MS3 study. The [PRIVATE GitHub repository](https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas) has been created on `main`. Its initial commit (`d91af36c257de082757229c3262e9836387f9b0f`) uploaded 354 files; the remote file set and all 354 SHA256 values were verified. The repository is not publicly accessible. Author metadata, code/data licensing and public-release approval remain pending. No GitHub public release or Zenodo DOI exists.
+**Public analysis-code repository.** This repository preserves the analysis sources and selected lightweight frozen evidence for the HCC-MS3 study. The canonical repository is [https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas](https://github.com/Aqiuuu98/HCC-MS3-Transcriptomic-Atlas), with default branch `main`. Public access was authorized on 13 October 2026 following a repository and Git-history safety audit. No scientific analysis was rerun. No versioned GitHub release or Zenodo DOI has been created.
 
 ## Study overview
 
@@ -47,7 +47,7 @@ The complete step-to-notebook map is [step1_35_route.csv](docs/step1_35_route.cs
 
 ## Installation and static checks
 
-Static inspection requires Python 3.10 or newer and its standard library:
+Static inspection requires Python 3.10 or newer and its standard library: The `.gitattributes` file preserves the audited file bytes on fresh clones, including Windows installations with automatic line-ending conversion enabled.
 
 ```sh
 python scripts/validate_release.py
@@ -108,12 +108,12 @@ Original Final Top10, MS1–MS8, Core50/Core100, patient-aware programs, five fo
 
 [figure_table_provenance.csv](manifests/figure_table_provenance.csv) maps all 46 global identifiers (Figures1–8/S1–S11, Tables1–2/S1–S25) and 78 panel/table records. Plot sources, code locators, claim boundaries and explicitly withheld dependencies are recorded. All 27 final Table DATA copies retain their frozen bytes. Archived Step-local table/figure filenames are not substitutes for manuscript numbering.
 
-Figure S7A has a confirmed artwork–caption mismatch: the final plot displays 39 candidates, comprising 28 primary robust (≥5% relative state-skew margin) and 11 secondary moderate (3–5%) candidates. The frozen legend describes only 28 and network edge widths. Saved tables and main/supplementary results support both tiers. No figure, frozen data or manuscript was changed here. An English replacement for panel A is proposed in [figure_scope_conflicts.md](docs/figure_scope_conflicts.md). The frozen Word legend has not been changed; author approval and manuscript synchronization remain necessary before a public manuscript-matched release.
+Figure S7A displays 39 candidates, comprising 28 primary robust (≥5% relative state-skew margin) and 11 secondary moderate (3–5%) candidates. A historical frozen caption described only 28 candidates and network edge widths. The authorized caption correction was applied to the subsequent formal supplementary manuscript and is present in the current submission copies. [Caption scope and resolution](docs/figure_scope_conflicts.md) documents the two versions. The underlying scientific counts, figure and result files remain unchanged.
 
 Known reproducibility limits include missing Step21/25 producers, incomplete environment locks, external-object access, mixed historical notebook branches, and Step34 excerpt setup dependencies. Syntax/structure checks passed after non-scientific repairs, but no notebook was certified by independent Run All. Pseudotime does not establish lineage; inferred regulatory/communication networks do not establish causality; counterfactual displacement does not establish cell conversion; transcriptomic reversal does not establish therapeutic efficacy.
 
 ## Citation, licensing and availability
 
-`CITATION.cff` is an explicitly incomplete draft awaiting confirmed authors/order/ORCIDs. `LICENSE` is a pending-rights notice, not a selected code license. Code, derived objects and third-party resources require separate rights decisions. [Draft Code Availability](docs/manuscript_code_availability.md) identifies the current PRIVATE repository. Manuscript wording and any archival identifiers require review after separate public-release approval.
+`CITATION.cff` records the confirmed author order and repository URL; no publication DOI or versioned release is asserted. The existing `LICENSE` is a pending-rights notice, not a selected code license, and has been preserved. Public visibility does not grant a new reuse license. Code, derived objects and third-party resources require their respective rights decisions. [Code Availability](docs/manuscript_code_availability.md) provides the statement used in the submission packages.
 
-The initial private commit and push are complete. This repository remains PRIVATE; no public GitHub release or Zenodo deposit/DOI has been created. Public release requires separate approval. Documentation synchronization does not certify independent scientific reproduction. See [known limitations](docs/known_limitations.md) before reuse.
+The repository is publicly accessible. [Public-access preparation audit](docs/public_access_audit.md) records the audited scope and limitations. Documentation synchronization does not certify independent scientific reproduction. See [known limitations](docs/known_limitations.md) before reuse.
